@@ -14,15 +14,18 @@ const assert = (condition, message) => {
   if (!condition) errors.push(message);
 };
 
-const validateAsset = (guideDir, guideId, label, asset) => {
+const validateAsset = (guideDir, guideId, label, asset, options = {}) => {
   if (!asset || isRemote(asset)) return;
-  assert(exists(path.join(guideDir, asset)), `${guideId}: missing ${label} asset ${asset}`);
+  const assetExists = exists(path.join(guideDir, asset));
+  if (assetExists || options.allowMissing) return;
+  assert(assetExists, `${guideId}: missing ${label} asset ${asset}`);
 };
 
 const guideIndex = readJson(indexPath);
 assert(Array.isArray(guideIndex.guides), "guides/index.json must include a guides array.");
 
 for (const entry of guideIndex.guides || []) {
+  const allowMissingAudio = entry.status === "draft";
   assert(entry.id, "Each guide index entry needs an id.");
   const guideDir = path.join(guidesDir, entry.id || "");
   const guidePath = path.join(guideDir, "guide.json");
@@ -43,7 +46,7 @@ for (const entry of guideIndex.guides || []) {
     seenStopIds.add(stop.id);
     assert(stop.title, `${prefix} needs a title.`);
     assert(Array.isArray(stop.script) && stop.script.length > 0, `${prefix} needs script paragraphs.`);
-    validateAsset(guideDir, entry.id, `audio for ${stop.id}`, stop.audio);
+    validateAsset(guideDir, entry.id, `audio for ${stop.id}`, stop.audio, { allowMissing: allowMissingAudio });
     for (const image of stop.images || []) {
       validateAsset(guideDir, entry.id, `image for ${stop.id}`, image.src);
     }

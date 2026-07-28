@@ -76,6 +76,8 @@ npm run check
 
 The check validates required fields, confirms local assets exist, and rebuilds `src/generated/cache-manifest.js` so the offline download knows which files belong to each guide.
 
+Draft guides may reference planned audio filenames before the MP3s exist. Keep the guide entry status as `"draft"` while audio is missing, then add the files and rerun `npm run check` before treating the guide as ready for field use.
+
 ## 1. Define The Field Job
 
 Answer these before writing:

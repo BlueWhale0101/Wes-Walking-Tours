@@ -1,0 +1,355 @@
+{
+  "id": "magnetic-island-forts",
+  "title": "Magnetic Island Forts Walk",
+  "region": "Magnetic Island, Queensland",
+  "summary": "A field audio guide for the Forts Walk, combining wartime harbour defence, dry tropical ecology, granite geology, and heritage context.",
+  "duration": "2-3 hr",
+  "distance": "4 km return",
+  "map": {
+    "image": "assets/forts-map.svg",
+    "alt": "Draft placeholder map showing relative stop positions for the Magnetic Island Forts Walk"
+  },
+  "stops": [
+    {
+      "id": "trailhead",
+      "title": "Trailhead: Why These Hills Were Armed",
+      "location": "Forts Junction, before starting the climb",
+      "durationMinutes": 2,
+      "mode": "orientation",
+      "map": {
+        "x": 47,
+        "y": 73
+      },
+      "audio": "audio/track-01.mp3",
+      "script": [
+        "Start here at Forts Junction. The walk ahead is only a few kilometres, but it compresses a lot of north Queensland history into one ridge: Wulgurukaba country, dry tropical woodland, granite headlands, and a wartime defence system built when Townsville suddenly mattered to the entire Pacific war.",
+        "Magnetic Island, or Yunbenun, sits in a strategically awkward and useful place. It screens Cleveland Bay, the water between the island and Townsville. In ordinary times that means sheltered bays, ferries, fishing, and views. In 1942 and 1943 it meant an anchorage and staging area that had to be watched.",
+        "Townsville had become one of the major Allied bases in northern Australia. Men, equipment, fuel, stores, and shipping were moving through the region toward New Guinea and the wider South West Pacific. After Japan's rapid advance and the bombing of Darwin, northern ports were no longer distant abstractions. They were part of the front-facing defence of Australia.",
+        "The Fort Complex was built in that pressure. As you walk, imagine this not as a scenic bush path but as a military access route: a line into observation posts, gun positions, magazines, searchlights, radar, signalling, water and power, and accommodation. The forest has softened the edges now, but the logic of the site is still readable from the views."
+      ],
+      "references": [
+        {
+          "title": "Queensland Parks Forts Walk",
+          "url": "https://parks.qld.gov.au/parks/magnetic-island/journeys/forts-walk"
+        },
+        {
+          "title": "Magnetic Island history",
+          "url": "https://www.magneticislandguide.com.au/history"
+        }
+      ]
+    },
+    {
+      "id": "koala-woodland",
+      "title": "Nature Track: Koala Woodland",
+      "location": "Lower eucalypt and acacia woodland",
+      "durationMinutes": 2,
+      "mode": "ranger guide",
+      "map": {
+        "x": 41,
+        "y": 62
+      },
+      "audio": "audio/track-02.mp3",
+      "script": [
+        "This is your first dedicated nature stop. Slow down and look high into the forks of the eucalypts. Koalas are often harder to see than people expect. You are usually looking for a round grey shape, a dangling limb, or a lump wedged into the V of a branch.",
+        "Magnetic Island is famous for wild koalas, and the Forts Walk is the classic place to look for them. They are most active around cooler parts of the day, but most of what you will see is probably resting. That is not laziness. Koalas live on a diet that is tough, fibrous, chemically defended, and low in energy. Resting is part of the strategy.",
+        "This woodland also tells you something about the island's climate. This is dry tropical country, not wet rainforest. Eucalypts, wattles, grasses, and tough shrubs dominate many of these slopes. The plants are adapted to heat, seasonal dryness, shallow soils, and the periodic violence of storms and fire.",
+        "For spotting, scan slowly rather than constantly. Pick one tree, trace the trunk upward, check the forks, then move to the next. If you find a koala, give it space. The best wildlife encounter here is quiet, boring, and respectful: two hikers whispering, one animal continuing its day."
+      ],
+      "references": [
+        {
+          "title": "SeaLink wildlife guide",
+          "url": "https://www.sealink.com.au/magnetic-island/things-to-do/wildlife-on-magnetic-island/"
+        },
+        {
+          "title": "Parks and wildlife overview",
+          "url": "https://www.whatsonmagneticisland.com.au/flora-and-fauna"
+        }
+      ]
+    },
+    {
+      "id": "granite-country",
+      "title": "Granite Country: How the Island Was Made",
+      "location": "Where large rounded boulders become obvious",
+      "durationMinutes": 2,
+      "mode": "geology explainer",
+      "map": {
+        "x": 36,
+        "y": 53
+      },
+      "audio": "audio/track-03.mp3",
+      "script": [
+        "The boulders are not decoration. They are the deep structure of the island surfacing through the bush. Magnetic Island's distinctive rounded granite forms began as molten rock pushed upward long before this was an island in the modern sense. Over immense time, the overlying material weathered away and the granite fractured, rounded, and emerged as tors.",
+        "Those fracture lines matter. Water gets into cracks, minerals weather, blocks separate, and the sharpness slowly disappears. The result is this landscape of domes, balancing shapes, gullies, and boulder piles. It looks almost arranged, but it is really geology taking its time.",
+        "Military planners would have read this landscape differently from a tourist. High granite ridges meant observation. Boulders meant cover and camouflage. Hard ground meant engineering problems. Every bag of cement, length of pipe, gun component, generator part, and ration had to be moved into a rough, hot, steep environment.",
+        "So as you climb, hold both ideas at once: this is beautiful coastal granite country, and it is also the reason the fort could do its job. The same height that gives you the view gave the battery its eyes."
+      ],
+      "references": [
+        {
+          "title": "Magnetic Island Guide",
+          "url": "https://www.magneticislandguide.com.au/history"
+        },
+        {
+          "title": "National park management statement",
+          "url": "https://parks.des.qld.gov.au/__data/assets/pdf_file/0028/167437/magnetic-island.pdf"
+        }
+      ]
+    },
+    {
+      "id": "first-views",
+      "title": "First Views: Cleveland Bay as a Military Map",
+      "location": "First clear lookout toward the bays and mainland",
+      "durationMinutes": 3,
+      "mode": "history lecture",
+      "map": {
+        "x": 40,
+        "y": 44
+      },
+      "audio": "audio/track-04.mp3",
+      "script": [
+        "Pause at the first broad view and turn it into a military map. The water is Cleveland Bay. Townsville sits across the bay, and in the war years it was not just a regional town. It was a port, supply hub, air base region, and staging point.",
+        "Ships gathering in protected water are useful, but they are also vulnerable. A harbour defence system is about buying time, detecting threats early, and making an enemy approach costly. The Magnetic Island positions formed part of a wider defensive network around Townsville, along with other batteries and military installations on the mainland.",
+        "A coastal battery does not need to chase an enemy. It waits, watches, calculates, and controls space. Observation posts identify targets and feed data. Command posts turn observations into firing orders. Guns cover approaches. Searchlights and radar extend the eyes of the system into poor visibility and night. Signals keep the parts connected.",
+        "The interesting thing here is that the ruins can feel small compared with the view. But the view is the point. The structures are instruments built to use this geography. From here, a ridge, a harbour, and a shipping lane become one connected defensive machine.",
+        "Also notice the emotional distance from the war. Today, the bay looks calm. In 1942, northern Australia was living with uncertainty: Darwin had been bombed, Japanese forces were moving through the region, and nobody knew exactly where the next pressure point would be. This walk sits inside that anxiety."
+      ],
+      "references": [
+        {
+          "title": "Townsville wartime context",
+          "url": "https://parks.des.qld.gov.au/__data/assets/pdf_file/0028/167437/magnetic-island.pdf"
+        },
+        {
+          "title": "Magnetic Battery overview",
+          "url": "https://en.wikipedia.org/wiki/Magnetic_Battery"
+        }
+      ]
+    },
+    {
+      "id": "access-route",
+      "title": "The Access Route: Building Under Pressure",
+      "location": "Mid-climb, before the main fort structures",
+      "durationMinutes": 2,
+      "mode": "construction logistics",
+      "map": {
+        "x": 48,
+        "y": 39
+      },
+      "audio": "audio/track-05.mp3",
+      "script": [
+        "This part of the walk is a good place to think about logistics. The Fort Complex was built in 1942 and 1943, when decisions had to be made quickly and materials had to be dragged into awkward places. It was not a peacetime monument. It was urgent infrastructure.",
+        "The site included more than the dramatic concrete remains near the top. There were practical systems: accommodation areas, water supply, power, communications, ammunition storage, gun sites, searchlights, radar, paths, and roads. Some of those survive as slabs or traces; others have disappeared into the vegetation.",
+        "That disappearing act is part of the story. Military sites often leave behind the hard bones: concrete, cuttings, steps, bolts, foundations. Timber, canvas, corrugated iron, wiring, fittings, and equipment vanish first. After the war, useful materials were removed, sold, reused, or simply decayed.",
+        "The result is a landscape where you have to reconstruct the living system from fragments. Try imagining the unglamorous parts: heat, insects, boredom, maintenance, watch rosters, carrying stores, keeping machinery running, and being posted to a beautiful island for a deeply serious reason."
+      ],
+      "references": [
+        {
+          "title": "Queensland Parks Forts Walk",
+          "url": "https://parks.qld.gov.au/parks/magnetic-island/journeys/forts-walk"
+        },
+        {
+          "title": "Forts walking tour notes",
+          "url": "https://www.magneticislandtours.net.au/tours/forts-walking-tour-magnetic-island/"
+        }
+      ]
+    },
+    {
+      "id": "gun-emplacements",
+      "title": "Gun Emplacements: The Battery's Muscles",
+      "location": "At or near the gun emplacements",
+      "durationMinutes": 3,
+      "mode": "military technology",
+      "map": {
+        "x": 54,
+        "y": 34
+      },
+      "audio": "audio/track-06.mp3",
+      "script": [
+        "At the gun emplacements, the battery becomes easier to understand physically. These positions were made for heavy coastal artillery, commonly described in references as 155 millimetre guns on Panama mounts. The practical idea was simple: put powerful guns high enough and stable enough to cover the approaches to Townsville's harbour.",
+        "A Panama mount is essentially a circular concrete firing position that allows a gun to traverse widely. For coastal defence, that matters because ships move across a broad field. The gun is not aimed like a rifle by one person sighting down a barrel. It is part of a team system: observers, range-finding, calculations, commands, loading, firing, correction.",
+        "Think about the weight and choreography. Shells and propellant have to be stored safely, moved to the guns, handled by crews, and fired under command. The gun position is only the visible end of a chain that includes magazines, communications, command decisions, and the men trained to repeat dangerous actions under stress.",
+        "The guns at Magnetic Island never became famous for firing in anger. That can make the site feel anticlimactic, but it is exactly how deterrent infrastructure often works. Its purpose is to be ready, to shape risk, and ideally to never be tested. A silent battery is not necessarily a useless one.",
+        "Look outward from the emplacement and imagine a target out on the water. Then look inward at the concrete. The whole position is a conversation between horizon and hardware."
+      ],
+      "references": [
+        {
+          "title": "Magnetic Battery",
+          "url": "https://en.wikipedia.org/wiki/Magnetic_Battery"
+        },
+        {
+          "title": "Townsville heritage photo",
+          "url": "https://stories.townsville.qld.gov.au/nodes/view/15381"
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "title": "Magazines and Safety: Ammunition as Infrastructure",
+      "location": "Near ammunition storage or bunker remains",
+      "durationMinutes": 2,
+      "mode": "military logistics",
+      "map": {
+        "x": 61,
+        "y": 34
+      },
+      "audio": "audio/track-07.mp3",
+      "script": [
+        "If the gun emplacements are the muscles, the ammunition stores are the nervous stomach of the place: powerful, necessary, and dangerous if mishandled. Coastal artillery needs more than guns. It needs protected storage for shells and propellant, procedures for moving them, and discipline around fire, sparks, impact, and timing.",
+        "The visible ruins do not show the whole labour system. Ammunition handling is slow, heavy, procedural work. It depends on drilled habits: where to stand, what to carry, who gives the order, when to move, when to wait, how to keep explosive material separated and controlled.",
+        "That is why a battery is a system rather than a collection of objects. A gun without ammunition is sculpture. Ammunition without command is danger. Command without communications is confusion. Observation without a weapon is only knowledge. The Forts tied all of these into one operating organism.",
+        "When you look at storage spaces, slabs, or low concrete remains, give them the same attention as the dramatic lookout. This is where the site becomes less cinematic and more real."
+      ],
+      "references": [
+        {
+          "title": "Management statement",
+          "url": "https://parks.des.qld.gov.au/__data/assets/pdf_file/0028/167437/magnetic-island.pdf"
+        },
+        {
+          "title": "Fort Complex summary",
+          "url": "https://en.wikipedia.org/wiki/Fort_Complex,_Magnetic_Island"
+        }
+      ]
+    },
+    {
+      "id": "observation-command",
+      "title": "Observation and Command: The Battery's Brain",
+      "location": "At the observation or command post",
+      "durationMinutes": 3,
+      "mode": "command system",
+      "map": {
+        "x": 68,
+        "y": 38
+      },
+      "audio": "audio/track-08.mp3",
+      "script": [
+        "This is the brain of the battery. The observation and command positions mattered because coastal artillery is only as good as the information that drives it. From here, personnel could watch sea approaches, identify movement, and coordinate the response.",
+        "A gun crew down at an emplacement does not independently decide the battle. Observers and command staff gather information, estimate range and bearing, assess whether a contact is friendly, hostile, or unknown, and pass orders through the system. In a busy harbour approach, identification is not a small detail. Firing at the wrong target would be catastrophic.",
+        "The position also shows why this hill was selected. Elevation creates time. Time lets you see farther, identify earlier, calculate more calmly, and coordinate with other defences. In an era before modern satellite and digital systems, geography was part of the sensor network.",
+        "Now compare two versions of the same room. In one version, it is a ruin with tourists, stairs, and a view. In the wartime version, it is a working space: people watching, reporting, plotting, checking instruments, listening for messages, and making decisions under uncertainty.",
+        "The best way to read this spot is to face the view, then turn back to the concrete. The view explains why the concrete exists. The concrete explains how the view was turned into military power."
+      ],
+      "references": [
+        {
+          "title": "Fort Complex images",
+          "url": "https://commons.wikimedia.org/wiki/Category:Fort_Complex,_Magnetic_Island"
+        },
+        {
+          "title": "Queensland Parks Forts Walk",
+          "url": "https://parks.qld.gov.au/parks/magnetic-island/journeys/forts-walk"
+        }
+      ]
+    },
+    {
+      "id": "signals",
+      "title": "Searchlights, Radar, and Signals: Seeing at Night",
+      "location": "Where signs or views reference searchlights, radar, or signal positions",
+      "durationMinutes": 3,
+      "mode": "military technology",
+      "map": {
+        "x": 79,
+        "y": 60
+      },
+      "audio": "audio/track-09.mp3",
+      "script": [
+        "This track is about the less visible technology. The Fort Complex was not just guns and concrete. Historical summaries describe searchlight positions, radar, signal facilities, and supporting generators. These systems extended the battery's senses.",
+        "Searchlights sound almost old-fashioned now, but in coastal defence they were serious equipment. References to Magnetic Island describe powerful carbon arc searchlights positioned around Horseshoe and Florence bays. Their job was to illuminate aircraft or vessels at night, turning darkness into a temporary tactical advantage.",
+        "Radar was newer and more mysterious to many people during the Second World War. It could detect what eyes could not yet see clearly, especially at distance or in poor visibility. On a place like Magnetic Island, radar, observers, searchlights, signals, and guns all belonged to the same defensive grammar: detect, identify, communicate, decide, act.",
+        "Signals are easy to underrate because they leave fewer photogenic ruins. But communication is what makes dispersed positions behave as one unit. Without it, the hilltop, gun pits, searchlights, radar, harbour authorities, and other defences become isolated pieces.",
+        "This is one of the richer parts of the walk because it lets you imagine the site at night: insects, generator noise, dark water, a watch crew straining to interpret movement, and sudden light cutting across the bay."
+      ],
+      "references": [
+        {
+          "title": "Magnetic Island history",
+          "url": "https://www.magneticislandguide.com.au/history"
+        },
+        {
+          "title": "Magnetic Battery",
+          "url": "https://en.wikipedia.org/wiki/Magnetic_Battery"
+        }
+      ]
+    },
+    {
+      "id": "top-ecology",
+      "title": "Nature Track: Island Ecology from the Top",
+      "location": "A high lookout with broad views",
+      "durationMinutes": 3,
+      "mode": "ranger guide",
+      "map": {
+        "x": 64,
+        "y": 24
+      },
+      "audio": "audio/track-10.mp3",
+      "script": [
+        "This is the second dedicated nature stop. From up high, Magnetic Island becomes easier to read as a set of connected habitats. You have dry woodland on the slopes, hoop pines and granite outcrops on ridges, gullies that hold more moisture, mangroves and lagoons in low sheltered places, beaches and bays around the edge, and fringing reefs offshore.",
+        "That mix is why the island feels so alive for its size. The national park covers a large portion of the island, and the surrounding waters sit within the Great Barrier Reef region. Wildlife moves through those overlapping worlds: koalas in eucalypts, rock-wallabies around boulders, curlews and other birds in open or edge habitats, marine life in the reefs and seagrass country.",
+        "The island's isolation matters, but it is recent in geological terms. Sea level rise separated Magnetic Island from the mainland thousands of years ago. So the animals and plants here are not from another world; they are mainland north Queensland species living in a concentrated island refuge.",
+        "The military history and ecology are not separate stories. The same dry ridges that made good observation posts are koala habitat. The same boulders that gave cover and engineering challenges are rock-wallaby country. The same views that served wartime surveillance now help visitors understand the shape of the national park.",
+        "A good walk here has two habits: look outward at the grand views, then look close at bark, leaves, scat, tracks, bird calls, ants, and shadows. The island works at both scales."
+      ],
+      "references": [
+        {
+          "title": "Parks and wildlife overview",
+          "url": "https://www.whatsonmagneticisland.com.au/flora-and-fauna"
+        },
+        {
+          "title": "Magnetic Island wildlife",
+          "url": "https://www.sealink.com.au/magnetic-island/things-to-do/wildlife-on-magnetic-island/"
+        }
+      ]
+    },
+    {
+      "id": "after-the-war",
+      "title": "After the War: From Defence Site to Heritage Place",
+      "location": "Before beginning the descent",
+      "durationMinutes": 2,
+      "mode": "heritage reflection",
+      "map": {
+        "x": 75,
+        "y": 30
+      },
+      "audio": "audio/track-11.mp3",
+      "script": [
+        "After the war, the battery's urgency disappeared. Many wartime sites went through the same pattern: decommissioning, removal of equipment, salvage, neglect, and gradual reinterpretation as heritage. Magnetic Island's Fort Complex was listed on the Queensland Heritage Register in 1992.",
+        "That listing matters because it recognizes the site as more than old concrete. It is evidence of Queensland's wartime history, Townsville's role in the Allied Pacific effort, and the engineering challenge of building a coastal defence system in rugged island terrain.",
+        "Heritage can be strange. A military site built for fear becomes a walking track. A command post becomes a lookout. Gun positions become photo spots. The meanings change, but the place keeps carrying the older ones underneath.",
+        "Before you head down, take one more look across the water. The Forts are not a story about a battle fought here. They are a story about preparation, anxiety, geography, engineering, and the way global war reached into a tropical island landscape."
+      ],
+      "references": [
+        {
+          "title": "National park management statement",
+          "url": "https://parks.des.qld.gov.au/__data/assets/pdf_file/0028/167437/magnetic-island.pdf"
+        },
+        {
+          "title": "Fort Complex summary",
+          "url": "https://en.wikipedia.org/wiki/Fort_Complex,_Magnetic_Island"
+        }
+      ]
+    },
+    {
+      "id": "descent",
+      "title": "Descent: Reading the Walk Backwards",
+      "location": "On the way down",
+      "durationMinutes": 2,
+      "mode": "wrap-up",
+      "map": {
+        "x": 32,
+        "y": 78
+      },
+      "audio": "audio/track-12.mp3",
+      "script": [
+        "On the descent, read the track backwards. The ruins shrink behind you and the woodland takes over again. That is what happened historically too. The military system was stripped, softened, and partly absorbed back into the national park.",
+        "You may notice things now that you missed on the climb: a side view of a boulder, a possible koala tree, the way the path follows terrain, a slab or remnant that suddenly makes more sense after seeing the top. Return walks are good for that. They turn first impressions into pattern recognition.",
+        "If you want one summary of the Forts Walk, try this: the place is not important because the structures are huge. It is important because the landscape, the harbour, the war, the animals, and the ruins still explain each other.",
+        "That is a satisfying kind of history. Not sealed behind glass. Not flattened into a sign. Just sitting in the bush, waiting for two people with enough curiosity to stop and look."
+      ],
+      "references": [
+        {
+          "title": "Queensland Parks Forts Walk",
+          "url": "https://parks.qld.gov.au/parks/magnetic-island/journeys/forts-walk"
+        },
+        {
+          "title": "Magnetic Island walking trails",
+          "url": "https://www.magneticislandguide.com.au/walking-trails"
+        }
+      ]
+    }
+  ]
+}
