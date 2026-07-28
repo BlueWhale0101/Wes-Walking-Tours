@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24483d">
+  <title>Wes Walking Tours</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <div id="app" class="app" data-state="loading">
+    <header class="site-header">
+      <a class="home-link" href="./">Wes Walking Tours</a>
+      <p id="offline-status" class="offline-status" aria-live="polite">Loading guide...</p>
+    </header>
+    <main id="app-root" class="app-root" tabindex="-1"></main>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
