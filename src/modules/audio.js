@@ -34,11 +34,6 @@ export const createAudioController = ({ setStatus }) => {
         fallbackSpeech(stop);
       }
     },
-    pause(player) {
-      if (player && !player.paused) player.pause();
-      if ("speechSynthesis" in window) window.speechSynthesis.pause();
-      setStatus("Paused");
-    },
     stop(player) {
       if (player) {
         player.pause();

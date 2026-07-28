@@ -25,13 +25,7 @@
         "Paragraph one of the narration.",
         "Paragraph two of the narration."
       ],
-      "images": [
-        {
-          "src": "images/example.jpg",
-          "alt": "Describe the image for accessibility",
-          "caption": "Short field-useful caption."
-        }
-      ],
+      "images": [],
       "references": [
         {
           "title": "Reference title",
