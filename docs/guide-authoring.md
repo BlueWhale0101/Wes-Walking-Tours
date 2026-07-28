@@ -2,6 +2,80 @@
 
 Use this when making a new guide quickly without turning the repo into one giant page.
 
+## Add A Guide
+
+This is the mechanical path for adding a new guide once the app framework exists.
+
+1. Copy the template folder:
+
+```bash
+cp -R guides/_template guides/my-guide-id
+```
+
+2. Rename the guide inside `guides/my-guide-id/guide.json`:
+
+```json
+{
+  "id": "my-guide-id",
+  "title": "My Guide Title"
+}
+```
+
+3. Put all guide-owned assets inside that folder:
+
+```text
+guides/my-guide-id/
+  guide.json
+  assets/map.jpg
+  audio/stop-01.mp3
+  images/reference-01.jpg
+```
+
+4. Reference assets from `guide.json` using paths relative to the guide folder:
+
+```json
+{
+  "map": {
+    "image": "assets/map.jpg"
+  },
+  "stops": [
+    {
+      "audio": "audio/stop-01.mp3",
+      "images": [
+        {
+          "src": "images/reference-01.jpg",
+          "alt": "Reference image description",
+          "caption": "Short field-useful caption."
+        }
+      ]
+    }
+  ]
+}
+```
+
+5. Add the guide to `guides/index.json`:
+
+```json
+{
+  "defaultGuideId": "my-guide-id",
+  "guides": [
+    {
+      "id": "my-guide-id",
+      "title": "My Guide Title",
+      "status": "draft"
+    }
+  ]
+}
+```
+
+6. Run the repo checks:
+
+```bash
+npm run check
+```
+
+The check validates required fields, confirms local assets exist, and rebuilds `src/generated/cache-manifest.js` so the offline download knows which files belong to each guide.
+
 ## 1. Define The Field Job
 
 Answer these before writing:
