@@ -1,0 +1,9 @@
+{
+  "name": "Wes Walking Tours",
+  "short_name": "Walking Tours",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e7",
+  "theme_color": "#24483d",
+  "icons": []
+}
