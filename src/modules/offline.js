@@ -5,8 +5,8 @@ export const registerServiceWorker = async (setStatus) => {
   }
 
   try {
-    const registration = await navigator.serviceWorker.register("./service-worker.js");
-    return registration;
+    await navigator.serviceWorker.register("./service-worker.js");
+    return await navigator.serviceWorker.ready;
   } catch (error) {
     console.warn(error);
     setStatus("Offline cache unavailable");
@@ -14,17 +14,43 @@ export const registerServiceWorker = async (setStatus) => {
   }
 };
 
-export const requestOfflineDownload = async (registration, guide, setStatus) => {
+const sendWorkerMessage = (registration, message) => new Promise((resolve, reject) => {
   const worker = registration?.active || registration?.waiting || registration?.installing;
   if (!worker) {
-    setStatus("Offline cache not ready yet");
+    reject(new Error("Offline cache is not ready yet"));
     return;
   }
 
-  setStatus("Downloading guide...");
   const channel = new MessageChannel();
-  channel.port1.onmessage = (event) => {
-    setStatus(event.data?.ok ? "Guide saved offline" : `Offline save failed: ${event.data?.message || "unknown error"}`);
-  };
-  worker.postMessage({ type: "CACHE_GUIDE", guideId: guide.id }, [channel.port2]);
+  channel.port1.onmessage = (event) => resolve(event.data);
+  worker.postMessage(message, [channel.port2]);
+});
+
+export const getOfflineGuideStatus = async (registration, guide) => {
+  if (!registration) return { state: "unsupported" };
+  try {
+    const result = await sendWorkerMessage(registration, { type: "GET_GUIDE_CACHE_STATUS", guideId: guide.id });
+    return result?.ready
+      ? { state: "ready", total: result.total }
+      : { state: "not-downloaded", missing: result?.missing || [], total: result?.total };
+  } catch (error) {
+    return { state: "unsupported", message: error.message };
+  }
+};
+
+export const requestOfflineDownload = async (registration, guide, onStateChange) => {
+  if (!registration) {
+    onStateChange({ state: "unsupported" });
+    return;
+  }
+
+  onStateChange({ state: "downloading" });
+  try {
+    const result = await sendWorkerMessage(registration, { type: "CACHE_GUIDE", guideId: guide.id });
+    onStateChange(result?.ok
+      ? { state: "ready", total: result.total }
+      : { state: "failed", missing: result?.missing || [], total: result?.total, message: result?.message });
+  } catch (error) {
+    onStateChange({ state: "failed", message: error.message });
+  }
 };
