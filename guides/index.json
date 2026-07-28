@@ -1,0 +1,10 @@
+{
+  "defaultGuideId": "sample",
+  "guides": [
+    {
+      "id": "sample",
+      "title": "Sample Field Guide",
+      "status": "draft"
+    }
+  ]
+}
