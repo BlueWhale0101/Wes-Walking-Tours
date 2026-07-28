@@ -1,0 +1,301 @@
+{
+  "id": "cairns-moving-edge",
+  "title": "Cairns: The City Built on a Moving Edge",
+  "region": "Cairns, Queensland",
+  "summary": "A layover-friendly field audio guide through Cairns' Esplanade, mudflats, tropical civic core, and Trinity Inlet, focused on ecology, building science, transport, and the strange logic of a reef city without a swimming beach.",
+  "duration": "60-75 min",
+  "distance": "3.5 km one way",
+  "map": {
+    "image": "assets/cairns-moving-edge-map.svg",
+    "alt": "Draft route map from the Cairns Lagoon along the Esplanade, through the heritage core, and to Trinity Inlet"
+  },
+  "fieldNotes": [
+    "Designed for an 8 hour Cairns layover. Taxi or shuttle time from Cairns Airport to the Esplanade is usually short, but leave conservative return time for baggage, traffic, check-in, and security.",
+    "The walk is flat and urban, but Cairns heat, rain, glare, and sudden tropical weather can change the experience quickly.",
+    "The Esplanade mudflats are tide-dependent. Low tide makes the ecology more visible; high tide makes the lagoon/foreshore design story stronger."
+  ],
+  "stops": [
+    {
+      "id": "lagoon-without-a-beach",
+      "title": "The Lagoon: A Beach City Without a Beach",
+      "location": "Cairns Esplanade Lagoon, facing the water",
+      "durationMinutes": 6,
+      "mode": "orientation",
+      "map": {
+        "x": 17,
+        "y": 83
+      },
+      "audio": "audio/track-01.mp3",
+      "script": [
+        "Start at the Cairns Lagoon and stand where you can see both the swimming water and the actual sea edge beyond it. Before we get historical, let the place mislead you for a moment. Palms, swimmers, hotel balconies, warm air, reef boats, and that bright tropical expectation all say beach city. But look past the lagoon. Cairns is not giving you a sandy swimming beach. It is giving you tide, mud, mangrove influence, shallow water, shorebirds, and a foreshore that changes character with the hour.",
+        "That contrast is the first exhibit. The lagoon is controlled water: level, filtered, tiled, lifeguarded, and designed around human bodies. The shore beyond it is negotiated water: exposed at low tide, covered at high tide, productive for animals, awkward for postcards, and not especially interested in visitor expectation. Keep both kinds of water in view. They are going to explain each other.",
+        "This place is also Gimuy. Cairns Regional Council's Esplanade material identifies the Gimuy-walubarra yidi as the Traditional Custodians of Cairns and the surrounding district, and says Gimuy is the traditional place name for the area now occupied by Cairns City. The same council page also places this foreshore within a wider Indigenous coastal world, including Yirrganydji rainforest and seafaring culture along the strip between Cairns and Port Douglas. Keep that older geography present as we walk. This guide is mostly about the visible colonial and modern city, but the place did not begin with the port, the railway, the governor's name, or the tourist lagoon.",
+        "The European town was officially founded in 1876 and named for Sir William Wellington Cairns, then Governor of Queensland. That sounds neat enough to fit on a plaque, but the real story is messier and more interesting: inland gold, difficult tracks, port rivalry, surveys, and the question of which settlement could turn a wet tropical edge into a working connection.",
+        "Now look back at the lagoon. It opened in 2003, and council describes it as a 4,800 square metre saltwater swimming facility filled with filtered water from Trinity Inlet. The important phrase is safe swimming: safe from marine stingers and crocodiles, and independent of tide and mud. The city did not discover a perfect beach here. It built a public beach-machine beside a waterfront that nature had made into something else.",
+        "So here is the question for the whole walk: how does a city survive on a moving edge? Cairns sits between the Great Barrier Reef offshore and the Wet Tropics inland, but the daily problems are concrete: shade, stormwater, glare, mud, tide, drainage, wharves, roads, salt, crowds, and heat. As you walk, read the city by its constraints. Where has Cairns made water behave? Where has it admitted water will win? Where has it turned discomfort into design?",
+        "When you are ready, begin walking along the Esplanade toward a clear view over the mudflats. Pause the audio while you move if you like; the next stop works best when you can stand still and watch the exposed shore."
+      ],
+      "references": [
+        {
+          "title": "Cairns Regional Council: First People's history and languages",
+          "url": "https://www.cairns.qld.gov.au/experience-cairns/facts-figures-history/first-peoples-history"
+        },
+        {
+          "title": "Cairns Regional Council: Cairns Esplanade",
+          "url": "https://www.cairns.qld.gov.au/experience-cairns/Cairns-Esplanade"
+        },
+        {
+          "title": "ABC News: Cairns Esplanade Lagoon anniversary",
+          "url": "https://www.abc.net.au/news/2023-03-29/cairns-esplanade-lagoon-20-year-anniversary-tourist-attraction/102159016"
+        }
+      ]
+    },
+    {
+      "id": "mudflat-as-machine",
+      "title": "The Mudflat: A Working Machine",
+      "location": "Esplanade foreshore viewpoint near the lagoon",
+      "durationMinutes": 6,
+      "mode": "ecology",
+      "map": {
+        "x": 23,
+        "y": 72
+      },
+      "audio": "audio/track-02.mp3",
+      "script": [
+        "Find a clear view over the mudflats and stop for a minute. If the tide is low, the sea may look as if it has failed to turn up. That is the wrong reading. The exposed mud is not empty foreground. It is a feeding surface, a chemical processor, a sediment record, and one of the reasons this waterfront refuses to become a simple beach.",
+        "First, look for movement. Not the big scenic kind. The small kind. A bill going into the mud. A ripple around a crab hole. A bird taking three quick steps and freezing. A line of footprints that will exist only until the tide edits the page clean again. If you have binoculars, use them now; if not, pick one bird or one patch of mud and let your eyes settle.",
+        "This is where the walk becomes global. Queensland government material describes some migratory shorebird journeys as roughly twenty thousand kilometre round trips between Australia and northern breeding grounds. That means a bird feeding in front of you may be using Cairns as one station in a hemispheric fuel plan.",
+        "The trick is not to start by memorising names. Start by watching tools. Short bills peck at or near the surface. Long bills probe into soft sediment. Curved bills and straight bills solve different feeding problems. Legs set the working depth. Posture tells you whether a bird is picking, stabbing, sweeping, or waiting. The animal is wearing its job description.",
+        "If you want names for the field notebook, Cairns birding material often points visitors toward waders such as godwits, curlews, sandpipers, plovers, and tattlers, with the exact cast changing by season and tide. That is a good cast list, but the larger pattern matters more than the checklist: the mudflat is a refuelling station on a flyway, not a waste space between the city and the sea.",
+        "Here is the hidden label for this stop: mud is not failed sand. Sand is good for humans. Mud is good for the system. It holds worms, molluscs, crustaceans, bacteria, and organic material. It receives river sediment. It exposes food at low tide. It makes Cairns one of the rare urban places where you can watch shorebird labour from a city-centre promenade.",
+        "So resist the postcard instinct. The most important thing in view may be the least glamorous. In this guide, that is going to happen often. The thing that looks messy, shaded, wet, old-fashioned, or merely practical is usually doing the most work.",
+        "Continue along the Esplanade when you are ready. For the next stop, keep walking rather than searching for a single monument. We are going to treat the path, seats, shade, signs, and edges as the exhibit."
+      ],
+      "references": [
+        {
+          "title": "Queensland Government: Shorebirds",
+          "url": "https://www.qld.gov.au/environment/plants-animals/animals/discovering-wildlife/birds/shorebirds"
+        },
+        {
+          "title": "Migratory Shorebirds of the Cairns Foreshore",
+          "url": "https://www.tourismtown.com/stores/daintree/tours.95/crocodile-express-daintree-river.1046/downloads/22/"
+        }
+      ]
+    },
+    {
+      "id": "edge-design",
+      "title": "Esplanade Edge: Designing for Heat, Tide, and People",
+      "location": "Central Esplanade path, walking north-east along the foreshore",
+      "durationMinutes": 6,
+      "mode": "urban design",
+      "map": {
+        "x": 33,
+        "y": 62
+      },
+      "audio": "audio/track-03.mp3",
+      "script": [
+        "Continue along the Esplanade and slow down enough to read the path as a design drawing. You do not need a perfect stopping point for this track; listen while walking, then pause wherever shade and sightlines are good. This waterfront has to serve tourists, locals, children, runners, birdwatchers, events, stormwater, tides, maintenance crews, and people simply trying to sit somewhere that will not cook them. Those uses do not automatically get along.",
+        "Look for repeated moves as you walk: shade trees, open sightlines, grass, hard paths, lighting, signs, seats, railings, and edges that invite you toward the water before stopping you at the right moment. The path is not just a path. It is a negotiated boundary between land people can occupy and waterlogged ground that belongs to the tide.",
+        "In a cooler city, a waterfront park can sometimes afford to be decorative. In Cairns, comfort is infrastructure. Shade decides how far many people can walk. Air movement matters. Pale pavement and open water can throw glare back at you. A storm can turn a pleasant open space into a very exposed one in minutes.",
+        "Pick one bench, shelter, or shaded patch and inspect it like an artifact. Which way does it face? Is it useful at midday, or mainly in the morning and late afternoon? Can a parent see a child from it? Could an older walker use it as a recovery point before the next stretch of sun? Small decisions like these quietly decide who the public realm is really for.",
+        "The Esplanade also has to perform tropical leisure. It needs to feel relaxed while managing mud, tide, heat, storm, stingers, crocodile country, safety rules, and crowd movement. That is one mark of successful public design: the harder the system is working, the less a casual visitor notices the work.",
+        "There is history inside this design problem. Cairns was declared a town in 1903, became a city in 1923, and kept reworking the foreshore as its public ambitions changed. Council history even notes a time capsule placed on the Esplanade to mark completion of the redevelopment project in 2004. That is a wonderful little clue: the city understood the new waterfront not merely as landscaping, but as an event worth sealing into memory.",
+        "The foreshore has also had more severe jobs than leisure. During the Second World War, council history records anti-aircraft gun emplacements along the Cairns Esplanade and the use of Cairns as a base and trans-shipment port for northern Australia and New Guinea. That wartime layer is not the main story of this walk, but it sharpens the point: open waterfronts can be promenade, parade ground, lookout, defensive edge, evacuation route, and public theatre depending on the year.",
+        "So for the next few minutes, choose one ordinary object and ask what job it has. A raised edge may be drainage as much as access. A warning sign may be public safety, but also visitor expectation. A row of palms may be atmosphere, but also rhythm, orientation, and shade. Tropical urbanism often hides in objects too ordinary to get a plaque.",
+        "From here, leave the foreshore and head toward the Court House and Gallery precinct around Abbott and Shields Streets. The next stop shifts from environmental design to civic design, so let the change in materials and posture announce itself as you arrive."
+      ],
+      "references": [
+        {
+          "title": "Cairns Regional Council: Cairns Esplanade",
+          "url": "https://www.cairns.qld.gov.au/experience-cairns/Cairns-Esplanade"
+        },
+        {
+          "title": "Cairns Regional Council: History of Cairns from the 1870s",
+          "url": "https://www.cairns.qld.gov.au/experience-cairns/facts-figures-history/history"
+        }
+      ]
+    },
+    {
+      "id": "gallery-precinct",
+      "title": "Court House and Gallery: Civic Confidence in the Tropics",
+      "location": "Cairns Court House Gallery precinct, Abbott and Shields Streets",
+      "durationMinutes": 7,
+      "mode": "architecture",
+      "map": {
+        "x": 48,
+        "y": 49
+      },
+      "audio": "audio/track-04.mp3",
+      "script": [
+        "Stand in the Court House and Gallery precinct where you can compare the buildings and their setting. Let the mudflat stay in your mind for contrast. A few minutes ago, the guide was asking you to read tide and feeding behaviour. Now the exhibit is authority: masonry, garden setting, formal frontage, courtrooms, offices, records, and public culture.",
+        "The site itself is the first clue. Heritage material describes this two-acre reserve as set aside for police purposes from 1876, the same year European settlement at Trinity Inlet began. Before Cairns looked inevitable, the plan already needed a place for public authority. A town can begin with cargo and survival, but it becomes a city by making physical room for law, administration, ceremony, and memory.",
+        "Look first at the former Court House. Built between 1919 and 1921, just after the First World War, it belongs to a period when Cairns was consolidating itself as the principal city of Far North Queensland. Its message is deliberately heavy: symmetry, masonry, formal approach, and a cultivated setting. The building is saying that judgment here is not temporary, improvised, or borrowed from somewhere else.",
+        "Now compare that with the former Public Offices, completed in 1936 and later converted into the Cairns Art Gallery. It is associated with government architect R.C. Nowland, and its original tenants included insurance, tourism, land administration, agriculture, forestry, health, inspection, the public curator, and visiting officials. That sounds bureaucratic because it is. But bureaucracy is one of the signs that a city has become useful enough to require systems.",
+        "If you can get close, look for surviving details rather than just the facade: terrazzo, local timber panelling, stained glass, iron balustrades. These are not merely decorative flourishes. They are clues to the seriousness of the building. Cairns was not presenting itself as a camp on the way to somewhere else. It was equipping itself as a regional capital. If the building is open, this is a good place to pause and look inside; if it is closed, the exterior still carries the argument.",
+        "Here is the human point behind the stonework. A courthouse is not only a building where law happens. It is a public performance of confidence. People arrive anxious, angry, accused, curious, official, or bored, and the building tells them the state is already here. In the tropics, even that performance has to negotiate heat, rain, shade, airflow, and damp. Civic power still needs a roof that works.",
+        "This stop should change what you notice for the rest of the walk. Cairns was not made by scenery alone. It was made by systems becoming visible: law, tourism, land, health, insurance, inspection, culture. The reef may draw the eye outward, but these buildings show the city turning inward and declaring itself permanent.",
+        "Next, walk toward the former School of Arts, now the Cairns Museum, at Lake and Shields Streets. On the way, keep thinking about public information: who holds it, where it is posted, and how a town learns what has happened."
+      ],
+      "references": [
+        {
+          "title": "Cairns Regional Council: Court House Gallery",
+          "url": "https://www.cairns.qld.gov.au/experience-cairns/arts-and-culture/arts-venues/court-house-gallery"
+        },
+        {
+          "title": "Cairns Art Gallery: History",
+          "url": "https://www.cairnsartgallery.com.au/about/history"
+        },
+        {
+          "title": "Cairns Regional Council: Cairns Heritage City Walk Brochure",
+          "url": "https://www.cairns.qld.gov.au/__data/assets/pdf_file/0018/1881/brochure_citywalk.pdf"
+        },
+        {
+          "title": "Queensland Heritage Register: Cairns Court House Complex",
+          "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600376"
+        }
+      ]
+    },
+    {
+      "id": "school-of-arts",
+      "title": "School of Arts: The Town Teaches Itself",
+      "location": "Cairns Museum / former School of Arts, Lake and Shields Streets",
+      "durationMinutes": 7,
+      "mode": "civic history",
+      "map": {
+        "x": 39,
+        "y": 42
+      },
+      "audio": "audio/track-05.mp3",
+      "script": [
+        "Stop outside the Cairns Museum, in the former School of Arts building. Stand where you can see the street frontages, then look low as well as high. The name can mislead modern ears. This was not simply a place for painting. In many Australian towns, a School of Arts was an adult education centre, library, lecture hall, meeting room, and self-improvement engine.",
+        "The Cairns building was erected in 1907, designed by Tunbridge, Tunbridge and Lynch, and later extended. Heritage material describes it as an important early use of reinforced concrete in Queensland. That is more than a technical aside. A young tropical town needed buildings that could last through heat, damp, fire risk, insects, storms, and heavy public use.",
+        "Now go hunting for inscriptions. Look for the words SCHOOL OF ARTS on the street frontages, and the date 1907 at the corner. If you can find the terrazzo slab in the footpath, pause over it. Buildings often announce themselves twice: once high enough to address the street, and once underfoot, where only the attentive walker gets the reward. This is one of those small details that makes an audio guide worthwhile: the city has labelled itself, but not loudly.",
+        "The best hidden detail is smaller. The council heritage walk notes that nails remain in the front post where funeral notices used to be posted. Spend a moment with that object. A nail in a post is almost nothing, until you realise it once held the news that someone in town had died.",
+        "Before updates arrived in your pocket, public information lived in public places. People knew which walls, windows, posts, counters, and noticeboards to check. This building did not only store books or host lectures. It helped the town know itself. It made news, grief, education, meetings, arguments, and ambition visible at street level.",
+        "That is why the current museum use feels so apt. A place once dedicated to public learning now houses the city's memory. If you have time after the outdoor walk, this is the best indoor add-on: the outside route gives you the structure of Cairns, and the museum can put objects, photographs, documents, and fragments of ordinary life directly in front of you.",
+        "For now, let the funeral-notice nails carry the stop. They are easy to miss because they are not monumental. But they are exactly the kind of detail that makes a city human: not the grand claim of progress, but the small hardware of people finding out what happened to one another.",
+        "When you are ready, continue toward the Lake and Shields Street area around Hides Hotel and the older communication and commercial core. The next stop is about connection: wires, corners, verandahs, and the street life that moved information before screens did."
+      ],
+      "references": [
+        {
+          "title": "Cairns Museum",
+          "url": "https://www.cairnsmuseum.org.au/"
+        },
+        {
+          "title": "Cairns Regional Council: Cairns Heritage City Walk Brochure",
+          "url": "https://www.cairns.qld.gov.au/__data/assets/pdf_file/0018/1881/brochure_citywalk.pdf"
+        },
+        {
+          "title": "Queensland Heritage Register: Cairns School of Arts",
+          "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600380"
+        }
+      ]
+    },
+    {
+      "id": "telegraph-and-corners",
+      "title": "Telegraph, Hides' Corner, and Tropical Street Life",
+      "location": "Lake Street / Shields Street area near Hides Hotel and former telegraph/post office sites",
+      "durationMinutes": 7,
+      "mode": "street history",
+      "map": {
+        "x": 33,
+        "y": 37
+      },
+      "audio": "audio/track-06.mp3",
+      "script": [
+        "This stop is about connection. Stand where you can take in the street corner, the hotel fabric, and the older civic grid around you. Cairns began as a place where hard geography had to be turned into a system: goldfields, tinfields, ports, railways, telegraph lines, hotels, government offices, and street corners.",
+        "The council heritage walk notes that the telegraph office connected Cairns to the wider world in 1879, only three years after European settlement at Trinity Inlet. For a remote, wet, difficult tropical port, a telegraph line was not a nice modern extra. It changed the speed at which decisions, prices, instructions, rumours, and emergencies could move.",
+        "Now shift your attention to Hides' Corner. The hotel story reaches back to an earlier timber hotel associated with George Parker Hides in 1885, then forward to the present three-storey masonry hotel built in 1928 for the O'Hara family. The newer building was designed by Cairns architect Sydenham Stanley Oxenham and built by contractor Michael Thomas Garvey, with local North Queensland timbers used throughout.",
+        "That late-1920s date is doing work. It places the building inside an interwar Cairns that was more confident, more connected, and more willing to build upward. Heritage sources describe the new Hides Hotel as one of the largest buildings in Cairns and one of only two three-storey structures in the city. The other was Boland's store at Lake and Spence.",
+        "Now read the verandah. Do not treat it as quaint trim. The wide first-floor timber verandah is climate equipment and social theatre at the same time. It shades walls and openings, protects people from rain, catches air, overlooks the street, and turns the corner into a place where travellers and locals can see and be seen. If the sun is strong, the point becomes physical: shade is not decorative here. It is what lets street life continue.",
+        "Corners are underrated urban machines. They catch movement. They collect waiting, drinking, gossip, business, directions, argument, and chance encounters. If the telegraph helped Cairns speak to the outside world, a hotel corner helped the town speak to itself.",
+        "That is the link between the wire and the verandah. One speeds information across distance. The other slows people down long enough for information to circulate face to face. Cairns survived by becoming connected at both scales: to inland resources, railways, shipping, government, tourism, and the ordinary street life that made a remote port feel like a town.",
+        "Now begin walking toward Trinity Inlet and the Reef Fleet Terminal. Let the city grid give way to departure infrastructure. The next stop asks why Cairns, among several possible ports, became the one that won."
+      ],
+      "references": [
+        {
+          "title": "Cairns Regional Council: Cairns Heritage City Walk Brochure",
+          "url": "https://www.cairns.qld.gov.au/__data/assets/pdf_file/0018/1881/brochure_citywalk.pdf"
+        },
+        {
+          "title": "Cairns Regional Council: History of Cairns from the 1870s",
+          "url": "https://www.cairns.qld.gov.au/experience-cairns/facts-figures-history/history"
+        },
+        {
+          "title": "Queensland Heritage Register: Hides Hotel",
+          "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600382"
+        }
+      ]
+    },
+    {
+      "id": "port-that-won",
+      "title": "The Port That Won: Gold, Tin, Rail, and Luck",
+      "location": "Walking toward the Reef Fleet Terminal and Trinity Inlet",
+      "durationMinutes": 7,
+      "mode": "transport history",
+      "map": {
+        "x": 56,
+        "y": 31
+      },
+      "audio": "audio/track-07.mp3",
+      "script": [
+        "As you walk toward Trinity Inlet, imagine Cairns as a candidate in a contest. You can listen while moving; pause near the Reef Fleet area or any safe waterfront viewpoint before the final paragraphs. It was not inevitable that this city would become the northern gateway many visitors know today. Several coastal settlements wanted to be the useful port. Geography, politics, mineral discoveries, and transport decisions picked winners and losers.",
+        "The first pressure came from inland wealth. Cairns was founded in 1876 after the discovery of the Hodgkinson goldfields created demand for a port on Trinity Inlet. But the early settlement struggled. Cooktown and Port Douglas were serious competitors, and Cairns could easily have become one more difficult tropical port that mattered briefly and then faded.",
+        "The decisive turn came in the 1880s. Queensland heritage material on the Trinity Wharf warehouses says Cairns was selected in 1884 as the port and rail terminus for the Herberton tinfield. Council history gives the next beats: municipal government began in 1885 under first mayor Richard Ash Kingsford; on 10 May 1886, Queensland Premier Sir Samuel Griffith turned the first sod on the Cairns-Kuranda Railway; and in 1891 the line opened for goods and passengers. Those dates are the city becoming an argument in steel.",
+        "This is not a founder story in the usual sense. It is a route story. The questions were practical and ruthless. Where can ships shelter? Where can cargo move? Where can minerals leave the interior? Where can a railway climb toward the tableland? Which path is difficult but just possible enough to attract money?",
+        "If this stop had a museum display, the most important object would be a map. Not a heroic portrait, but a map showing Trinity Inlet, the ranges behind Cairns, the Atherton Tableland, Herberton, Port Douglas, Cooktown, and the rail line pushing inland. The drama is spatial. One line on a map becomes more useful than another, and a city grows around that advantage.",
+        "As you approach the modern reef fleet area, look for continuity rather than nostalgia. Schedules, signs, queues, passengers, fuel, moorings, service vehicles, luggage, sunscreen, timed departures. Council's milestone list later notes Queensland's first mechanical sugar loading facility at Cairns Port in 1923, and the opening of the bulk sugar terminal on the waterfront in 1964. Those details matter because they keep the city honest: Cairns has long been reef gateway, working port, agricultural outlet, and logistics machine at the same time.",
+        "That is the useful correction to the postcard version of Cairns. The reef made the city famous to many visitors, but movement made it durable. Before it was a holiday gateway, Cairns was a solution to a transport problem.",
+        "For the final stop, move to a place where you can face Trinity Inlet itself. You want water, boats, working edges, and, if possible, some mangrove influence in view."
+      ],
+      "references": [
+        {
+          "title": "Anzac Square: Cairns Trinity Wharf Warehouses No. 2 and No. 3",
+          "url": "https://www.anzacsquare.qld.gov.au/historic-places/queensland-wwii-history-map/cairns-trinity-wharf-warehouses-no-2-and-no-3"
+        },
+        {
+          "title": "Cairns Regional Council: History of Cairns from the 1870s",
+          "url": "https://www.cairns.qld.gov.au/experience-cairns/facts-figures-history/history"
+        }
+      ]
+    },
+    {
+      "id": "trinity-inlet",
+      "title": "Trinity Inlet: The Working Edge",
+      "location": "Trinity Inlet / Reef Fleet Terminal waterfront",
+      "durationMinutes": 8,
+      "mode": "port ecology",
+      "map": {
+        "x": 71,
+        "y": 19
+      },
+      "audio": "audio/track-08.mp3",
+      "script": [
+        "Finish at Trinity Inlet, where the pieces of the walk come together. Stand where you can see water and working infrastructure at the same time. Do not treat this as merely scenic water. This is the working edge: port, tour boats, mud, mangroves, maritime services, dredging questions, reef departures, and sheltered water all occupying the same narrow zone.",
+        "Look first for the unromantic details: bollards, gangways, navigation marks, floating pontoons, fuel access, ropes, cleats, gates, service vehicles, warning signs, and the backs of buildings. Ports are full of things tourists are not meant to think about, which makes them excellent places to understand a city. The front-stage story is wonder. The backstage story is maintenance.",
+        "Ports North lists pile moorings, anchorages, berths, wharves, and marine services here. That dry language matters. Cairns sells reef access, but it also has to run boats, maintain channels, service vessels, manage passengers, and keep a tropical port functioning. A gateway is not a metaphor. It is equipment, labour, timing, depth, fuel, paperwork, and weather.",
+        "Now look for mangroves or mangrove influence along the inlet. Mangroves are easy to misread as failed forest or swampy decoration. They stabilise sediment, shelter juvenile marine life, process nutrients, and live in ground that is neither comfortably land nor comfortably sea. In a tropical inlet, that in-between quality is not a problem. It is the system. If you cannot see mangroves clearly from your exact spot, look instead for the clues of their world: muddy margins, sheltered water, roots, debris lines, and low intertidal ground.",
+        "Across the water at East Trinity is the guide's cautionary tale. Queensland government material describes a major acid sulfate soil remediation case there, where bund walls and drains lowered the water table and exposed pyrite-rich coastal soils to air. The chemistry is brutal and simple: iron sulfide reacts with oxygen and water, and sulfuric acid is released. The official account describes about 3,000 tonnes of sulfuric acid leaking into Trinity Inlet each year, along with metals, fish kills, mangrove death, and some pH readings as low as 2.5.",
+        "The proposed fix tells you how big the problem was. In 2000, the Queensland Government bought the property. Officials estimated that a conventional lime treatment would require about 21,000 truckloads of lime and cost roughly 78 million dollars in lime alone. Instead, scientists used lime-assisted tidal exchange: reintroducing tidal water through controlled floodgates so seawater chemistry and added hydrated lime could help neutralise acidity without digging up the whole site.",
+        "That story has the right kind of sting for the end of the walk. Coastal mud is not blank land waiting for a clever idea. It is chemistry, biology, water, and time held in a fragile arrangement. Disturb it badly, and the place answers in acid.",
+        "Now turn back mentally to the lagoon where you started. The walk has moved from artificial swimming water, to mudflat feeding grounds, to public comfort design, to civic architecture, to information networks, to port logistics. Cairns makes more sense when you stop asking where the postcard beach is and start asking how a city survives on this edge.",
+        "If you have more layover time, the best add-ons are the Cairns Museum for objects and local history, or the Botanic Gardens for a deeper Wet Tropics ecology chapter. But this route should end here, beside the inlet, where tourism, transport, mangroves, mud, and maintenance are still negotiating.",
+        "Before you leave, take one last look back through the route in reverse: inlet, port, hotel corner, museum, courthouse, Esplanade, mudflat, lagoon. The guide has not been asking Cairns to be pretty, although it often is. It has been asking Cairns to be legible. That is the deeper pleasure of a good walk: the city has not changed, but your way of reading it has."
+      ],
+      "references": [
+        {
+          "title": "Ports North: Cairns Port Berths and Wharves",
+          "url": "https://www.portsnorth.com.au/cp/cairns-port-services-facilities/cairns-port-berths-wharves/"
+        },
+        {
+          "title": "Queensland Government: East Trinity remediation case study",
+          "url": "https://www.qld.gov.au/environment/land/management/soil/acid-sulfate/east-trinity"
+        },
+        {
+          "title": "Tropical North Queensland: Cairns",
+          "url": "https://tropicalnorthqueensland.org.au/"
+        }
+      ]
+    }
+  ]
+}
