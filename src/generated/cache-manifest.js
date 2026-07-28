@@ -15,6 +15,10 @@ self.GUIDE_CACHE_ASSETS = {
     "./guides/magnetic-island-forts/audio/track-11.mp3",
     "./guides/magnetic-island-forts/audio/track-12.mp3"
   ],
+  "cairns-moving-edge": [
+    "./guides/cairns-moving-edge/guide.json",
+    "./guides/cairns-moving-edge/assets/cairns-moving-edge-map.svg"
+  ],
   "sample": [
     "./guides/sample/guide.json"
   ]
