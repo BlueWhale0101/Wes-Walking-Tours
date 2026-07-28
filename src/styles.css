@@ -69,14 +69,15 @@ a {
 .app-root {
   width: min(1100px, 100%);
   margin: 0 auto;
-  padding: 16px;
+  padding: 10px;
 }
 
 .guide-hero {
-  display: grid;
-  gap: 16px;
+  display: flex;
+  gap: 10px 16px;
   align-items: end;
-  padding: 18px 0 16px;
+  justify-content: space-between;
+  padding: 6px 0 10px;
 }
 
 .eyebrow,
@@ -97,22 +98,14 @@ h2 {
 }
 
 h1 {
-  max-width: 12ch;
-  font-size: clamp(2rem, 11vw, 3.3rem);
+  font-size: clamp(1.55rem, 7vw, 3.3rem);
 }
 
-.guide-hero p {
+.guide-hero .guide-summary {
   max-width: 64ch;
-  margin: 10px 0 0;
+  margin: 5px 0 0;
   color: var(--muted);
-}
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: end;
-  margin-top: 16px;
+  font-size: 0.9rem;
 }
 
 .primary {
@@ -173,7 +166,7 @@ h1 {
 
 .field-layout {
   display: grid;
-  gap: 16px;
+  gap: 10px;
 }
 
 .map-panel,
@@ -188,7 +181,7 @@ h1 {
 .map-panel {
   position: relative;
   overflow: hidden;
-  margin-bottom: 12px;
+  margin: 0;
 }
 
 .route-map {
@@ -261,7 +254,7 @@ h1 {
 }
 
 .active-stop {
-  padding: 16px;
+  padding: 12px;
 }
 
 .stop-meta {
@@ -273,7 +266,13 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 14px 0 10px;
+  margin: 10px 0 8px;
+}
+
+.audio-controls button {
+  flex: 1 1 auto;
+  min-height: 42px;
+  padding: 8px 11px;
 }
 
 audio {
@@ -307,6 +306,18 @@ figcaption {
   font-size: 1.03rem;
 }
 
+.stop-details {
+  border-top: 1px solid var(--line);
+  margin-top: 14px;
+  padding-top: 10px;
+}
+
+.stop-details > summary,
+.stop-list-panel > summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
 .references {
   border-top: 1px solid var(--line);
   margin-top: 16px;
@@ -326,9 +337,68 @@ figcaption {
   padding: 18px;
 }
 
+.secondary-content {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.secondary-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.stop-list-panel > summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px;
+  list-style-position: inside;
+}
+
+.stop-list-panel > summary small {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.stop-list-panel[open] > summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.stop-list {
+  padding: 10px;
+}
+
+.offline-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px;
+}
+
+.offline-panel h2 {
+  font-size: 1.1rem;
+}
+
+.offline-panel p {
+  max-width: 60ch;
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 @media (min-width: 760px) {
+  .app-root {
+    padding: 16px;
+  }
+
   .guide-hero {
-    grid-template-columns: 1fr 340px;
+    padding: 14px 0 16px;
   }
 
   h1 {
@@ -336,12 +406,41 @@ figcaption {
   }
 
   .field-layout {
-    grid-template-columns: minmax(280px, 390px) 1fr;
+    grid-template-columns: minmax(340px, 0.9fr) minmax(380px, 1.1fr);
     align-items: start;
+    gap: 16px;
   }
 
   .active-stop {
     position: sticky;
     top: 68px;
+  }
+
+  .secondary-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .guide-facts {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 520px) {
+  .guide-hero .guide-summary {
+    display: none;
+  }
+
+  .guide-picker span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .guide-picker select {
+    min-width: 0;
+    max-width: 132px;
+    padding: 7px 8px;
   }
 }

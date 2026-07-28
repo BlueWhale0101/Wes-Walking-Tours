@@ -33,7 +33,6 @@ export const createGuideApp = ({
   const selectStop = (stopId) => {
     activeStopId = stopId;
     render();
-    root.querySelector("#active-stop")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   const renderGuidePicker = () => {
@@ -78,19 +77,25 @@ export const createGuideApp = ({
   };
 
   const renderStopList = () => `
-    <section class="stop-list" aria-label="Stops">
-      ${guide.stops
-        .map((stop, index) => `
-          <button class="stop-button${stop.id === activeStopId ? " active" : ""}" data-stop-id="${escapeHtml(stop.id)}">
-            <span class="stop-number">${index + 1}</span>
-            <span>
-              <strong>${escapeHtml(stop.title)}</strong>
-              <small>${escapeHtml(stopMeta(stop))}</small>
-            </span>
-          </button>
-        `)
-        .join("")}
-    </section>
+    <details class="stop-list-panel secondary-panel">
+      <summary>
+        <span>All stops</span>
+        <small>${guide.stops.length} stops</small>
+      </summary>
+      <div class="stop-list" aria-label="All stops">
+        ${guide.stops
+          .map((stop, index) => `
+            <button class="stop-button${stop.id === activeStopId ? " active" : ""}" data-stop-id="${escapeHtml(stop.id)}">
+              <span class="stop-number">${index + 1}</span>
+              <span>
+                <strong>${escapeHtml(stop.title)}</strong>
+                <small>${escapeHtml(stopMeta(stop))}</small>
+              </span>
+            </button>
+          `)
+          .join("")}
+      </div>
+    </details>
   `;
 
   const renderImages = (stop) => {
@@ -129,7 +134,7 @@ export const createGuideApp = ({
     const nextStop = guide.stops[stopIndex + 1];
     return `
       <article id="active-stop" class="active-stop">
-        <div class="stop-kicker">Stop ${stopIndex + 1} of ${guide.stops.length}</div>
+        <div class="stop-kicker">Stop ${stopIndex + 1}</div>
         <h2>${escapeHtml(stop.title)}</h2>
         <p class="stop-meta">${escapeHtml(stopMeta(stop))}</p>
         <div class="audio-controls">
@@ -140,13 +145,28 @@ export const createGuideApp = ({
         </div>
         ${stop.audio ? `<audio id="audio-player" controls preload="metadata" src="${assetPath(guide, stop.audio)}"></audio>` : ""}
         ${renderImages(stop)}
-        <div class="script">
-          ${(stop.script || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
-        </div>
-        ${renderReferences(stop)}
+        ${(stop.script?.length || stop.references?.length) ? `
+          <details class="stop-details">
+            <summary>Read script and details</summary>
+            <div class="script">
+              ${(stop.script || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+            </div>
+            ${renderReferences(stop)}
+          </details>
+        ` : ""}
       </article>
     `;
   };
+
+  const renderOfflinePanel = () => `
+    <section class="offline-panel secondary-panel" aria-labelledby="offline-heading">
+      <div>
+        <h2 id="offline-heading">Take this guide offline</h2>
+        <p>Download the complete guide, including its available map, images, and audio.</p>
+      </div>
+      <button id="download-guide" class="primary">Download Whole Guide</button>
+    </section>
+  `;
 
   const bindEvents = () => {
     root.querySelector("#download-guide")?.addEventListener("click", onDownloadGuide);
@@ -176,24 +196,22 @@ export const createGuideApp = ({
         <div>
           <p class="eyebrow">${escapeHtml(guide.region || "Walking guide")}</p>
           <h1>${escapeHtml(guide.title)}</h1>
-          <p>${escapeHtml(guide.summary || "")}</p>
-          <div class="hero-actions">
-            <button id="download-guide" class="primary">Download for Offline Use</button>
-            ${renderGuidePicker()}
-          </div>
+          ${guide.summary ? `<p class="guide-summary">${escapeHtml(guide.summary)}</p>` : ""}
         </div>
+        ${renderGuidePicker()}
+      </section>
+      <section class="field-layout">
+        ${renderMap()}
+        ${renderActiveStop()}
+      </section>
+      <section class="secondary-content" aria-label="More guide options">
+        ${renderStopList()}
+        ${renderOfflinePanel()}
         <dl class="guide-facts">
           <div><dt>Duration</dt><dd>${escapeHtml(guide.duration || "Flexible")}</dd></div>
           <div><dt>Distance</dt><dd>${escapeHtml(guide.distance || "Varies")}</dd></div>
           <div><dt>Stops</dt><dd>${guide.stops.length}</dd></div>
         </dl>
-      </section>
-      <section class="field-layout">
-        <div>
-          ${renderMap()}
-          ${renderStopList()}
-        </div>
-        ${renderActiveStop()}
       </section>
     `;
     bindEvents();
