@@ -1,6 +1,6 @@
 importScripts("./src/generated/cache-manifest.js");
 
-const CACHE_VERSION = "walking-tours-v1";
+const CACHE_VERSION = "walking-tours-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -10,6 +10,7 @@ const APP_SHELL = [
   "./src/modules/app.js",
   "./src/modules/audio.js",
   "./src/modules/guide-loader.js",
+  "./src/modules/map.js",
   "./src/modules/offline.js",
   "./guides/index.json"
 ];

@@ -1,5 +1,6 @@
 import { assetPath } from "./guide-loader.js";
 import { createAudioController } from "./audio.js";
+import { renderMap, updateMapSelection } from "./map.js";
 
 const escapeHtml = (value = "") =>
   String(value)
@@ -31,8 +32,16 @@ export const createGuideApp = ({
   const activeStop = () => guide.stops.find((stop) => stop.id === activeStopId) || guide.stops[0];
 
   const selectStop = (stopId) => {
+    if (stopId === activeStopId || !guide.stops.some((stop) => stop.id === stopId)) return;
+    audio.stop(root.querySelector("#audio-player"));
     activeStopId = stopId;
-    render();
+    updateMapSelection(root, activeStopId);
+    root.querySelectorAll(".stop-button").forEach((button) => {
+      button.classList.toggle("active", button.dataset.stopId === activeStopId);
+    });
+    const panel = root.querySelector("#active-stop");
+    if (panel) panel.innerHTML = renderActiveStopContent();
+    bindActiveStopEvents();
   };
 
   const renderGuidePicker = () => {
@@ -49,30 +58,6 @@ export const createGuideApp = ({
         <span>Guide</span>
         <select id="guide-picker">${options}</select>
       </label>
-    `;
-  };
-
-  const renderMap = () => {
-    if (!guide.map?.image) return "";
-    const markers = guide.stops
-      .filter((stop) => stop.map)
-      .map((stop, index) => `
-        <button
-          class="map-marker${stop.id === activeStopId ? " active" : ""}"
-          style="--x:${stop.map.x}%; --y:${stop.map.y}%"
-          data-stop-id="${escapeHtml(stop.id)}"
-          aria-label="Open stop ${index + 1}: ${escapeHtml(stop.title)}"
-        >
-          ${index + 1}
-        </button>
-      `)
-      .join("");
-
-    return `
-      <section class="map-panel" aria-label="Route map">
-        <img src="${assetPath(guide, guide.map.image)}" alt="${escapeHtml(guide.map.alt || "Route map")}" class="route-map">
-        ${markers}
-      </section>
     `;
   };
 
@@ -128,13 +113,12 @@ export const createGuideApp = ({
     `;
   };
 
-  const renderActiveStop = () => {
+  const renderActiveStopContent = () => {
     const stop = activeStop();
     const stopIndex = guide.stops.findIndex((item) => item.id === stop.id);
     const nextStop = guide.stops[stopIndex + 1];
     return `
-      <article id="active-stop" class="active-stop">
-        <div class="stop-kicker">Stop ${stopIndex + 1}</div>
+        <div class="stop-kicker">Selected stop ${stopIndex + 1}</div>
         <h2>${escapeHtml(stop.title)}</h2>
         <p class="stop-meta">${escapeHtml(stopMeta(stop))}</p>
         <div class="audio-controls">
@@ -154,9 +138,14 @@ export const createGuideApp = ({
             ${renderReferences(stop)}
           </details>
         ` : ""}
-      </article>
     `;
   };
+
+  const renderActiveStop = () => `
+    <article id="active-stop" class="active-stop" aria-live="polite">
+      ${renderActiveStopContent()}
+    </article>
+  `;
 
   const renderOfflinePanel = () => `
     <section class="offline-panel secondary-panel" aria-labelledby="offline-heading">
@@ -168,16 +157,7 @@ export const createGuideApp = ({
     </section>
   `;
 
-  const bindEvents = () => {
-    root.querySelector("#download-guide")?.addEventListener("click", onDownloadGuide);
-    root.querySelector("#guide-picker")?.addEventListener("change", (event) => {
-      window.location.href = `./?guide=${encodeURIComponent(event.target.value)}`;
-    });
-
-    root.querySelectorAll("[data-stop-id]").forEach((button) => {
-      button.addEventListener("click", () => selectStop(button.dataset.stopId));
-    });
-
+  const bindActiveStopEvents = () => {
     const stop = activeStop();
     const player = root.querySelector("#audio-player");
     root.querySelector("#play-stop")?.addEventListener("click", () => audio.play({ player, stop }));
@@ -188,6 +168,18 @@ export const createGuideApp = ({
       const next = guide.stops[index + 1];
       if (next) selectStop(next.id);
     });
+  };
+
+  const bindEvents = () => {
+    root.querySelector("#download-guide")?.addEventListener("click", onDownloadGuide);
+    root.querySelector("#guide-picker")?.addEventListener("change", (event) => {
+      window.location.href = `./?guide=${encodeURIComponent(event.target.value)}`;
+    });
+
+    root.querySelectorAll("[data-stop-id]").forEach((button) => {
+      button.addEventListener("click", () => selectStop(button.dataset.stopId));
+    });
+    bindActiveStopEvents();
   };
 
   const render = () => {
@@ -201,7 +193,7 @@ export const createGuideApp = ({
         ${renderGuidePicker()}
       </section>
       <section class="field-layout">
-        ${renderMap()}
+        ${renderMap({ guide, activeStopId })}
         ${renderActiveStop()}
       </section>
       <section class="secondary-content" aria-label="More guide options">
