@@ -1,0 +1,43 @@
+{
+  "id": "guide-id",
+  "title": "Guide Title",
+  "region": "Place or route",
+  "summary": "One short field-facing description of what this guide does.",
+  "duration": "2-3 hr",
+  "distance": "5 km",
+  "map": {
+    "image": "assets/map.jpg",
+    "alt": "Route map with numbered guide stops"
+  },
+  "stops": [
+    {
+      "id": "stop-id",
+      "title": "Stop Title",
+      "location": "Specific location or walk-and-listen segment",
+      "durationMinutes": 5,
+      "mode": "history lecture",
+      "map": {
+        "x": 50,
+        "y": 50
+      },
+      "audio": "audio/stop-01.mp3",
+      "script": [
+        "Paragraph one of the narration.",
+        "Paragraph two of the narration."
+      ],
+      "images": [
+        {
+          "src": "images/example.jpg",
+          "alt": "Describe the image for accessibility",
+          "caption": "Short field-useful caption."
+        }
+      ],
+      "references": [
+        {
+          "title": "Reference title",
+          "url": "https://example.com"
+        }
+      ]
+    }
+  ]
+}
