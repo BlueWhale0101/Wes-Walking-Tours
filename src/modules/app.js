@@ -123,15 +123,11 @@ export const createGuideApp = ({
         <div class="stop-kicker">Selected stop ${stopIndex + 1}</div>
         <h2>${escapeHtml(stop.title)}</h2>
         <p class="stop-meta">${escapeHtml(stopMeta(stop))}</p>
-        <div class="audio-controls">
+        <div class="stop-actions${nextStop ? "" : " stop-actions-single"}">
           <button id="play-stop" class="primary">Play</button>
+          ${nextStop ? `<button id="next-stop" class="secondary">Next Stop</button>` : ""}
         </div>
         ${stop.audio ? `<audio id="audio-player" controls preload="metadata" src="${assetPath(guide, stop.audio)}"></audio>` : ""}
-        ${nextStop ? `
-          <nav class="stop-navigation" aria-label="Stop navigation">
-            <button id="next-stop" class="secondary">Next Stop</button>
-          </nav>
-        ` : ""}
         ${renderImages(stop)}
         ${(stop.script?.length || stop.references?.length) ? `
           <details class="stop-details">

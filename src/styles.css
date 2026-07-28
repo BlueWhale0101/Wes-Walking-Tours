@@ -15,8 +15,15 @@
   box-sizing: border-box;
 }
 
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
+  width: 100%;
+  min-width: 0;
   min-height: 100vh;
   background: var(--bg);
   color: var(--ink);
@@ -180,6 +187,7 @@ h1 {
 
 .field-layout {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   width: 100%;
   min-width: 0;
   gap: 10px;
@@ -335,33 +343,27 @@ h1 {
   color: var(--muted);
 }
 
-.audio-controls {
-  display: flex;
-  flex-wrap: wrap;
+.stop-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
   gap: 8px;
   margin: 10px 0 8px;
 }
 
-.audio-controls button {
-  flex: 0 1 12rem;
+.stop-actions-single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.stop-actions button {
+  min-width: 0;
   min-height: 42px;
   padding: 8px 11px;
+  white-space: nowrap;
 }
 
 .active-stop audio {
   display: block;
   width: 100%;
-}
-
-.stop-navigation {
-  margin-top: 14px;
-  padding-top: 12px;
-  border-top: 1px solid var(--line);
-  text-align: right;
-}
-
-.stop-navigation button {
-  min-height: 42px;
 }
 
 audio {
@@ -500,7 +502,7 @@ figcaption {
   opacity: 0.68;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 960px) {
   .app-root {
     padding: 16px;
   }
