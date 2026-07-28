@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Draft Cairns moving edge walking route</title>
+  <desc id="desc">Schematic route from Cairns Lagoon along the Esplanade, into the heritage core, and finishing at Trinity Inlet.</desc>
+  <rect width="900" height="620" fill="#e8f2ef"/>
+  <path d="M640 10 C700 120 735 210 715 310 C696 406 747 480 876 610 L900 610 L900 0 Z" fill="#97c7d1"/>
+  <path d="M520 0 C552 106 584 198 618 276 C661 376 677 486 660 620 L900 620 L900 0 Z" fill="#c6a66b" opacity=".42"/>
+  <path d="M40 580 C180 485 300 410 438 330 C522 282 597 244 695 190" fill="none" stroke="#305c54" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 580 C180 485 300 410 438 330 C522 282 597 244 695 190" fill="none" stroke="#fff9e8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#234940" font-family="Arial, Helvetica, sans-serif">
+    <text x="42" y="50" font-size="34" font-weight="700">Cairns: The City Built on a Moving Edge</text>
+    <text x="45" y="87" font-size="18">Draft schematic map. Not for navigation.</text>
+    <text x="612" y="84" font-size="20" font-weight="700">Mudflats / Trinity Bay</text>
+    <text x="610" y="118" font-size="16">Tide-dependent edge</text>
+    <text x="490" y="578" font-size="20" font-weight="700">Trinity Inlet</text>
+    <text x="488" y="604" font-size="16">Port, reef fleet, mangroves</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">
+    <g>
+      <circle cx="150" cy="505" r="18" fill="#f7d56b" stroke="#234940" stroke-width="3"/>
+      <text x="145" y="511" fill="#234940">1</text>
+      <text x="176" y="510" fill="#234940">Lagoon</text>
+    </g>
+    <g>
+      <circle cx="220" cy="448" r="18" fill="#f7d56b" stroke="#234940" stroke-width="3"/>
+      <text x="215" y="454" fill="#234940">2</text>
+      <text x="246" y="452" fill="#234940">Mudflat</text>
+    </g>
+    <g>
+      <circle cx="303" cy="396" r="18" fill="#f7d56b" stroke="#234940" stroke-width="3"/>
+      <text x="298" y="402" fill="#234940">3</text>
+      <text x="329" y="401" fill="#234940">Esplanade Edge</text>
+    </g>
+    <g>
+      <circle cx="425" cy="322" r="18" fill="#f7d56b" stroke="#234940" stroke-width="3"/>
+      <text x="420" y="328" fill="#234940">4</text>
+      <text x="451" y="327" fill="#234940">Gallery Precinct</text>
+    </g>
+    <g>
+      <circle cx="354" cy="260" r="18" fill="#f7d56b" stroke="#234940" stroke-width="3"/>
+      <text x="349" y="266" fill="#234940">5</text>
+      <text x="380" y="265" fill="#234940">School of Arts</text>
+    </g>
+    <g>
+      <circle cx="300" cy="230" r="18" fill="#f7d56b" stroke="#234940" stroke-width="3"/>
+      <text x="295" y="236" fill="#234940">6</text>
+      <text x="138" y="234" fill="#234940">Telegraph / Hides</text>
+    </g>
+    <g>
+      <circle cx="505" cy="194" r="18" fill="#f7d56b" stroke="#234940" stroke-width="3"/>
+      <text x="500" y="200" fill="#234940">7</text>
+      <text x="531" y="199" fill="#234940">Port Story</text>
+    </g>
+    <g>
+      <circle cx="640" cy="118" r="18" fill="#f7d56b" stroke="#234940" stroke-width="3"/>
+      <text x="635" y="124" fill="#234940">8</text>
+      <text x="666" y="123" fill="#234940">Trinity Inlet</text>
+    </g>
+  </g>
+</svg>
