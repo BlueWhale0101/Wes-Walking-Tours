@@ -22,6 +22,12 @@ body {
   color: var(--ink);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.5;
+  overflow-x: hidden;
+}
+
+.app {
+  width: 100%;
+  min-width: 0;
 }
 
 button,
@@ -52,6 +58,7 @@ a {
   background: var(--accent);
   color: #fff8e9;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.14);
+  width: 100%;
 }
 
 .home-link {
@@ -67,17 +74,24 @@ a {
 }
 
 .app-root {
-  width: min(1100px, 100%);
+  width: 100%;
+  max-width: none;
   margin: 0 auto;
   padding: 10px;
 }
 
 .guide-hero {
   display: flex;
+  width: 100%;
+  min-width: 0;
   gap: 10px 16px;
   align-items: end;
   justify-content: space-between;
   padding: 6px 0 10px;
+}
+
+.guide-hero > div {
+  min-width: 0;
 }
 
 .eyebrow,
@@ -166,12 +180,16 @@ h1 {
 
 .field-layout {
   display: grid;
+  width: 100%;
+  min-width: 0;
   gap: 10px;
 }
 
 .map-panel,
 .active-stop,
 .empty-state {
+  width: 100%;
+  min-width: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -394,6 +412,8 @@ figcaption {
 
 .secondary-content {
   display: grid;
+  width: 100%;
+  min-width: 0;
   gap: 12px;
   margin-top: 18px;
   padding-top: 14px;
@@ -401,6 +421,8 @@ figcaption {
 }
 
 .secondary-panel {
+  width: 100%;
+  min-width: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -447,6 +469,21 @@ figcaption {
   font-size: 0.9rem;
 }
 
+.offline-copy {
+  min-width: 0;
+  flex: 1 1 280px;
+}
+
+.offline-panel .offline-state {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.offline-panel button:disabled {
+  cursor: default;
+  opacity: 0.68;
+}
+
 @media (min-width: 760px) {
   .app-root {
     padding: 16px;
@@ -461,7 +498,7 @@ figcaption {
   }
 
   .field-layout {
-    grid-template-columns: minmax(340px, 0.9fr) minmax(380px, 1.1fr);
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
     align-items: start;
     gap: 16px;
   }
@@ -477,6 +514,12 @@ figcaption {
 
   .guide-facts {
     grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 1180px) {
+  .app-root {
+    max-width: 1100px;
   }
 }
 

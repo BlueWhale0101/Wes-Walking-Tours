@@ -24,9 +24,11 @@ export const createGuideApp = ({
   guideIndex,
   selectedGuideId,
   onDownloadGuide,
-  setStatus
+  setStatus,
+  initialOfflineState = { state: "not-downloaded" }
 }) => {
   let activeStopId = guide.stops?.[0]?.id || null;
+  let offlineState = initialOfflineState;
   const audio = createAudioController({ setStatus });
 
   const activeStop = () => guide.stops.find((stop) => stop.id === activeStopId) || guide.stops[0];
@@ -147,15 +149,32 @@ export const createGuideApp = ({
     </article>
   `;
 
-  const renderOfflinePanel = () => `
+  const offlineContent = () => {
+    const missingCount = offlineState.missing?.length || 0;
+    const content = {
+      "not-downloaded": ["Not downloaded", "Save the complete guide—including its available map, images, and audio—for the walk.", "Download Guide"],
+      downloading: ["Downloading", "Saving the whole guide. Keep this page open until it finishes.", "Downloading..."],
+      ready: ["Ready offline", "The complete guide and all available media are saved on this device.", "Ready Offline"],
+      failed: ["Missing assets / failed download", missingCount ? `${missingCount} of ${offlineState.total || missingCount} guide assets could not be saved. You can retry when your connection improves.` : "The whole guide could not be saved. You can retry when your connection improves.", "Retry Download"],
+      unsupported: ["Offline unsupported", "This browser cannot save the guide for offline use. You can still use it while connected.", "Download Guide"]
+    }[offlineState.state] || [];
+    return { title: content[0], description: content[1], label: content[2] };
+  };
+
+  const renderOfflinePanel = () => {
+    const content = offlineContent();
+    const disabled = ["downloading", "ready", "unsupported"].includes(offlineState.state);
+    return `
     <section class="offline-panel secondary-panel" aria-labelledby="offline-heading">
-      <div>
+      <div class="offline-copy">
         <h2 id="offline-heading">Take this guide offline</h2>
-        <p>Download the complete guide, including its available map, images, and audio.</p>
+        <p class="offline-state" aria-live="polite">${escapeHtml(content.title)}</p>
+        <p>${escapeHtml(content.description)}</p>
       </div>
-      <button id="download-guide" class="primary">Download Whole Guide</button>
+      <button id="download-guide" class="primary"${disabled ? " disabled" : ""}>${escapeHtml(content.label)}</button>
     </section>
   `;
+  };
 
   const bindActiveStopEvents = () => {
     const stop = activeStop();
@@ -210,4 +229,12 @@ export const createGuideApp = ({
   };
 
   render();
+  return {
+    updateOfflineState(nextState) {
+      offlineState = nextState;
+      const panel = root.querySelector(".offline-panel");
+      if (panel) panel.outerHTML = renderOfflinePanel();
+      root.querySelector("#download-guide")?.addEventListener("click", onDownloadGuide);
+    }
+  };
 };

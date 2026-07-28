@@ -1,6 +1,6 @@
 import { createGuideApp } from "./modules/app.js";
 import { loadGuideIndex, loadGuide } from "./modules/guide-loader.js";
-import { registerServiceWorker, requestOfflineDownload } from "./modules/offline.js";
+import { getOfflineGuideStatus, registerServiceWorker, requestOfflineDownload } from "./modules/offline.js";
 
 const root = document.querySelector("#app-root");
 const status = document.querySelector("#offline-status");
@@ -28,17 +28,26 @@ const boot = async () => {
     const guide = await loadGuide(selectedGuideId);
     const sw = await registerServiceWorker(setStatus);
 
-    createGuideApp({
+    const initialOfflineState = await getOfflineGuideStatus(sw, guide);
+    let app;
+    const updateOfflineState = (nextState) => {
+      app?.updateOfflineState(nextState);
+      if (nextState.state === "downloading") setStatus("Downloading guide…");
+      if (nextState.state === "ready") setStatus("Guide ready offline");
+      if (nextState.state === "failed") setStatus("Offline download incomplete");
+    };
+    app = createGuideApp({
       root,
       guide,
       guideIndex,
       selectedGuideId,
-      onDownloadGuide: () => requestOfflineDownload(sw, guide, setStatus),
-      setStatus
+      onDownloadGuide: () => requestOfflineDownload(sw, guide, updateOfflineState),
+      setStatus,
+      initialOfflineState
     });
 
     document.title = `${guide.title} | Wes Walking Tours`;
-    setStatus(sw?.active ? "Ready" : "Ready online");
+    setStatus(initialOfflineState.state === "ready" ? "Guide ready offline" : navigator.onLine ? "Online" : "Offline");
   } catch (error) {
     console.error(error);
     root.innerHTML = `
