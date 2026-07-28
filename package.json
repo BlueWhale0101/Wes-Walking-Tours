@@ -1,0 +1,11 @@
+{
+  "name": "wes-walking-tours",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate-guide.mjs",
+    "build:cache": "node tools/build-cache-manifest.mjs",
+    "check": "npm run validate && npm run build:cache"
+  }
+}
