@@ -1,0 +1,39 @@
+{
+  "id": "sample",
+  "title": "Sample Field Guide",
+  "region": "Framework demo",
+  "summary": "A tiny placeholder guide that proves the app shell works before real route content is authored.",
+  "duration": "20-30 min",
+  "distance": "Flexible",
+  "map": null,
+  "stops": [
+    {
+      "id": "orientation",
+      "title": "Orientation",
+      "location": "Start point",
+      "durationMinutes": 2,
+      "mode": "field briefing",
+      "audio": null,
+      "script": [
+        "This placeholder stop exists so the framework has a runnable guide from the first commit.",
+        "Real guides should replace this with researched narration, inline images, local audio, and practical route notes."
+      ],
+      "images": [],
+      "references": []
+    },
+    {
+      "id": "deep-dive",
+      "title": "Deep Dive Placeholder",
+      "location": "Walk-and-listen segment",
+      "durationMinutes": 4,
+      "mode": "history lecture",
+      "audio": null,
+      "script": [
+        "Not every stop needs to be tied to a signpost. Use these segments when the walk has a natural ascent, transfer, or quiet stretch where a deeper lecture would improve the experience.",
+        "This is where geology, ecology, construction methods, military logistics, and human stories can breathe."
+      ],
+      "images": [],
+      "references": []
+    }
+  ]
+}
