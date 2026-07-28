@@ -1,6 +1,11 @@
 {
-  "defaultGuideId": "sample",
+  "defaultGuideId": "magnetic-island-forts",
   "guides": [
+    {
+      "id": "magnetic-island-forts",
+      "title": "Magnetic Island Forts Walk",
+      "status": "draft"
+    },
     {
       "id": "sample",
       "title": "Sample Field Guide",

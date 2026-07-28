@@ -13,15 +13,24 @@ const addAsset = (assets, guideId, asset) => {
   assets.add(`./guides/${guideId}/${asset}`);
 };
 
+const addExistingAsset = (assets, guideId, guideDir, asset) => {
+  if (!asset || isRemote(asset)) return;
+  if (fs.existsSync(path.join(guideDir, asset))) addAsset(assets, guideId, asset);
+};
+
 for (const entry of index.guides || []) {
   const guidePath = path.join(guidesDir, entry.id, "guide.json");
   const guide = JSON.parse(fs.readFileSync(guidePath, "utf8"));
+  const guideDir = path.join(guidesDir, entry.id);
+  const addGuideAsset = entry.status === "draft"
+    ? (assets, asset) => addExistingAsset(assets, entry.id, guideDir, asset)
+    : (assets, asset) => addAsset(assets, entry.id, asset);
   const assets = new Set([`./guides/${entry.id}/guide.json`]);
-  addAsset(assets, entry.id, guide.map?.image);
+  addGuideAsset(assets, guide.map?.image);
   for (const stop of guide.stops || []) {
-    addAsset(assets, entry.id, stop.audio);
+    addGuideAsset(assets, stop.audio);
     for (const image of stop.images || []) {
-      addAsset(assets, entry.id, image.src);
+      addGuideAsset(assets, image.src);
     }
   }
   manifest[entry.id] = [...assets];
