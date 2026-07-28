@@ -125,11 +125,13 @@ export const createGuideApp = ({
         <p class="stop-meta">${escapeHtml(stopMeta(stop))}</p>
         <div class="audio-controls">
           <button id="play-stop" class="primary">Play</button>
-          <button id="pause-stop" class="secondary">Pause</button>
-          <button id="stop-audio" class="secondary">Stop</button>
-          ${nextStop ? `<button id="next-stop" class="secondary">Next Stop</button>` : ""}
         </div>
         ${stop.audio ? `<audio id="audio-player" controls preload="metadata" src="${assetPath(guide, stop.audio)}"></audio>` : ""}
+        ${nextStop ? `
+          <nav class="stop-navigation" aria-label="Stop navigation">
+            <button id="next-stop" class="secondary">Next Stop</button>
+          </nav>
+        ` : ""}
         ${renderImages(stop)}
         ${(stop.script?.length || stop.references?.length) ? `
           <details class="stop-details">
@@ -180,8 +182,6 @@ export const createGuideApp = ({
     const stop = activeStop();
     const player = root.querySelector("#audio-player");
     root.querySelector("#play-stop")?.addEventListener("click", () => audio.play({ player, stop }));
-    root.querySelector("#pause-stop")?.addEventListener("click", () => audio.pause(player));
-    root.querySelector("#stop-audio")?.addEventListener("click", () => audio.stop(player));
     root.querySelector("#next-stop")?.addEventListener("click", () => {
       const index = guide.stops.findIndex((item) => item.id === activeStopId);
       const next = guide.stops[index + 1];

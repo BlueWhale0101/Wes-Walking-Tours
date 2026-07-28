@@ -74,9 +74,18 @@ guides/my-guide-id/
 npm run check
 ```
 
-The check validates required fields, confirms local assets exist, and rebuilds `src/generated/cache-manifest.js` so the offline download knows which files belong to each guide.
+The check validates required fields, applies the guide's status rules, and rebuilds `src/generated/cache-manifest.js` so the offline download knows which files belong to each guide.
 
-Draft guides may reference planned audio filenames before the MP3s exist. Keep the guide entry status as `"draft"` while audio is missing, then add the files and rerun `npm run check` before treating the guide as ready for field use.
+## Draft And Ready Status
+
+The `status` in `guides/index.json` is a publishing promise, not just a progress label:
+
+- `"draft"` means the guide is still being assembled. Its required text and stop structure are validated, but local asset references may point to planned files that do not exist yet. The validator reports those references as draft warnings.
+- `"ready"` means the guide is complete for field use. Required metadata, a referenced map with alt text, every stop's required fields and audio reference, and every referenced local asset must be present. A missing referenced map, audio file, or image is an error.
+
+Images are optional in both states. Omit `images` (or use an empty array) when a stop does not need one; this is not a validation failure. When an image is supplied, it needs `src` and `alt`, and its local file must exist before the guide can be `"ready"`.
+
+Each stop in a ready audio guide must name its audio file, and that file must exist. Keep the guide as `"draft"` while a planned MP3 or map asset is missing. Change it to `"ready"` only after `npm run check` passes with all expected field assets in place.
 
 ## 1. Define The Field Job
 
@@ -147,7 +156,7 @@ guides/my-guide/
   images/reference-01.jpg
 ```
 
-Prefer local images over remote links for field use. Remote reference links are for later reading.
+Images are optional. When they add field value, prefer local images over remote links and give each one useful alt text. Remote reference links are for later reading.
 
 ## 6. Validate And Cache
 
@@ -158,3 +167,21 @@ npm run check
 ```
 
 This validates required guide fields, checks local assets exist, and writes the offline cache manifest.
+
+## Guide Authoring Checklist
+
+Before leaving a guide as `"draft"`:
+
+- [ ] Add guide metadata: `id`, `title`, `region`, `summary`, `duration`, and `distance`.
+- [ ] Give every stop an `id`, `title`, `location`, positive `durationMinutes`, `mode`, and non-empty script paragraphs.
+- [ ] Add map coordinates where known and reference planned map/audio filenames so missing draft assets are visible as warnings.
+- [ ] Add images only where they help; every supplied image needs `src` and meaningful `alt` text.
+
+Before changing a guide to `"ready"`:
+
+- [ ] Add `map.image` and `map.alt`, and confirm the referenced local map asset exists.
+- [ ] Add map coordinates and an audio reference to every stop.
+- [ ] Confirm every referenced audio file exists and plays.
+- [ ] Confirm every referenced optional image exists; do not add placeholder image entries just to satisfy validation.
+- [ ] Run `npm run check` and resolve all required-data and referenced-asset errors.
+- [ ] Test stop selection, Play, native pause/scrubbing, and Next Stop navigation in the field layout.

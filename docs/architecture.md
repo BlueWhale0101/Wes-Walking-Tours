@@ -25,7 +25,8 @@ This repo is intentionally static and modular.
 - Guide content belongs in `guides/{id}/guide.json`.
 - Guide-specific assets stay inside that guide folder.
 - Scripts should be authored as paragraphs, not one giant string.
-- Reference links are optional field extras; important images should be local and inline.
+- Reference links and inline images are optional field extras. Any image that is referenced by a ready guide must exist.
+- Draft guides may retain planned local asset references; ready guides require their map, per-stop audio, and all other referenced local assets to exist.
 - Offline use requires local assets and an updated cache manifest.
 
 ## Offline Model

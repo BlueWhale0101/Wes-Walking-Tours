@@ -343,9 +343,25 @@ h1 {
 }
 
 .audio-controls button {
-  flex: 1 1 auto;
+  flex: 0 1 12rem;
   min-height: 42px;
   padding: 8px 11px;
+}
+
+.active-stop audio {
+  display: block;
+  width: 100%;
+}
+
+.stop-navigation {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  text-align: right;
+}
+
+.stop-navigation button {
+  min-height: 42px;
 }
 
 audio {
