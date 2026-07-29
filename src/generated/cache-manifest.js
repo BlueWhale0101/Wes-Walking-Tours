@@ -17,7 +17,15 @@ self.GUIDE_CACHE_ASSETS = {
   ],
   "cairns-moving-edge": [
     "./guides/cairns-moving-edge/guide.json",
-    "./guides/cairns-moving-edge/assets/cairns-moving-edge-map.svg"
+    "./guides/cairns-moving-edge/assets/cairns-moving-edge-map.svg",
+    "./guides/cairns-moving-edge/audio/track-01.mp3",
+    "./guides/cairns-moving-edge/audio/track-02.mp3",
+    "./guides/cairns-moving-edge/audio/track-03.mp3",
+    "./guides/cairns-moving-edge/audio/track-04.mp3",
+    "./guides/cairns-moving-edge/audio/track-05.mp3",
+    "./guides/cairns-moving-edge/audio/track-06.mp3",
+    "./guides/cairns-moving-edge/audio/track-07.mp3",
+    "./guides/cairns-moving-edge/audio/track-08.mp3"
   ],
   "sample": [
     "./guides/sample/guide.json"
