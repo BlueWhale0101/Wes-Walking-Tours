@@ -282,7 +282,7 @@ h1 {
 }
 
 .map-marker.active .map-marker-label {
-  opacity: 1;
+  opacity: 0;
 }
 
 .map-marker:focus-visible {
