@@ -387,9 +387,17 @@ figure img {
 }
 
 figcaption {
+  display: grid;
+  gap: 2px;
   margin-top: 5px;
   color: var(--muted);
   font-size: 0.86rem;
+}
+
+.image-credit {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
 }
 
 .script p {
@@ -411,7 +419,7 @@ figcaption {
 
 .references {
   border-top: 1px solid var(--line);
-  margin-top: 16px;
+  margin-top: 14px;
   padding-top: 12px;
 }
 
