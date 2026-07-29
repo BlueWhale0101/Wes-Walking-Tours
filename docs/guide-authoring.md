@@ -45,7 +45,9 @@ guides/my-guide-id/
         {
           "src": "images/reference-01.jpg",
           "alt": "Reference image description",
-          "caption": "Short field-useful caption."
+          "caption": "Short field-useful caption.",
+          "credit": "Photographer / license",
+          "sourceUrl": "https://example.com/image-source-page"
         }
       ]
     }
@@ -83,7 +85,7 @@ The `status` in `guides/index.json` is a publishing promise, not just a progress
 - `"draft"` means the guide is still being assembled. Its required text and stop structure are validated, but local asset references may point to planned files that do not exist yet. The validator reports those references as draft warnings.
 - `"ready"` means the guide is complete for field use. Required metadata, a referenced map with alt text, every stop's required fields and audio reference, and every referenced local asset must be present. A missing referenced map, audio file, or image is an error.
 
-Images are optional in both states. Omit `images` (or use an empty array) when a stop does not need one; this is not a validation failure. When an image is supplied, it needs `src` and `alt`, and its local file must exist before the guide can be `"ready"`.
+Images are optional in both states. Omit `images` (or use an empty array) when a stop does not need one; this is not a validation failure. When an image is supplied, it needs `src` and `alt`. Local image files must exist before the guide can be `"ready"`; remote image URLs are allowed but will not be bundled for offline use. Use `caption` for field-useful context, and add `credit` plus `sourceUrl` when the image needs attribution.
 
 Each stop in a ready audio guide must name its audio file, and that file must exist. Keep the guide as `"draft"` while a planned MP3 or map asset is missing. Change it to `"ready"` only after `npm run check` passes with all expected field assets in place.
 
