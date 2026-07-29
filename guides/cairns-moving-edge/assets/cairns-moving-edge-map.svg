@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
   <title id="title">Cairns Moving Edge walking route map</title>
-  <desc id="desc">Walking route map from the Cairns Esplanade Lagoon to Trinity Inlet, showing the Esplanade, Abbott Street, Shields Street, Lake Street, Wharf Street, and the numbered guide stops.</desc>
+  <desc id="desc">Walking route map from the Cairns Esplanade Lagoon to Trinity Inlet, showing the Esplanade, Abbott Street, Lake Street, Florence Street, Aplin Street, Shields Street, Spence Street, Wharf Street, Pier Point Road, and the numbered guide stops.</desc>
   <defs>
     <style>
       .label{font-family:Arial,Helvetica,sans-serif;fill:#253f38}
@@ -8,12 +8,14 @@
       .note{font-size:16px;fill:#55675f}
       .street{font-size:20px;font-weight:800;fill:#4e5f57;letter-spacing:.2px}
       .minor-street{font-size:16px;font-weight:700;fill:#708078}
+      .side-street{font-size:14px;font-weight:700;fill:#7a887f}
       .place{font-size:19px;font-weight:800;fill:#24483d}
       .water-label{font-size:25px;font-weight:800;fill:#2d6871}
       .callout{font-size:17px;font-weight:800;fill:#24483d}
       .tiny{font-size:13px;fill:#55675f}
       .stop-hint{font-size:15px;font-weight:800;fill:#24483d}
       .turn-hint{font-size:14px;font-weight:800;fill:#8d552d}
+      .route-label{font-size:13px;font-weight:800;fill:#8d552d}
     </style>
     <pattern id="mudHatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
       <line x1="0" y1="0" x2="0" y2="12" stroke="#a67d3f" stroke-width="3" opacity=".28"/>
@@ -42,6 +44,32 @@
 
   <!-- Named Cairns street grid. Big labels are deliberately readable on phone screens. -->
   <g stroke-linecap="round">
+    <g stroke="#d5cdb8" stroke-width="9" opacity=".9">
+      <path d="M52 650 L548 154"/>
+      <path d="M111 724 L622 213"/>
+      <path d="M180 781 L695 266"/>
+      <path d="M258 824 L770 315"/>
+      <path d="M342 836 L840 360"/>
+      <path d="M20 658 L498 876"/>
+      <path d="M88 589 L586 816"/>
+      <path d="M165 522 L676 756"/>
+      <path d="M247 459 L756 692"/>
+      <path d="M330 396 L820 620"/>
+      <path d="M426 337 L882 545"/>
+    </g>
+    <g stroke="#f7f0df" stroke-width="4" opacity=".95">
+      <path d="M52 650 L548 154"/>
+      <path d="M111 724 L622 213"/>
+      <path d="M180 781 L695 266"/>
+      <path d="M258 824 L770 315"/>
+      <path d="M342 836 L840 360"/>
+      <path d="M20 658 L498 876"/>
+      <path d="M88 589 L586 816"/>
+      <path d="M165 522 L676 756"/>
+      <path d="M247 459 L756 692"/>
+      <path d="M330 396 L820 620"/>
+      <path d="M426 337 L882 545"/>
+    </g>
     <g stroke="#c9bea6" stroke-width="14">
       <path d="M82 702 L595 190"/>
       <path d="M145 750 L660 235"/>
@@ -66,6 +94,20 @@
     </g>
   </g>
 
+  <!-- Subtle intersection beads make the grid read as walkable streets, not abstract diagonals. -->
+  <g fill="#efe6d3" stroke="#c5b99f" stroke-width="2" opacity=".88">
+    <circle cx="207" cy="489" r="6"/>
+    <circle cx="289" cy="425" r="6"/>
+    <circle cx="374" cy="362" r="6"/>
+    <circle cx="276" cy="605" r="6"/>
+    <circle cx="396" cy="521" r="6"/>
+    <circle cx="468" cy="353" r="6"/>
+    <circle cx="396" cy="311" r="6"/>
+    <circle cx="672" cy="260" r="6"/>
+    <circle cx="734" cy="397" r="6"/>
+    <circle cx="805" cy="332" r="6"/>
+  </g>
+
   <!-- Important walking corridors. -->
   <g fill="none" stroke-linecap="round">
     <path d="M91 735 C187 670 292 606 397 545 C506 481 596 421 716 344" stroke="#fff7d7" stroke-width="18"/>
@@ -73,6 +115,9 @@
     <path d="M145 750 L660 235" stroke="#efe2c1" stroke-width="12"/>
     <path d="M207 489 L704 716" stroke="#efe2c1" stroke-width="12"/>
     <path d="M289 425 L784 652" stroke="#efe2c1" stroke-width="12"/>
+    <path d="M676 256 C718 264 760 258 793 233 C828 207 846 180 852 160" stroke="#fff7d7" stroke-width="14"/>
+    <path d="M738 398 C788 349 824 302 858 238" stroke="#efe2c1" stroke-width="10"/>
+    <path d="M588 418 C626 390 668 366 716 344" stroke="#efe2c1" stroke-width="10"/>
   </g>
 
   <!-- Route overlay, redrawn to pass through every numbered stop in order. -->
@@ -95,6 +140,15 @@
     <text x="592" y="321" class="turn-hint">Continue to Spence St pier</text>
   </g>
 
+  <!-- Leader lines keep offset labels visually tied to their exact street/path segment. -->
+  <g fill="none" stroke="#8d552d" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 6" opacity=".82">
+    <path d="M590 403 L576 412"/>
+    <path d="M486 373 L468 353"/>
+    <path d="M320 309 L396 311"/>
+    <path d="M690 252 L672 260"/>
+    <path d="M870 170 L852 160"/>
+  </g>
+
   <!-- Locator dots sit directly under the app's interactive marker buttons. -->
   <g fill="#f6d66e" stroke="#24483d" stroke-width="4">
     <circle cx="204" cy="697" r="18"/>
@@ -113,13 +167,26 @@
     <text x="43" y="76" class="note">Follow the Esplanade, detour inland at Shields/Lake, then return toward the reef terminal.</text>
 
     <text x="354" y="602" class="street" transform="rotate(-32 354 602)">Cairns Esplanade</text>
+    <text x="120" y="708" class="side-street" transform="rotate(-33 120 708)">Lagoon / foreshore path</text>
     <text x="236" y="455" class="street" transform="rotate(-45 236 455)">Abbott St</text>
     <text x="292" y="676" class="street" transform="rotate(-45 292 676)">Lake St</text>
+    <text x="348" y="782" class="side-street" transform="rotate(-45 348 782)">Grafton St</text>
+    <text x="426" y="814" class="side-street" transform="rotate(-45 426 814)">Sheridan St</text>
     <text x="492" y="720" class="street" transform="rotate(25 492 720)">Aplin St</text>
     <text x="532" y="648" class="street" transform="rotate(25 532 648)">Shields St</text>
     <text x="608" y="587" class="street" transform="rotate(25 608 587)">Spence St</text>
     <text x="705" y="474" class="street" transform="rotate(25 705 474)">Wharf St</text>
+    <text x="168" y="560" class="side-street" transform="rotate(25 168 560)">Florence St</text>
+    <text x="232" y="504" class="side-street" transform="rotate(25 232 504)">Aplin St</text>
+    <text x="344" y="442" class="side-street" transform="rotate(25 344 442)">Shields St</text>
+    <text x="438" y="388" class="side-street" transform="rotate(25 438 388)">Spence St</text>
     <text x="756" y="305" class="minor-street" transform="rotate(-38 756 305)">Pier Point Rd</text>
+    <text x="783" y="238" class="side-street" transform="rotate(-48 783 238)">Reef terminal path</text>
+
+    <text x="216" y="578" class="route-label">stay on waterfront</text>
+    <text x="542" y="385" class="route-label">turn inland</text>
+    <text x="430" y="326" class="route-label">heritage stops on Shields</text>
+    <text x="690" y="288" class="route-label">toward Wharf / terminal</text>
 
     <text x="76" y="672" class="place">Start: Lagoon</text>
     <text x="314" y="492" class="place">Esplanade path</text>
