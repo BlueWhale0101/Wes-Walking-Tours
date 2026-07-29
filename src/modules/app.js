@@ -93,7 +93,16 @@ export const createGuideApp = ({
           .map((image) => `
             <figure>
               <img src="${assetPath(guide, image.src)}" alt="${escapeHtml(image.alt || "")}" loading="lazy">
-              ${image.caption ? `<figcaption>${escapeHtml(image.caption)}</figcaption>` : ""}
+              ${(image.caption || image.credit || image.sourceUrl) ? `
+                <figcaption>
+                  ${image.caption ? `<span>${escapeHtml(image.caption)}</span>` : ""}
+                  ${image.sourceUrl ? `
+                    <a class="image-credit" href="${escapeHtml(image.sourceUrl)}">
+                      ${escapeHtml(image.credit || "Image source")}
+                    </a>
+                  ` : image.credit ? `<span class="image-credit">${escapeHtml(image.credit)}</span>` : ""}
+                </figcaption>
+              ` : ""}
             </figure>
           `)
           .join("")}
@@ -104,8 +113,8 @@ export const createGuideApp = ({
   const renderReferences = (stop) => {
     if (!stop.references?.length) return "";
     return `
-      <details class="references">
-        <summary>References for later</summary>
+      <details class="references stop-sources">
+        <summary>Sources for later</summary>
         <ul>
           ${stop.references
             .map((ref) => `<li><a href="${escapeHtml(ref.url)}">${escapeHtml(ref.title)}</a></li>`)
@@ -129,15 +138,15 @@ export const createGuideApp = ({
         </div>
         ${stop.audio ? `<audio id="audio-player" controls preload="metadata" src="${assetPath(guide, stop.audio)}"></audio>` : ""}
         ${renderImages(stop)}
-        ${(stop.script?.length || stop.references?.length) ? `
+        ${stop.script?.length ? `
           <details class="stop-details">
-            <summary>Read script and details</summary>
+            <summary>Read script</summary>
             <div class="script">
               ${(stop.script || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
             </div>
-            ${renderReferences(stop)}
           </details>
         ` : ""}
+        ${renderReferences(stop)}
     `;
   };
 
