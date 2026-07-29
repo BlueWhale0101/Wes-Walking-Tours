@@ -131,6 +131,8 @@ Save references in each stop, but put field-critical facts directly in the scrip
 
 Scripts are the product.
 
+Use `docs/script-production.md` before writing full stop scripts. Each stop should start with a diagnostic that identifies the visible anchor, core system, central pressure, human evidence, evidence inventory, and biggest weakness risk.
+
 - Write for listening, not reading.
 - Use concrete numbers, names, dates, materials, distances, and constraints.
 - Tell the listener what to look at now.
