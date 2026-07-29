@@ -20,6 +20,11 @@
         "x": 50,
         "y": 50
       },
+      "navigation": {
+        "lat": -16.92002,
+        "lon": 145.7783975,
+        "label": "Specific stop name or field destination"
+      },
       "audio": "audio/stop-01.mp3",
       "script": [
         "Paragraph one of the narration.",

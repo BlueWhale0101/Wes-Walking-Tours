@@ -25,6 +25,11 @@
         "x": 17,
         "y": 83
       },
+      "navigation": {
+        "lat": -16.92002,
+        "lon": 145.7783975,
+        "label": "Cairns Esplanade Lagoon"
+      },
       "audio": "audio/track-01.mp3",
       "script": [
         "Start at the Cairns Lagoon and stand where you can see both the swimming water and the actual sea edge beyond it. Before we get historical, let the place mislead you for a moment. Palms, swimmers, hotel balconies, warm air, reef boats, and that bright tropical expectation all say beach city. But look past the lagoon. Cairns is not giving you a sandy swimming beach. It is giving you tide, mud, mangrove influence, shallow water, shorebirds, and a foreshore that changes character with the hour.",
@@ -69,6 +74,11 @@
         "x": 23,
         "y": 72
       },
+      "navigation": {
+        "lat": -16.9187,
+        "lon": 145.7786,
+        "label": "Cairns Esplanade mudflat viewpoint"
+      },
       "audio": "audio/track-02.mp3",
       "script": [
         "Find a clear view over the mudflats and stop for a minute. If the tide is low, the sea may look as if it has failed to turn up. That is the wrong reading. The exposed mud is not empty foreground. It is a feeding surface, a chemical processor, a sediment record, and one of the reasons this waterfront refuses to become a simple beach.",
@@ -109,6 +119,11 @@
       "map": {
         "x": 33,
         "y": 62
+      },
+      "navigation": {
+        "lat": -16.9174,
+        "lon": 145.7802,
+        "label": "Central Cairns Esplanade path"
       },
       "audio": "audio/track-03.mp3",
       "script": [
@@ -151,6 +166,11 @@
       "map": {
         "x": 48,
         "y": 49
+      },
+      "navigation": {
+        "lat": -16.9212,
+        "lon": 145.7782,
+        "label": "Cairns Court House Gallery precinct"
       },
       "audio": "audio/track-04.mp3",
       "script": [
@@ -201,6 +221,11 @@
         "x": 39,
         "y": 42
       },
+      "navigation": {
+        "lat": -16.9225,
+        "lon": 145.7755,
+        "label": "Cairns Museum / School of Arts"
+      },
       "audio": "audio/track-05.mp3",
       "script": [
         "Stop outside the Cairns Museum, in the former School of Arts building. Stand where you can see the street frontages, then look low as well as high. The name can mislead modern ears. This was not simply a place for painting. In many Australian towns, a School of Arts was an adult education centre, library, lecture hall, meeting room, and self-improvement engine.",
@@ -245,6 +270,11 @@
       "map": {
         "x": 33,
         "y": 37
+      },
+      "navigation": {
+        "lat": -16.9231,
+        "lon": 145.7757,
+        "label": "Hides Hotel, Lake and Shields Streets"
       },
       "audio": "audio/track-06.mp3",
       "script": [
@@ -291,6 +321,11 @@
         "x": 56,
         "y": 31
       },
+      "navigation": {
+        "lat": -16.9208,
+        "lon": 145.7799,
+        "label": "Reef Fleet Terminal approach"
+      },
       "audio": "audio/track-07.mp3",
       "script": [
         "As you walk toward Trinity Inlet, imagine Cairns as a candidate in a contest. You can listen while moving; pause near the Reef Fleet area or any safe waterfront viewpoint before the final paragraphs. It was not inevitable that this city would become the northern gateway many visitors know today. Several coastal settlements wanted to be the useful port. Geography, politics, mineral discoveries, and transport decisions picked winners and losers.",
@@ -331,6 +366,11 @@
       "map": {
         "x": 71,
         "y": 19
+      },
+      "navigation": {
+        "lat": -16.9217,
+        "lon": 145.7818,
+        "label": "Trinity Inlet waterfront"
       },
       "audio": "audio/track-08.mp3",
       "script": [

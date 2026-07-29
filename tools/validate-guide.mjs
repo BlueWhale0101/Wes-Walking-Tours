@@ -85,6 +85,15 @@ for (const entry of guideIndex.guides || []) {
       requireData(Number.isFinite(stop.map.x) && stop.map.x >= 0 && stop.map.x <= 100, `${prefix} map.x must be 0-100.`);
       requireData(Number.isFinite(stop.map.y) && stop.map.y >= 0 && stop.map.y <= 100, `${prefix} map.y must be 0-100.`);
     }
+
+    if (stop.navigation !== undefined) {
+      requireData(stop.navigation && typeof stop.navigation === "object" && !Array.isArray(stop.navigation), `${prefix} navigation must be an object when supplied.`);
+      requireData(Number.isFinite(stop.navigation?.lat) && stop.navigation.lat >= -90 && stop.navigation.lat <= 90, `${prefix} navigation.lat must be a number from -90 to 90.`);
+      requireData(Number.isFinite(stop.navigation?.lon) && stop.navigation.lon >= -180 && stop.navigation.lon <= 180, `${prefix} navigation.lon must be a number from -180 to 180.`);
+      if (stop.navigation?.label !== undefined) {
+        requireData(hasText(stop.navigation.label), `${prefix} navigation.label must be non-empty when supplied.`);
+      }
+    }
   }
 }
 

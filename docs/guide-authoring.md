@@ -41,6 +41,11 @@ guides/my-guide-id/
   "stops": [
     {
       "audio": "audio/stop-01.mp3",
+      "navigation": {
+        "lat": -16.92002,
+        "lon": 145.7783975,
+        "label": "Specific stop name or field destination"
+      },
       "images": [
         {
           "src": "images/reference-01.jpg",
@@ -88,6 +93,22 @@ The `status` in `guides/index.json` is a publishing promise, not just a progress
 Images are optional in both states. Omit `images` (or use an empty array) when a stop does not need one; this is not a validation failure. When an image is supplied, it needs `src` and `alt`. Local image files must exist before the guide can be `"ready"`; remote image URLs are allowed but will not be bundled for offline use. Use `caption` for field-useful context, and add `credit` plus `sourceUrl` when the image needs attribution.
 
 Each stop in a ready audio guide must name its audio file, and that file must exist. Keep the guide as `"draft"` while a planned MP3 or map asset is missing. Change it to `"ready"` only after `npm run check` passes with all expected field assets in place.
+
+## Navigation Coordinates
+
+Use `map.x` and `map.y` for placing a stop marker on the guide diagram. Use `navigation.lat` and `navigation.lon` for phone directions.
+
+When navigation data is present, the app shows a `Navigate here` button for the selected stop. The button opens Google Maps walking directions with the destination preloaded. Coordinates should point to a practical public standing point: a footpath, lookout, entry, corner, or other safe place the listener can actually reach. For broad walk-and-listen segments, choose the best next decision point or stopping point rather than the geographic centre of the topic.
+
+```json
+{
+  "navigation": {
+    "lat": -16.92002,
+    "lon": 145.7783975,
+    "label": "Cairns Esplanade Lagoon"
+  }
+}
+```
 
 ## 1. Define The Field Job
 
@@ -179,12 +200,14 @@ Before leaving a guide as `"draft"`:
 - [ ] Add guide metadata: `id`, `title`, `region`, `summary`, `duration`, and `distance`.
 - [ ] Give every stop an `id`, `title`, `location`, positive `durationMinutes`, `mode`, and non-empty script paragraphs.
 - [ ] Add map coordinates where known and reference planned map/audio filenames so missing draft assets are visible as warnings.
+- [ ] Add navigation coordinates where the listener should be routed by phone maps.
 - [ ] Add images only where they help; every supplied image needs `src` and meaningful `alt` text.
 
 Before changing a guide to `"ready"`:
 
 - [ ] Add `map.image` and `map.alt`, and confirm the referenced local map asset exists.
 - [ ] Add map coordinates and an audio reference to every stop.
+- [ ] Add navigation coordinates to every stop where turn-by-turn directions should be available.
 - [ ] Confirm every referenced audio file exists and plays.
 - [ ] Confirm every referenced optional image exists; do not add placeholder image entries just to satisfy validation.
 - [ ] Run `npm run check` and resolve all required-data and referenced-asset errors.
