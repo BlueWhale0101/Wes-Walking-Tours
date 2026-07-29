@@ -18,6 +18,19 @@ const formatMinutes = (minutes) => {
 const stopMeta = (stop) =>
   [stop.location, formatMinutes(stop.durationMinutes), stop.mode].filter(Boolean).join(" · ");
 
+const hasNavigation = (stop) =>
+  Number.isFinite(stop.navigation?.lat) && Number.isFinite(stop.navigation?.lon);
+
+const navigationUrl = (stop) => {
+  const { lat, lon } = stop.navigation;
+  const params = new URLSearchParams({
+    api: "1",
+    destination: `${lat},${lon}`,
+    travelmode: "walking"
+  });
+  return `https://www.google.com/maps/dir/?${params.toString()}`;
+};
+
 export const createGuideApp = ({
   root,
   guide,
@@ -128,6 +141,7 @@ export const createGuideApp = ({
     const stop = activeStop();
     const stopIndex = guide.stops.findIndex((item) => item.id === stop.id);
     const nextStop = guide.stops[stopIndex + 1];
+    const canNavigate = hasNavigation(stop);
     return `
         <div class="stop-kicker">Selected stop ${stopIndex + 1}</div>
         <h2>${escapeHtml(stop.title)}</h2>
@@ -136,6 +150,17 @@ export const createGuideApp = ({
           <button id="play-stop" class="primary">Play</button>
           ${nextStop ? `<button id="next-stop" class="secondary">Next Stop</button>` : ""}
         </div>
+        ${canNavigate ? `
+          <a
+            class="navigation-button"
+            href="${escapeHtml(navigationUrl(stop))}"
+            target="_blank"
+            rel="noopener"
+            aria-label="Open walking directions to stop ${stopIndex + 1}: ${escapeHtml(stop.title)}"
+          >
+            Navigate here
+          </a>
+        ` : ""}
         ${stop.audio ? `<audio id="audio-player" controls preload="metadata" src="${assetPath(guide, stop.audio)}"></audio>` : ""}
         ${renderImages(stop)}
         ${stop.script?.length ? `
