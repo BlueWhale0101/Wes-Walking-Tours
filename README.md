@@ -18,4 +18,4 @@ npm run check
 
 6. Commit and publish with GitHub Pages.
 
-See `docs/guide-authoring.md` for the repeatable guide process.
+See `docs/guide-authoring.md` for the repeatable guide process and `docs/script-production.md` for the location-generic stop-script style guide.
