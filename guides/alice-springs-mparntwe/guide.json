@@ -1,0 +1,117 @@
+{
+  "id": "alice-springs-mparntwe",
+  "title": "Alice Springs / Mparntwe: A Town Inside Country",
+  "region": "Alice Springs / Mparntwe, Northern Territory",
+  "summary": "An incomplete draft field-audio guide through Alice Springs' town centre, using visible evidence to read Arrernte country, heat, water, remote medicine, government, rail logistics, river risk, and memorial landscape.",
+  "duration": "Draft: 20-25 min scripted so far; proposed full route 85-110 min",
+  "distance": "Draft: about 350 m scripted so far; proposed full route about 3.0-3.8 km",
+  "map": {
+    "image": "",
+    "alt": "Draft Alice Springs / Mparntwe route map not yet produced"
+  },
+  "fieldNotes": [
+    "This guide is intentionally incomplete. Stops 1 and 2 have draft scripts; the remaining proposed stops are captured in stop-list-draft.md and the research packets.",
+    "Designed for adult visitors walking from the town centre. Heat, smoke, Todd River flooding, museum hours, road works, and town-centre safety conditions can change field use.",
+    "The Telegraph Station is deliberately excluded from the core draft route because it adds a long exposed transfer. It may become a separate future guide."
+  ],
+  "stops": [
+    {
+      "id": "mparntwe-field-briefing",
+      "title": "Field Briefing: A Town Inside Country",
+      "location": "Todd Mall near Parsons Street, under the Yeperenye Moth Shade Structures",
+      "durationMinutes": 8,
+      "mode": "field briefing",
+      "map": {
+        "x": 50,
+        "y": 50
+      },
+      "navigation": {
+        "lat": -23.7006,
+        "lon": 133.8824,
+        "label": "Yeperenye Moth Shade Structures, Todd Mall"
+      },
+      "script": [
+        "Stand in Todd Mall near Parsons Street, under the Yeperenye Moth Shade Structures. Look up at the laser-cut steel panels and the line of shade running toward the Todd River. Alice Springs Town Council says these structures were completed in 2013 for the CBD Revitalisation project. Susan Dugdale designed them; Pip McManus produced the panels. Start with the fact above your head: in Alice Springs, shade is infrastructure. It decides how far people walk, where shops can trade, and how long a public place can function.",
+        "The town you see was built inside an older country, not on vacant ground. Alice Springs Town Council acknowledges the Central Arrernte people as Traditional Owners of Mparntwe, the Country where Alice Springs sits. Lhere Artepe Aboriginal Corporation identifies the Mparntwe, Irlpme, and Antulye estate groups as native title holders for Alice Springs. Long before surveyors drew streets here, Arrernte people knew this country through named sites, water, law, kinship, and responsibility. The town grid came later; it did not erase the country beneath it.",
+        "The shade structures make that older geography visible in the commercial centre. Council says the moth forms refer to three sacred caterpillars of Mparntwe: Ayepe-arenye, Ntyarlke, and Utnerrengatye. Todd Mall is easy to misread as an ordinary retail strip. The public art says otherwise: this pavement carries Arrernte knowledge through a corridor now managed for tourists, shoppers, and council crews.",
+        "The British did not establish Alice Springs because the interior was empty. They came because country with water and range gaps could carry a telegraph line. In March 1871, W. W. Mills reached a waterhole while surveying the telegraph route. He named it Alice Springs after Alice Todd, wife of telegraph chief Sir Charles Todd. Alice Todd never visited the station, and Mills had not found springs. He had found water in a usually dry river system and mistaken it for a permanent spring. The town's English name begins with a small absurdity: neither Alice nor springs were in Alice Springs.",
+        "A telegraph line could not survive as a line alone. It needed repeater stations, repair crews, police protection, stores, and dependable water. That is why a named waterhole became strategic in the colonial imagination. The first European logic of Alice Springs was not tourism or lifestyle. It was maintenance. A fragile communications system crossed a desert, and every working part needed people stationed near water.",
+        "The town centre still did not begin with the name Alice Springs. Government Surveyor David Lindsay surveyed the township in 1888 and named it Stuart after John McDouall Stuart, whose 1861-62 expedition mapped a south-north route toward the coast. Arltunga gold, found in 1887 about 110 kilometres east, gave the settlement another function. Gold brought traffic a telegraph station alone would not have produced: miners seeking claims, carriers moving equipment, police handling disputes, and merchants selling food to people who could not grow it.",
+        "For nearly half a century, the names did not line up. The waterhole was Alice Springs. The surveyed township was Stuart. The railway and post office used Alice Springs before the town did. The town was officially gazetted as Alice Springs on 31 August 1933. That confusion is evidence. The place was assembled by systems arriving out of sequence: exploration naming, telegraph construction, gold traffic, rail freight, postal administration, and finally a legal town name.",
+        "Those systems left buildings you will meet on this walk. Stuart Town Gaol was completed in 1909 after the earlier Heavitree Gap gaol was judged inadequate and flood-prone. Adelaide House opened in 1926 as the town's first hospital. The railway reached Stuart in 1929. A post office called Alice Springs opened in Railway Terrace in 1932, one year before the town itself was renamed. Alice Springs became a town when distance generated institutions. People needed custody, medicine, schooling, freight, land records, and courts because alternatives were too far away.",
+        "Look east along the mall toward the Todd River. Susan Dugdale & Associates says the 2013 CBD work reopened the northern end of Todd Mall to traffic and strengthened the link between the CBD and the river. The design used endemic planting, wide paving, brick benches, and the moth shade structures above you. It also removed an older sail-shade structure and rotunda to restore sightlines between a significant sacred river red gum and sister trees at the river edge. A single planning project had to serve traffic, pedestrians, sacred trees, public safety, retail trade, and the pull of the river.",
+        "The mall is being reassigned again. In 2026, ABC reported a $20 million Todd Mall redevelopment replacing red bricks with white pavers, removing 12 trees, planting 20, and adding new shade, lighting, toilets, bubblers, and public art. Nearby Yeperenye Shopping Centre had a separate $27 million plan with more than 200 car spaces, office space, and a rooftop restaurant. The materials have changed, but the problem has not: a desert town still has to make commerce, water, heat, movement, and public life work on the same ground.",
+        "Carry that problem through the walk. At each stop, ask what distance forced people to build, what water allowed them to attempt, and what Arrernte country already held before the colonial institution arrived. Then walk toward Adelaide House. The next stop is a two-storey stone hospital built for a town where illness, childbirth, surgery, radio contact, heat, and hundreds of kilometres of track converged in one small building."
+      ],
+      "references": [
+        {
+          "title": "Alice Springs Town Council: Yeperenye Moth Shade Structures",
+          "url": "https://www.alicesprings.nt.gov.au/art-map/yeperenye-moth-shade-structures"
+        },
+        {
+          "title": "NT Place Names Register: Alice Springs",
+          "url": "https://www.ntlis.nt.gov.au/placenames/view.jsp?id=10219"
+        },
+        {
+          "title": "Lhere Artepe Aboriginal Corporation: About",
+          "url": "https://lhereartepe.org.au/about/"
+        },
+        {
+          "title": "Alice Springs Telegraph Station: Heritage and History",
+          "url": "https://alicespringstelegraphstation.com.au/our-history/"
+        }
+      ]
+    },
+    {
+      "id": "adelaide-house",
+      "title": "Adelaide House: Heat, Medicine, and Distance",
+      "location": "Adelaide House Museum, 48 Todd Street",
+      "durationMinutes": 7,
+      "mode": "construction logistics",
+      "map": {
+        "x": 53,
+        "y": 55
+      },
+      "navigation": {
+        "lat": -23.7004,
+        "lon": 133.8819,
+        "label": "Adelaide House Museum"
+      },
+      "script": [
+        "Stand outside Adelaide House Museum at 48 Todd Street. Face the two-storey stone building, verandahs, roofline, and nearby John Flynn Memorial Church. It looks more like a large inland house than a hospital. In Alice Springs in 1926, medicine began by making a room survivable.",
+        "At Alice Springs Airport, January's mean maximum is 36.6 degrees Celsius. The annual mean maximum is 28.9. In an average year, the town records more than 175 days above 30 degrees, 93 above 35, and 17 above 40. The record high is 45.7. Mean annual rainfall is about 284 millimetres, and winter nights can fall below freezing. A hospital here had to manage heat, dust, cold, isolation, and the uneven arrival of rain.",
+        "Adelaide House was designed by Reverend John Flynn for the Australian Inland Mission and opened as the first hospital in Alice Springs. It served as the region's only hospital until 1939. Illness might begin at a pastoral station, railway camp, police patrol, mission outpost, or town verandah. By the time a patient reached this block on Todd Street, the disease or injury had already travelled through hours, sometimes days, of weather and track.",
+        "Look first at the verandahs. They hold shade away from the rooms and widen the liveable edge of the building. The stone walls add thermal mass. The ventilated roof and cellar-cooling system pulled air below ground, cooled it, ducted it into the rooms, and drew it out through the upper storey. The method belonged to the same practical world as the Coolgardie safe, where wet hessian and moving air kept food from spoiling before refrigeration was common.",
+        "The hospital also generated its own electricity. In 1926, the Northern Territory was administered by the Commonwealth, Alice Springs was still thinly served by public infrastructure, and mission organisations often provided services that government had not built at urban scale. Power gave Adelaide House light, mechanical capacity, and a place for radio experiments. The building had to supply part of the city it did not yet have around it.",
+        "Flynn stands behind the project, while Alfred Traeger gives this stop its human scene. Traeger came from South Australia, where he studied mechanical and electrical engineering at the School of Mines from 1912. He worked for the Metropolitan Tramways Trust, the Postmaster-General's Department, and Hannan Bros in Adelaide, repairing car generators and electrical equipment. His qualifications were practical: weak power, damaged machines, improvised circuits, and the cost of making equipment simple.",
+        "Flynn hired Traeger in 1926 for Northern Territory radio experiments at 500 pounds a year. One story from the beginning catches the scale of the enterprise. Flynn bought a generator from him; Traeger asked 29 pounds, 10 shillings because 30 pounds sounded too high. Flynn later said he would have paid 50. The bargain is almost comic, but it belongs to the history of this building. Inland medicine was being assembled from a minister's ambition, an engineer's workshop habits, a generator, and a continent-sized communications problem.",
+        "Now look for the engine room. On 25 November 1926, Traeger made one of Australia's first successful outback field-radio telegram receptions and transmissions from Adelaide House. Picture the experiment inside the stone shell: an engine running, a transmitter drawing limited power, wires carried through a hospital building, and operators waiting for a signal strong enough to be useful. Outside were Todd Street, the Todd River, the ranges, and hundreds of kilometres of tracks where a patient could be out of sight long before they were out of danger.",
+        "Traeger worked on sequence. A nurse or station resident had to report symptoms before a doctor could advise treatment. The doctor had to know the location before transport could be sent. A radio set that was costly, fragile, heavy, or difficult to operate would fail at the edge of the system, where it was needed most. Traeger's later pedal radio became famous because it answered a severe design brief: cheap, durable, small, low-powered, and usable by people far from technical help.",
+        "Adelaide House also records the boundaries of care. In February 1934, the federal government decided Aboriginal people could no longer use the hospital. A galvanised-iron hut was built on the east bank of the Todd River for Aboriginal patients. Keep that geography in mind as you face the stone building: institutional care on Todd Street, displaced care across the river, and a Commonwealth policy that sorted patients by race while using the language of inland service.",
+        "Before you leave, let your eyes move from stone wall to verandah, from roofline to the church beside it, and then toward the Todd River. Adelaide House cooled air, generated power, housed patients, and tested radio because distance made medicine mechanical. Its walls also marked who could enter that system and who was pushed outside it. Then turn toward the John Flynn Memorial Church, where a practical inland network becomes memorial architecture."
+      ],
+      "references": [
+        {
+          "title": "NT Tourism: Adelaide House Museum",
+          "url": "https://northernterritory.com/alice-springs-and-surrounds/see-and-do/adelaide-house-museum"
+        },
+        {
+          "title": "Bureau of Meteorology: Alice Springs Airport Climate Statistics",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_015590_All.shtml"
+        },
+        {
+          "title": "Australian Dictionary of Biography: Alfred Hermann Traeger",
+          "url": "https://adb.anu.edu.au/biography/traeger-alfred-hermann-8839"
+        },
+        {
+          "title": "Royal Flying Doctor Service Queensland: Alfred Traeger",
+          "url": "https://www.flyingdoctor.org.au/qld/news/alfred-traeger-giving-outback-its-voice/"
+        },
+        {
+          "title": "Congress History Timeline",
+          "url": "https://www.tiki-toki.com/timeline/entry/1883335/Congress-History/"
+        }
+      ]
+    }
+  ]
+}

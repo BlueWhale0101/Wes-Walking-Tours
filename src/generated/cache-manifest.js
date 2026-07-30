@@ -27,6 +27,9 @@ self.GUIDE_CACHE_ASSETS = {
     "./guides/cairns-moving-edge/audio/track-07.mp3",
     "./guides/cairns-moving-edge/audio/track-08.mp3"
   ],
+  "alice-springs-mparntwe": [
+    "./guides/alice-springs-mparntwe/guide.json"
+  ],
   "sample": [
     "./guides/sample/guide.json"
   ]
