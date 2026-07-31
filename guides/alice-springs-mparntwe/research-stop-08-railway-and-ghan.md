@@ -106,4 +106,7 @@ Open by having the listener look along the rails, fence, station frontage, and r
 - Journey Beyond Rail, "About The Ghan": https://www.journeybeyondrail.com.au/the-ghan/about-the-ghan/
 - Heritage Alice Springs, "Heritage Locations": https://www.heritagealicesprings.com.au/heritage-locations
 - Monument Australia, "The Ghan Memorial": https://www.monumentaustralia.org/themes/technology/industry/display/80046-the-ghan-memorial
+- Charles Darwin University, "Mica Mining at Harts Range, Central Australia, 1880s–1960": https://researchers.cdu.edu.au/en/studentTheses/mica-mining-at-harts-range-central-australia-1880s-1960/
+- Department of Veterans' Affairs, Anzac Portal, "Darwin and the Northern Territory 1942–1945": https://anzacportal.dva.gov.au/resources/darwin-and-northern-territory-1942-1945-australia-under-attack
+- *Equal to the Task*, "The Corps in the Territories" (transport and depot history): https://historia.net.au/equal-to-the-task_v1-raasc/e1-p2_states/e1-c12_terr.html
 
