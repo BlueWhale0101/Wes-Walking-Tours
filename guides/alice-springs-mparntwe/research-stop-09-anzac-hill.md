@@ -104,4 +104,6 @@ Open with the memorial itself, then deliberately turn the listener outward to th
 - Tourism Central Australia, "Anzac Hill": https://www.discovercentralaustralia.com/things-to-do/alice-springs/anzac-hill
 - Tourism Central Australia, "Central Australia During WWII": https://www.discovercentralaustralia.com/things-to-do/history-museums/central-australia-during-world-war-two
 - Library and Archives NT, "The Bombing of Darwin": https://lant.nt.gov.au/explore-nt-history/bombing-darwin
+- Department of Veterans' Affairs, Anzac Portal, "Darwin and the Northern Territory 1942–1945": https://anzacportal.dva.gov.au/resources/darwin-and-northern-territory-1942-1945-australia-under-attack
+- Nautilus Institute, "Pine Gap – an introduction": https://nautilus.org/publications/books/australian-forces-abroad/defence-facilities/pine-gap/pine-gap-intro/
 
