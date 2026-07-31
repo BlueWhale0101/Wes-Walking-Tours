@@ -65,6 +65,21 @@ Use these as script-grade facts only where the visible field supports them.
 18. The current track replaced the Old Ghan route through flood-prone regions.
 19. The station/corridor should be used to read rail as an alignment through a dry, flood-prone, hot landscape rather than just transport nostalgia.
 
+## Historical Leads Added: Mining Traffic and Wartime Throughput
+
+### Mineral traffic: refine the town-growth story
+
+- The source trail supports **Arltunga gold**, not a generalised list of successive nearby rushes, as the clearest early growth driver for Stuart/Alice Springs. Town Council dates the discovery to 1887 and ties it to camel traffic, water, equipment, and supplies moving east from the town.
+- The next substantial Central Australian mining lead is **Harts Range mica**, about 200 km north-east. A Charles Darwin University history dates its industry from the 1880s to 1960 and records Italian miners arriving after World War I and again after 1945. Mica is a good later human story because it links a mineral to electrical insulation, migration, and a very particular outback field.
+- Do **not** describe a “titanium rush.” Current sources identify vanadium–titanium–iron at Mount Peake north of Alice Springs as a modern project, not an historical population boom. Copper may appear in regional mineral history, but it needs a named field and a demonstrated connection to the town before it enters this stop.
+
+### WWII: the railway and road became a military supply chain
+
+- Before the war Alice Springs had fewer than 500 residents. During it, the town served as No. 9 Australian Staging Camp and as a depot for the road journey north to Darwin.
+- An Anzac Portal photograph places a convoy of the 108th General Transport Company leaving its Alice Springs staging area for the Alice Springs–Darwin road in July 1942. A logistics history records 150 three-ton trucks and 606 soldiers working the staged route, with detail-issue depots at Alice Springs and later staging points.
+- Strong but source-dependent scale figures—about 8,000 troops posted locally at the peak and close to 200,000 personnel passing through—appear in secondary local summaries. Preserve them as research leads until a primary military or archival source is added.
+- This gives the stop a better ending than generic Ghan nostalgia: the track, railhead, depot, repair work, fuel, trucks, and wartime traffic turned the town into a hinge between the southern rail system and the northern war zone.
+
 ## Script Spine
 
 Open by having the listener look along the rails, fence, station frontage, and road/track alignment. Begin before the train: Arltunga gold, Oodnadatta, 600 km of camel supply, 120 km east into extreme heat. Then let the 1929 Afghan Express arrive as a change in logistics rather than a cute train story. Use WWII and the 2004 transcontinental completion to show how long the "north-south rail" ambition took. End by pointing toward Anzac Hill, where the listener can see the town, rail, road, river, and ranges in one field of view.
