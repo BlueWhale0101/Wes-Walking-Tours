@@ -68,6 +68,15 @@ Use these as script-grade facts only where the visible field supports them.
 17. The summit view should let the listener connect Todd River, rail corridor, road alignments, civic grid, and the MacDonnell Ranges.
 18. The hill can also function as a route decision point: final stop, or skip/descend depending on heat and daylight.
 
+## Historical Leads Added: Wartime Town at the Summit View
+
+The WWII story is now strong enough to become a major Anzac Hill sequence, provided the script distinguishes what is visible from what must be briefly reconstructed.
+
+- The hill is not the town's first military connection. After the bombing of Darwin in February 1942, Alice Springs became No. 9 Australian Staging Camp, a depot base for the long road north, and the Territory's temporary civilian capital.
+- An Anzac Portal photograph documents the 108th General Transport Company moving out from its Alice Springs staging area in July 1942. This is the most useful visible mechanism for the script: an inland railhead and depot feeding road convoys, repairs, fuel, troops, and materiel toward Darwin.
+- The broad numerical claim that resident troops reached about 8,000 and nearly 200,000 people passed through is plausible and widely repeated in local secondary histories, but needs a primary military/archival citation before it is read aloud.
+- Pine Gap belongs only as a final, clearly separate Cold War afterword: the Australia–US agreement was made in December 1966; operations were underway in part by early 1969 and fully by 1970. It should not be described as opening in 1969 without that qualification.
+
 ## Script Spine
 
 Open with the memorial itself, then deliberately turn the listener outward to the town. Use the hill's dual status - Untyeyetwelye and Anzac memorial - to avoid treating the lookout as neutral scenery. Move from the 1934 memorial to WWII logistics, then use the view to compress the entire guide: riverbed, rail, roads, civic institutions, hospitals, schools, and range gaps. End the guide with a practical descent instruction and a heat/safety note.
