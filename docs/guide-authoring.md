@@ -1,214 +1,451 @@
-# Guide Authoring Process
+# Walking Tour Guide Authoring Guide
 
-Use this when making a new guide quickly without turning the repo into one giant page.
+Version: 2.0
 
-## Add A Guide
+—
 
-This is the mechanical path for adding a new guide once the app framework exists.
+# Purpose
 
-1. Copy the template folder:
+This document describes the workflow for creating a complete walking tour.
 
-```bash
-cp -R guides/_template guides/my-guide-id
-```
+It is intended for both human authors and AI assistants.
 
-2. Rename the guide inside `guides/my-guide-id/guide.json`:
+The objective is not simply to produce historically accurate scripts, but to produce a coherent field experience where each stop builds naturally on the previous one.
 
-```json
-{
-  "id": "my-guide-id",
-  "title": "My Guide Title"
-}
-```
+The writing style itself is defined in **content-style.md**.
 
-3. Put all guide-owned assets inside that folder:
+This document focuses on planning, research organisation and tour design.
 
-```text
-guides/my-guide-id/
-  guide.json
-  assets/map.jpg
-  audio/stop-01.mp3
-  images/reference-01.jpg
-```
+—
 
-4. Reference assets from `guide.json` using paths relative to the guide folder:
+# Design Philosophy
 
-```json
-{
-  "map": {
-    "image": "assets/map.jpg"
-  },
-  "stops": [
-    {
-      "audio": "audio/stop-01.mp3",
-      "navigation": {
-        "lat": -16.92002,
-        "lon": 145.7783975,
-        "label": "Specific stop name or field destination"
-      },
-      "images": [
-        {
-          "src": "images/reference-01.jpg",
-          "alt": "Reference image description",
-          "caption": "Short field-useful caption.",
-          "credit": "Photographer / license",
-          "sourceUrl": "https://example.com/image-source-page"
-        }
-      ]
-    }
-  ]
-}
-```
+A successful walking tour is not a collection of interesting places.
 
-5. Add the guide to `guides/index.json`:
+It is a sequence of connected questions.
 
-```json
-{
-  "defaultGuideId": "my-guide-id",
-  "guides": [
-    {
-      "id": "my-guide-id",
-      "title": "My Guide Title",
-      "status": "draft"
-    }
-  ]
-}
-```
+Each stop should answer one important question while naturally leading to the next.
 
-6. Run the repo checks:
+By the end of the walk, the listener should understand not only individual locations, but the larger forces that shaped the town or landscape.
 
-```bash
-npm run check
-```
+—
 
-The check validates required fields, applies the guide's status rules, and rebuilds `src/generated/cache-manifest.js` so the offline download knows which files belong to each guide.
+# Overall Workflow
 
-## Draft And Ready Status
+1. Define the overall theme.
+2. Identify candidate stops.
+3. Research each stop.
+4. Design the narrative sequence.
+5. Produce research packs.
+6. Write scripts.
+7. Perform historical review.
+8. Perform field review.
+9. Revise after walking the route.
 
-The `status` in `guides/index.json` is a publishing promise, not just a progress label:
+Do not begin writing scripts until the first six steps are complete.
 
-- `"draft"` means the guide is still being assembled. Its required text and stop structure are validated, but local asset references may point to planned files that do not exist yet. The validator reports those references as draft warnings.
-- `"ready"` means the guide is complete for field use. Required metadata, a referenced map with alt text, every stop's required fields and audio reference, and every referenced local asset must be present. A missing referenced map, audio file, or image is an error.
+—
 
-Images are optional in both states. Omit `images` (or use an empty array) when a stop does not need one; this is not a validation failure. When an image is supplied, it needs `src` and `alt`. Local image files must exist before the guide can be `"ready"`; remote image URLs are allowed but will not be bundled for offline use. Use `caption` for field-useful context, and add `credit` plus `sourceUrl` when the image needs attribution.
+# Step 1 – Define the Theme
 
-Each stop in a ready audio guide must name its audio file, and that file must exist. Keep the guide as `"draft"` while a planned MP3 or map asset is missing. Change it to `"ready"` only after `npm run check` passes with all expected field assets in place.
+Every guide needs a single organising idea.
 
-## Navigation Coordinates
+Avoid broad themes such as:
 
-Use `map.x` and `map.y` for placing a stop marker on the guide diagram. Use `navigation.lat` and `navigation.lon` for phone directions.
+- History of the town
+- Interesting places
+- Local attractions
 
-When navigation data is present, the app shows a `Navigate here` button for the selected stop. The button opens Google Maps walking directions with the destination preloaded. Coordinates should point to a practical public standing point: a footpath, lookout, entry, corner, or other safe place the listener can actually reach. For broad walk-and-listen segments, choose the best next decision point or stopping point rather than the geographic centre of the topic.
+Instead choose a lens.
 
-```json
-{
-  "navigation": {
-    "lat": -16.92002,
-    "lon": 145.7783975,
-    "label": "Cairns Esplanade Lagoon"
-  }
-}
-```
+Examples:
 
-## 1. Define The Field Job
+Cairns
 
-Answer these before writing:
+> A tropical city continually rebuilt between rainforest, reef and tidal mud.
 
-| Question | Why It Matters |
-| --- | --- |
-| Who is walking? | Sets tone, depth, pace, and risk tolerance |
-| How much time is available? | Controls route ambition and stop count |
-| What can change today? | Identifies transport, hours, weather, closures, tides, heat, safety |
-| What is the intellectual spine? | Prevents shallow tourist blurbs |
-| Where will signal fail? | Decides what must be local and offline |
+Alice Springs
 
-## 2. Build The Stop Plan
+> Human systems built to overcome distance in Australia’s arid interior.
 
-Use a mix of stop types:
+The theme should influence every stop.
 
-| Stop Type | Use For |
-| --- | --- |
-| `field briefing` | Orientation, safety, timing, route choice |
-| `history lecture` | Deeper background not tied to a sign |
-| `ranger guide` | Ecology, geology, landscape reading |
-| `construction/logistics` | How people built, supplied, maintained, or survived the place |
-| `site interpretation` | What to notice at the exact stop |
-| `transition` | Walk-and-listen segment between major points |
+—
 
-For adult guides, a good default is 8-14 stops. Add more stops on ascents or long transfers where listening fills the walk.
+# Step 2 – Choose Stops
 
-## 3. Research The Guide
+Choose stops because they answer important questions.
 
-Prioritize current and primary sources:
+Do not choose locations simply because they are famous.
 
-- Official park, council, airport, transit, museum, and government pages.
-- Current opening hours, closures, alerts, and transport timetables.
-- Historical society, academic, museum, or archive sources for depth.
-- Local safety context: heat, tides, crocodiles, weather, water availability, mobile reception.
+For every proposed stop ask:
 
-Save references in each stop, but put field-critical facts directly in the script.
+What can the visitor actually observe?
 
-## 4. Write Scripts
+What larger system does this place represent?
 
-Scripts are the product.
+Does it contribute something new?
 
-Use `docs/script-production.md` before writing full stop scripts. Each stop should start with a diagnostic that identifies the visible anchor, core system, central pressure, human evidence, evidence inventory, and biggest weakness risk.
+Would removing this stop make the guide weaker?
 
-- Write for listening, not reading.
-- Use concrete numbers, names, dates, materials, distances, and constraints.
-- Tell the listener what to look at now.
-- Let paragraphs end cleanly for TTS.
-- Avoid vague phrases like “rich history” unless the next sentence proves it.
-- Alternate modes so the guide feels like a historian and a ranger taking turns.
+If the answer is “no”, omit it.
 
-Target length:
+Aim for variety.
 
-| Segment | Good Range |
-| --- | --- |
-| Short orientation | 1-2 min |
-| Normal stop | 3-6 min |
-| Deep lecture | 6-9 min |
+Examples include:
 
-## 5. Add Assets
+- engineering
+- architecture
+- ecology
+- government
+- transport
+- communication
+- exploration
+- industry
+- medicine
+- public space
+- Indigenous history
 
-Place everything inside the guide folder:
+—
 
-```text
-guides/my-guide/
-  guide.json
-  assets/map.jpg
-  audio/stop-01.mp3
-  images/reference-01.jpg
-```
+# Step 3 – Research
 
-Images are optional. When they add field value, prefer local images over remote links and give each one useful alt text. Remote reference links are for later reading.
+Research should be organised by stop.
 
-## 6. Validate And Cache
+Each stop receives its own research pack.
 
-Run:
+Every pack should include:
 
-```bash
-npm run check
-```
+overview
 
-This validates required guide fields, checks local assets exist, and writes the offline cache manifest.
+chronology
 
-## Guide Authoring Checklist
+people
 
-Before leaving a guide as `"draft"`:
+institutions
 
-- [ ] Add guide metadata: `id`, `title`, `region`, `summary`, `duration`, and `distance`.
-- [ ] Give every stop an `id`, `title`, `location`, positive `durationMinutes`, `mode`, and non-empty script paragraphs.
-- [ ] Add map coordinates where known and reference planned map/audio filenames so missing draft assets are visible as warnings.
-- [ ] Add navigation coordinates where the listener should be routed by phone maps.
-- [ ] Add images only where they help; every supplied image needs `src` and meaningful `alt` text.
+physical observations
 
-Before changing a guide to `"ready"`:
+primary sources
 
-- [ ] Add `map.image` and `map.alt`, and confirm the referenced local map asset exists.
-- [ ] Add map coordinates and an audio reference to every stop.
-- [ ] Add navigation coordinates to every stop where turn-by-turn directions should be available.
-- [ ] Confirm every referenced audio file exists and plays.
-- [ ] Confirm every referenced optional image exists; do not add placeholder image entries just to satisfy validation.
-- [ ] Run `npm run check` and resolve all required-data and referenced-asset errors.
-- [ ] Test stop selection, Play, native pause/scrubbing, and Next Stop navigation in the field layout.
+recommended quotations
+
+bibliography
+
+interesting dead ends
+
+Potential future stories
+
+Do not immediately decide what belongs in the script.
+
+Collect first.
+
+Select later.
+
+—
+
+# Research Priorities
+
+Search in roughly this order:
+
+1. Primary documents
+2. Government archives
+3. Heritage registers
+4. Museum collections
+5. Historical societies
+6. Academic publications
+7. Published biographies
+8. Contemporary newspapers
+9. Local histories
+
+Use tertiary summaries mainly to discover stronger sources.
+
+—
+
+# Research Historical Figures
+
+When a stop centres on a person, chronology is only the beginning.
+
+Actively search for:
+
+What problem did they believe they were solving?
+
+How did they describe it?
+
+What did contemporaries think of them?
+
+What decisions changed history?
+
+What almost failed?
+
+How did later generations remember them?
+
+Look particularly for:
+
+letters
+
+reports
+
+committee evidence
+
+books
+
+speeches
+
+diaries
+
+interviews
+
+memoirs
+
+The objective is to understand motivation, not merely events.
+
+—
+
+# Step 4 – Design the Narrative
+
+Before writing anything, answer four questions.
+
+## Question 1
+
+What question does the site naturally raise?
+
+Examples:
+
+Why here?
+
+Why this building?
+
+Why this person?
+
+Why this landscape?
+
+Why this material?
+
+This becomes the narrative engine.
+
+—
+
+## Question 2
+
+What larger system does this place belong to?
+
+Examples:
+
+medicine
+
+communications
+
+government
+
+trade
+
+ecology
+
+transport
+
+water
+
+law
+
+tourism
+
+religion
+
+—
+
+## Question 3
+
+Which person best represents that system?
+
+Choose one principal figure.
+
+Supporting figures appear only when necessary.
+
+Avoid introducing unnecessary biographies.
+
+—
+
+## Question 4
+
+What problem was that person trying to solve?
+
+Write the answer as a single sentence.
+
+If this cannot be done clearly, continue researching.
+
+This sentence usually becomes the backbone of the script.
+
+—
+
+# Step 5 – Build the Tour
+
+Think about the guide as a whole.
+
+Alternate topics.
+
+Avoid three architectural stops in succession.
+
+Avoid multiple biography-heavy stops together unless they naturally build on one another.
+
+Vary pace.
+
+Some stops should be:
+
+technical
+
+personal
+
+ecological
+
+institutional
+
+visual
+
+reflective
+
+The tour should feel like a conversation rather than a textbook.
+
+—
+
+# Connecting Stops
+
+Transitions matter.
+
+Every stop should prepare the next.
+
+Good transitions often move from one system to another.
+
+Example:
+
+medicine
+
+↓
+
+government
+
+↓
+
+transport
+
+↓
+
+commerce
+
+↓
+
+ecology
+
+The listener should feel that the route itself makes sense.
+
+—
+
+# Script Length
+
+Typical stop:
+
+650–900 words
+
+Longer only when the subject genuinely requires it.
+
+Never add material simply to reach a target length.
+
+Density matters more than duration.
+
+—
+
+# Walking Directions
+
+Directions should be:
+
+simple
+
+precise
+
+visible
+
+Avoid unnecessary street-by-street navigation.
+
+Orient the listener using landmarks whenever possible.
+
+—
+
+# Field Review
+
+Always walk the route.
+
+Check:
+
+visibility
+
+traffic noise
+
+shade
+
+listener safety
+
+walking time
+
+GPS accuracy
+
+construction
+
+temporary obstructions
+
+If important evidence cannot actually be seen from the stop, rewrite the script.
+
+—
+
+# Revision
+
+Revise after every field test.
+
+Pay particular attention to:
+
+places where listeners became confused
+
+places where attention drifted
+
+unnecessary repetition
+
+navigation problems
+
+missing visual cues
+
+historical inaccuracies
+
+The field test is part of the writing process.
+
+—
+
+# Quality Checklist
+
+Before approving a guide ask:
+
+Does every stop answer a clear question?
+
+Does every stop represent a different aspect of the town?
+
+Does each stop connect naturally to the next?
+
+Can listeners see the evidence discussed?
+
+Is there a balance between people, systems and places?
+
+Are primary sources represented where appropriate?
+
+Would removing any stop noticeably weaken the guide?
+
+If not, reconsider the stop.
+
+—
+
+# Final Goal
+
+A finished guide should feel inevitable.
+
+The listener should reach the final stop believing they now understand not simply the places they visited, but why the town, landscape or region developed the way it did.
+
+The best guides leave visitors looking at ordinary buildings, roads and landscapes differently.
+
+That transformation—not the delivery of facts—is the measure of success.

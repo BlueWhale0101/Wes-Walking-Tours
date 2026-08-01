@@ -1,186 +1,499 @@
 # Script Production Guide
 
-Use this guide to research and write location-generic self-guided audio tour scripts. It applies to any place: a city, trail, museum district, river edge, transport corridor, industrial site, or landscape.
+Version: 2.0
 
-The target is high-density field history. The listener should feel like a serious historian, ranger, engineer, or documentary guide is standing beside them, pointing to visible evidence and explaining the systems under pressure.
+—
 
-## Core Standard
+# Purpose
 
-Write scripts that are specific, human, and anchored in the field. Do not write tourism copy, promotional summaries, or general background essays.
+This document describes the workflow for producing a single walking tour script.
 
-Each full stop should explain how a visible place reveals a larger system under pressure, such as:
+It assumes that:
 
-- ecology, water, weather, geology, or climate
-- law, land, policing, public health, or administration
-- labour, logistics, construction, maintenance, or engineering
-- transport, trade, tourism, finance, or economic transition
-- Indigenous continuity, colonial disruption, dispossession, or cultural authority
-- public memory, civic identity, conflict, or changing use
+- the stop has already been selected,
+- research has already been completed,
+- a research pack exists,
+- the overall guide structure has already been designed.
 
-The listener is physically standing at the stop. Keep returning their eyes to what they can see.
+The objective is to produce a script that is historically accurate, engaging, physically grounded and suitable for spoken narration.
 
-## Stop Diagnostic
+Writing style is defined in **content-style.md**.
 
-Complete this diagnostic before writing any full stop script.
+Guide planning is defined in **guide-authoring.md**.
 
-### 1. Visible Anchor
+This document focuses on turning research into a finished script.
 
-Name exactly what the listener can see, face, touch, enter, cross, read, or orient around. Include field details such as signs, edges, materials, buildings, waterlines, tracks, fences, memorial text, machinery, paths, drains, vegetation, sightlines, or sounds.
+—
 
-### 2. Core System
+# Production Workflow
 
-Identify the larger system revealed by this stop. A stop should not only be about a building, view, or object; it should reveal how something worked.
+1. Read the research pack.
+2. Identify the narrative engine.
+3. Build the story structure.
+4. Draft without polishing.
+5. Review for evidence.
+6. Improve prose.
+7. Field review.
+8. Final historical verification.
+
+Do not begin writing until the first three steps are complete.
+
+—
+
+# Step 1 – Read the Research
+
+The first reading is not about collecting facts.
+
+It is about understanding the stop.
+
+Ask:
+
+What surprised me?
+
+What changed?
+
+What problem existed?
+
+Who solved it?
+
+What physical evidence survives?
+
+Avoid immediately selecting interesting anecdotes.
+
+Instead, understand the larger historical system.
+
+—
+
+# Step 2 – Identify the Narrative Engine
+
+Every script should answer one question.
 
 Examples:
 
-- a courthouse reveals law, policing, land, debt, and regional administration
-- a riverbed reveals flood risk, transport choices, water scarcity, and town planning
-- a lagoon reveals engineered leisure, tourism, public safety, and ecological limits
-- a telegraph station reveals communications, labour, empire, logistics, and land control
+Why is this building here?
 
-### 3. Central Pressure
+Why was this engineering solution necessary?
 
-Choose the strongest conflict, constraint, tradeoff, risk, failure, decision, or adaptation that gives the stop narrative force.
+Why did this town develop?
 
-Useful spines include:
+Why is this landscape unusual?
 
-- civic controversy
-- engineering problem
-- ecological tension
-- economic transition
-- labour story
-- public health or safety problem
-- colonial land or legal conflict
-- Indigenous continuity and dispossession
-- tourism versus local use
-- public-memory dispute
-- maintenance burden
-- infrastructure adaptation
-- transport or logistics constraint
-- climate or environmental limit
+Why is this person remembered?
 
-The central pressure should be visible or explain something visible.
+Write the question at the top of your notes.
 
-### 4. Human Pressure
+If the script begins wandering, return to this question.
 
-Every full script needs at least one documented human layer, not just categories of users.
+—
 
-Acceptable forms include:
+# Step 3 – Identify the Core Problem
 
-- named person
-- named institution
-- worker group or labour condition
-- residents, officials, litigants, inspectors, tourists, or maintainers tied to a documented event
-- Traditional Custodian source, cultural institution, native title material, or interpretive panel
-- public complaint, newspaper controversy, management rule, legal dispute, conservation conflict, or documented change in public use
+Most successful historical stories begin with a constraint.
 
-Do not invent characters, scenes, quotes, or memories. If only general user groups are available, name that weakness in the audit.
+Examples:
 
-### 5. Evidence Inventory
+distance
 
-List 10-20 concrete facts available for the script before drafting:
+heat
 
-- dates, costs, dimensions, quantities, distances, materials, or construction methods
-- named people, institutions, agencies, laws, committees, or businesses
-- design choices, environmental constraints, hazards, routes, logistics, or maintenance requirements
-- public objections, disputes, rules, usage figures, closures, repairs, inspections, or source-specific claims
+water
 
-### 6. Weakness Warning
+disease
 
-Identify the biggest risk of the stop becoming generic, vague, overclaimed, detached from visible evidence, or brochure-like.
+trade
 
-Only write the script after this diagnostic is complete.
+transport
 
-## Script Requirements
+politics
 
-Full stop scripts should usually be 650-900 words.
+economics
 
-Every paragraph must introduce concrete facts before interpretation. A strong paragraph usually contains 2-4 specifics: dates, names, materials, institutions, costs, functions, conflicts, design choices, environmental constraints, or documented human use.
+engineering
 
-Keep the listener oriented. Use instructions such as "look at," "face," "notice," "stand beside," "turn toward," and "keep in view" when they help the listener read the field.
+ecology
 
-## Required Structure
+law
 
-Use this structure for each full stop:
+Ask:
 
-1. Opening orientation: tell the listener exactly where to stand and what to look at.
-2. Immediate paradox: name the contradiction visible at the stop.
-3. Historical mechanism: explain how the place came to be using dates, decisions, materials, institutions, design choices, or named people.
-4. Human pressure: show who used, argued over, worked on, governed, maintained, lost from, benefited from, or was affected by this place.
-5. Field reading: return to visible details and explain what they reveal.
-6. Compressed interpretation: state what the stop reveals only after evidence has done the work.
-7. Walking transition: briefly direct the listener to the next stop.
+What problem were people trying to solve?
 
-## Voice And Style
+Everything else in the script should grow from that answer.
 
-Write for listening, not reading. Sentences may be intellectually dense, but the listener should not need to see the text to follow the argument.
+—
 
-Prefer:
+# Step 4 – Find the Human Story
 
-- concrete nouns and active verbs
-- visible evidence before interpretation
-- systems explained through named facts
-- a documentary or public-history tone
-- human stakes supported by evidence
+Choose the principal figure.
+
+Avoid introducing multiple major biographies.
+
+The chosen figure should explain the larger system.
+
+Research beyond chronology.
+
+Discover:
+
+their motivation
+
+their decisions
+
+their failures
+
+their partnerships
+
+their compromises
+
+their influence
+
+Good biographies explain why someone became capable of solving a problem.
+
+They do not simply recount a life.
+
+—
+
+# Step 5 – Search for Primary Voices
+
+Before drafting, deliberately search for first-hand material.
+
+Examples:
+
+letters
+
+reports
+
+committee evidence
+
+diaries
+
+books
+
+speeches
+
+newspaper interviews
+
+official correspondence
+
+The goal is not simply to quote history.
+
+The goal is to hear the historical figure think.
+
+The strongest quotations explain:
+
+how they understood the problem
+
+why they made a decision
+
+what they hoped to achieve
+
+Prefer one meaningful quotation over several decorative ones.
+
+—
+
+# Step 6 – Build the Outline
+
+A useful structure is:
+
+Orientation
+
+↓
+
+Observation
+
+↓
+
+Constraint
+
+↓
+
+Decision
+
+↓
+
+Consequence
+
+↓
+
+Visible evidence
+
+↓
+
+Conclusion
+
+↓
+
+Walking direction
+
+This structure should feel natural rather than mechanical.
+
+—
+
+# Step 7 – Write the First Draft
+
+Write quickly.
+
+Do not edit every sentence.
+
+Concentrate on:
+
+clarity
+
+flow
+
+causality
+
+evidence
+
+Leave polishing until later.
+
+—
+
+# Evidence Density
+
+Every paragraph should contain multiple concrete details.
+
+Examples include:
+
+dates
+
+people
+
+institutions
+
+costs
+
+materials
+
+measurements
+
+environmental conditions
+
+technology
+
+conflicts
+
+engineering decisions
+
+government decisions
+
+named organisations
+
+Avoid long passages containing only interpretation.
+
+—
+
+# Causality
+
+Prefer writing in chains.
+
+Instead of:
+
+This happened.
+
+Later this happened.
+
+Then this happened.
+
+Write:
+
+This problem existed.
+
+Someone made this decision.
+
+That produced this consequence.
+
+The result can still be seen today.
+
+Readers naturally remember cause-and-effect better than chronology.
+
+—
+
+# Returning to the Place
+
+After every major historical section ask:
+
+“What can the listener see right now?”
+
+Return attention to:
+
+stone
+
+brick
+
+steel
+
+timber
+
+roads
+
+views
+
+vegetation
+
+riverbeds
+
+rooflines
+
+street layout
+
+machinery
+
+landforms
+
+The physical stop should never disappear for long.
+
+—
+
+# Anecdotes
+
+Use anecdotes sparingly.
+
+Every anecdote should explain something larger.
+
+Good anecdotes reveal:
+
+institutional change
+
+engineering redesign
+
+human decision-making
+
+unexpected failure
+
+practical limitations
+
+Avoid stories included only because they are amusing.
+
+—
+
+# Common Problems
 
 Avoid:
 
-- travel-brochure language such as "beautiful," "vibrant," "iconic," "unique," "charming," "hidden gem," or "must-see"
-- generic interpretive signposts such as "this matters," "the contrast is the point," "this reflects change," "the timing is important," "this place tells a story," or "this is more than just"
-- abstract claims about "community," "identity," "tourism," "change," or "public space" without concrete support
-- lists of facts that do not build pressure or explain a visible place
+chronological biographies
 
-Weak:
+lists of facts
 
-```text
-This place shows how the town adapted to its environment.
-```
+tourist commentary
 
-Stronger:
+essay conclusions
 
-```text
-The bridge, flood marker, rail corridor, and town levee turn the same dry riverbed into a transport route, hazard zone, meeting place, and planning boundary.
-```
+repeated interpretation
 
-## Indigenous History
+overly dramatic narration
 
-Be careful, specific, and attributed.
+historical trivia without purpose
 
-Use named Traditional Custodian groups, language names, places, cultural centres, interpretive panels, native title material, public statements, or other reliable sources where available.
+generic transitions
 
-Do not flatten Indigenous history into a generic "before Europeans arrived" paragraph. Do not treat it as a detached preface if the stop itself involves land, law, naming, policing, labour, tourism, water, missions, reserves, removals, or cultural authority.
+Every paragraph should move the historical argument forward.
 
-Where colonial processes are relevant, connect them to specific places, institutions, dates, laws, decisions, or documented practices. If the evidence is incomplete, name the required source check.
+—
 
-## Research Workflow
+# Revision Pass 1 – Structure
 
-Do not write the whole guide at once.
+Ask:
 
-1. Identify candidate stops.
-2. Rank stops by field visibility, evidence strength, route logic, safety, and narrative value.
-3. Build a research packet for each selected stop.
-4. Write one test stop first.
-5. Audit and revise the style if needed.
-6. Write scripts stop by stop.
-7. Convert stable scripts into app-ready guide data.
+Does every paragraph answer the central question?
 
-For sources, prioritize current and primary material: government records, park and council pages, museum and archive material, historical societies, academic sources, newspapers, engineering reports, environmental assessments, Traditional Custodian sources, and official safety information.
+Can any paragraph be removed?
 
-## Self-Review
+Does each paragraph naturally lead to the next?
 
-Review each draft as a documentary editor and public historian.
+Does the ending resolve the narrative?
 
-Reject or revise any paragraph that:
+—
 
-- could fit almost any town
-- describes atmosphere without evidence
-- names conflict without explaining who, what, when, or why
-- says "tourism," "community," "identity," "change," or "public space" without concrete support
-- lists facts without narrative pressure
-- fails to connect back to something visible
-- treats Indigenous history as generic background rather than place-specific evidence
+# Revision Pass 2 – Evidence
 
-Final output for each drafted stop should include:
+Ask:
 
-1. revised script
-2. quality audit with word count, central pressure, strongest 10 concrete facts, visible anchors, human evidence, weakest remaining claim, and source checks still needed
+Are there enough names?
+
+Enough dates?
+
+Enough institutions?
+
+Enough visible observations?
+
+Could any interpretation be replaced with stronger evidence?
+
+—
+
+# Revision Pass 3 – Prose
+
+Read aloud.
+
+Walking tour scripts are spoken.
+
+Look for:
+
+awkward rhythm
+
+long sentences
+
+repeated words
+
+excessive passive voice
+
+tongue twisters
+
+overwritten descriptions
+
+The script should sound natural when spoken outdoors.
+
+—
+
+# Revision Pass 4 – Historical Quality
+
+Ask:
+
+Did I discover the person’s motivation?
+
+Did I use primary sources?
+
+Does the biography explain the system?
+
+Did I identify the real historical problem?
+
+Does the listener hear the historical figure’s own voice?
+
+If not, continue researching.
+
+Research usually improves scripts more than rewriting.
+
+—
+
+# Final Checklist
+
+Before approving a script:
+
+□ The stop revolves around one clear question.
+
+□ The listener is regularly directed back to visible evidence.
+
+□ Every paragraph contains concrete historical evidence.
+
+□ Facts lead naturally to interpretation.
+
+□ Biography explains a larger system.
+
+□ Primary sources shaped the narrative.
+
+□ Emotional interpretation is restrained.
+
+□ The ending returns to the physical location.
+
+□ Walking directions are clear.
+
+□ The script sounds natural when read aloud.
+
+—
+
+# Guiding Principle
+
+The purpose of the script is not to impress listeners with historical knowledge.
+
+It is to change the way they see the place where they are standing.
+
+If the listener looks up at the building, landscape or street and notices something they would otherwise have missed, the script has succeeded.
