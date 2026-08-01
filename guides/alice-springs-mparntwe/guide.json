@@ -2,16 +2,19 @@
   "id": "alice-springs-mparntwe",
   "title": "Alice Springs / Mparntwe: A Town Inside Country",
   "region": "Alice Springs / Mparntwe, Northern Territory",
-  "summary": "An incomplete draft field-audio guide through Alice Springs' town centre, using visible evidence to read Arrernte country, heat, water, remote medicine, government, rail logistics, river risk, and memorial landscape.",
-  "duration": "Draft: 20-25 min scripted so far; proposed full route 85-110 min",
-  "distance": "Draft: about 350 m scripted so far; proposed full route about 3.0-3.8 km",
+  "summary": "An incomplete draft field-audio guide through Alice Springs' town centre, using visible evidence to read Arrernte Country, heat, water, remote medicine, communications, government, law, imprisonment, education, and the institutions built to overcome distance.",
+  "duration": "Draft: about 45-50 min scripted so far; proposed full route 95-120 min",
+  "distance": "Draft: about 600-800 m scripted so far; proposed full route about 3.0-3.8 km",
   "map": {
     "image": "",
     "alt": "Draft Alice Springs / Mparntwe route map not yet produced"
   },
   "fieldNotes": [
-    "This guide is intentionally incomplete. Stops 1 and 2 have draft scripts; the remaining proposed stops are captured in stop-list-draft.md and the research packets.",
+    "This guide is intentionally incomplete. Experiences 1-6 now have draft scripts, including separate exterior and interior experiences at Stuart Town Gaol. Remaining proposed stops are captured in the stop-list draft and research packets.",
     "Designed for adult visitors walking from the town centre. Heat, smoke, Todd River flooding, museum hours, road works, and town-centre safety conditions can change field use.",
+    "Stuart Town Gaol and Hartley Street School Museum are currently volunteer-operated National Trust properties. Published admission is $5 per adult, with children 15 and under free. Hartley Street School currently lists Monday-Friday opening from 10:30am to 2:30pm; gaol keys are collected there. Verify access near release.",
+    "The gaol interior is optional but strongly recommended. If it is closed, the guide should provide reference photographs of the Aboriginal prisoners' cell, floor restraint rings, European prisoners' cell, timber sleeping benches, doors, and exercise yard.",
+    "Hartley Street School is designed as an interior, object-led experience when open. Reference images should pair the teacher's desk and microphone with an early remote pupil using a two-way radio.",
     "The Telegraph Station is deliberately excluded from the core draft route because it adds a long exposed transfer. It may become a separate future guide."
   ],
   "stops": [
@@ -110,6 +113,244 @@
         {
           "title": "Congress History Timeline",
           "url": "https://www.tiki-toki.com/timeline/entry/1883335/Congress-History/"
+        }
+      ]
+    },
+    {
+      "id": "john-flynn-memorial-church",
+      "title": "John Flynn Memorial Church: A Vision for the Inland",
+      "location": "John Flynn Memorial Church, 50 Todd Mall",
+      "durationMinutes": 7,
+      "mode": "biographical field essay",
+      "map": {
+        "x": 54,
+        "y": 56
+      },
+      "navigation": {
+        "lat": -23.7003,
+        "lon": 133.8818,
+        "label": "John Flynn Memorial Church"
+      },
+      "script": [
+        "Stand in front of the John Flynn Memorial Church, facing the entrance, but keep Adelaide House in view across the lawn. These buildings belong together. Adelaide House was one of the workshops where Flynn's ideas became practical medicine. This church, dedicated on 5 May 1956 exactly five years after his death, is where Australia chose to remember the man who imagined that those ideas could work across an entire continent.",
+        "John Flynn's great insight was not about aircraft or radio. It was about distance. In a report to the Presbyterian Church after travelling through the Northern Territory in 1912, he argued that the first task was to give women in the bush a sense of security. That sentence came years before the Flying Doctor Service, pedal radios or Adelaide House. Flynn had recognised the real problem first. Across inland Australia, an ordinary injury, difficult childbirth or sudden illness became life-threatening because help was simply too far away. The challenge was not to build a better hospital. It was to make help feel reachable.",
+        "Flynn had not trained as a doctor or engineer. Born in rural Victoria in 1880, he worked as a teacher before entering the Presbyterian ministry. He developed interests in first aid, photography and practical education, then spent years travelling through remote communities. In 1910 he published The Bushman's Companion, a handbook filled with practical advice for people living beyond regular services. Two years later the Church sent him to survey conditions across the Northern Territory. His reports led directly to the creation of the Australian Inland Mission, with Flynn as its first superintendent. At the beginning, its resources were remarkably modest: one nursing sister, one patrol padre, one nursing hostel and five camels.",
+        "Rather than searching for a single breakthrough, Flynn assembled a system piece by piece. More nursing hostels followed. Patrol padres carried medical supplies as well as spiritual support. Local committees raised money. Doctors, nurses and governments gradually became partners in the same enterprise. Adelaide House, completed in 1926, was one of the inland hospitals that emerged from that growing network. It was never intended to stand alone. Flynn later described his approach as multiple heads with one heart: different organisations, professions and technologies working toward the same purpose.",
+        "Even that network could not overcome Australia's geography. Hospitals still depended on patients reaching them. When Lieutenant Clifford Peel wrote to Flynn in 1917 describing the possibilities of aviation, Flynn recognised another missing piece. The idea nearly stalled. Industrialist Hugh Victor McKay left 2,000 pounds toward an aerial medical experiment, but only if the Presbyterian Church matched the gift. Church leaders agreed only on the condition that Flynn first raise 5,000 pounds. He persuaded governments, wool brokers, donors and QANTAS to join the effort. On 17 May 1928, pilot Arthur Affleck and Dr Kenyon St Vincent Welch lifted a de Havilland DH.50 named Victory out of Cloncurry on the first mission of the Aerial Medical Service. The aircraft was new. Flynn's achievement was bringing together the people and institutions that made it useful.",
+        "His willingness to share control may have been his most important decision. During the Depression, Flynn concluded that a church alone could never finance the growing service. He argued instead for cooperation between churches, governments, aviation companies and medical organisations, even though that meant surrendering exclusive ownership of the work he had created. Friends later remembered him saying, 'A man is his friends.' It was more than a personal motto. It described the way he worked. Flynn's gift was recognising talented people, persuading them to trust one another, and keeping them focused on a common problem.",
+        "Look once more between the church and Adelaide House. Across the lawn stands one of the buildings where doctors treated patients, radios carried calls for help, and remote medicine became an everyday reality. Here stands the memorial to the man who imagined that those separate pieces could become a single system. Flynn did not conquer distance. He organised people so that distance no longer had the final word.",
+        "Continue south along Todd Mall toward the Old Courthouse and Residency precinct. As you walk, notice how the buildings become increasingly civic rather than religious. The next experience explores another institution that shaped life in central Australia: government authority and the administration of law."
+      ],
+      "references": [
+        {
+          "title": "Australian Dictionary of Biography: John Flynn",
+          "url": "https://adb.anu.edu.au/biography/flynn-john-6200"
+        },
+        {
+          "title": "National Archives of Australia: Reverend John Flynn and the Australian Inland Mission",
+          "url": "https://www.naa.gov.au/help-your-research/fact-sheets/reverend-john-flynn-and-australian-inland-mission"
+        },
+        {
+          "title": "Reserve Bank of Australia: Reverend John Flynn",
+          "url": "https://banknotes.rba.gov.au/australias-banknotes/people-on-the-banknotes/reverend-john-flynn/"
+        },
+        {
+          "title": "National Library of Australia: Opening and Dedication of the John Flynn Memorial Church",
+          "url": "https://nla.gov.au/nla.obj-3643234461"
+        }
+      ]
+    },
+    {
+      "id": "court-and-residency",
+      "title": "Court and Residency: Governing the Centre",
+      "location": "The Residency and Old Courthouse, Parsons and Hartley Streets",
+      "durationMinutes": 8,
+      "mode": "institutional field essay",
+      "map": {
+        "x": 48,
+        "y": 48
+      },
+      "navigation": {
+        "lat": -23.6985,
+        "lon": 133.8823,
+        "label": "The Residency and Old Courthouse precinct"
+      },
+      "script": [
+        "Stand where you can see both The Residency and the Old Courthouse. Before you read the plaques, look at the buildings themselves. Wide verandahs wrap around the walls. Hollow concrete blocks insulate against the summer heat. Concrete floors were laid directly onto the earth to moderate temperature. These buildings were designed for central Australia before they were designed for government. Like Adelaide House, they begin with the practical reality that institutions could only function here if they first learned to live with the climate.",
+        "The Commonwealth hoped these buildings would do more than survive the climate. They were intended to make government itself visible. In 1927 the Northern Territory was divided into North Australia and Central Australia, and Alice Springs—then officially known as Stuart—became the administrative capital of the southern territory. John Charles Cawood arrived as the first Government Resident, and this quiet corner of town acquired the offices, residence and courthouse expected of a capital city. The experiment lasted only four years. By 1931 the division had been abandoned, but the buildings remained.",
+        "Even during those four years, reality proved more complicated than the plans. Alice Springs still had only a few hundred permanent residents. Mail from Canberra often took more than a week to arrive. Roads were unreliable, communications were slow, and much legislation was drafted thousands of kilometres away before simply being proclaimed here. The title Government Resident suggested broad authority, yet Cawood spent much of his time making a distant administration function under local conditions. These buildings projected the authority of the Commonwealth. Distance continued to shape how that authority actually worked.",
+        "The Old Courthouse reveals the same tension. Law had reached central Australia decades before the building itself. The Local Court was proclaimed in 1892, but hearings were often held in the Telegraph Station dining room. Mounted police might serve as court orderly, prosecutor and principal witness in the same proceeding. The courthouse did not introduce justice. It replaced improvisation with permanence—or at least tried to. Even the new Territory's Supreme Court remained more aspiration than reality. Although Central Australia technically possessed its own Supreme Court from 1927, Alice Springs was still considered too small and remote for regular sittings, so they continued in Darwin. The institution existed on paper before it could fully exist in practice.",
+        "History then turned the entire arrangement upside down. After Darwin was bombed in 1942, the Territory's senior administration and Supreme Court moved south to Alice Springs. The town once judged too remote for the Territory's highest court suddenly became the safest place from which to govern the Northern Territory. Geography had not changed. War had.",
+        "Those institutional contradictions were not merely constitutional curiosities. They shaped the lives of the people who entered this courthouse. In 1958, Western Arrernte artist Albert Namatjira appeared before the Alice Springs court charged with supplying alcohol to another Aboriginal man, Henoch Raberaba. The prosecution depended on a legal distinction that now seems extraordinary. Namatjira had been granted Australian citizenship and could legally purchase alcohol. Raberaba remained a ward under Northern Territory law and could not legally receive it. The difference between those two government categories transformed an ordinary act into an offence carrying a mandatory prison sentence. Namatjira appealed through the Supreme Court and sought leave to appeal to the High Court, but the conviction stood. Across Australia, the case exposed the contradictions of a legal system that could celebrate an Aboriginal artist as a national figure while simultaneously dividing Aboriginal people into different legal classes.",
+        "The story did not end there. The courts moved from this building in 1980, but questions about fairness continued into the new courthouse. The Institute for Aboriginal Development established Australia's first Aboriginal interpreter service, recognising that many defendants still struggled to understand proceedings conducted in English. Arrernte elder Veronica Perrurle Dobson helped establish the service, and her successor Christobel Swan later described interrupting judges to ask for simpler language before explaining proceedings to defendants facing murder trials. Reflecting on that work, she said simply: 'I was there to make them understand why they were there.' The challenge had shifted from constructing courtrooms to ensuring that justice could actually be understood inside them.",
+        "Look once more between The Residency and the Old Courthouse. These buildings were intended to establish government in the centre of Australia. Instead, their history reveals something more interesting. Authority here was never simply imposed. It had to be continually adapted—to climate, to distance, to war, to language, and to the people whose lives it governed.",
+        "Continue toward Stuart Town Gaol. Here, government claimed authority. At the next experience, you will see where that authority was enforced."
+      ],
+      "references": [
+        {
+          "title": "Araluen Arts Centre: The Residency",
+          "url": "https://araluenartscentre.nt.gov.au/residency"
+        },
+        {
+          "title": "NT Tourism: Old Courthouse Alice Springs",
+          "url": "https://northernterritory.com/alice-springs-and-surrounds/see-and-do/old-courthouse-alice-springs"
+        },
+        {
+          "title": "Supreme Court NT: Alice Springs Supreme Court",
+          "url": "https://supremecourt.nt.gov.au/about/history/alice-springs-supreme-court"
+        },
+        {
+          "title": "High Court of Australia: Namatjira v Raabe",
+          "url": "https://www.hcourt.gov.au/cases-and-judgments/judgments/1-clr-100-clr/namatjira-v-raabe"
+        },
+        {
+          "title": "National Archives of Australia: Albert Namatjira",
+          "url": "https://www.naa.gov.au/explore-collection/first-australians/other-resources-about-first-australians/albert-namatjira"
+        },
+        {
+          "title": "AUSIT In Touch: Christobel Swan interview",
+          "url": "https://ausit.org/wp-content/uploads/2021/08/INTOUCH_WINTER_2021.pdf"
+        }
+      ]
+    },
+    {
+      "id": "stuart-town-gaol-exterior",
+      "title": "Stuart Town Gaol: Building a Prison on the Frontier",
+      "location": "Outside Stuart Town Gaol, 8 Parsons Street",
+      "durationMinutes": 4,
+      "mode": "observe and transition",
+      "map": {
+        "x": 45,
+        "y": 45
+      },
+      "navigation": {
+        "lat": -23.6989,
+        "lon": 133.8816,
+        "label": "Stuart Town Gaol exterior"
+      },
+      "script": [
+        "Stand outside the Stuart Town Gaol and look at it from across the street before walking closer. It is surprisingly small. Thick local stone. Narrow barred windows. A compact exercise yard tucked behind high walls. Today it sits quietly among offices and parked cars, but when this building opened in 1909 it was one of the most substantial government buildings in Stuart. This little prison served an inland district stretching across much of central Australia.",
+        "Three years before this gaol accepted its first prisoners, six Aboriginal men escaped from the government's earlier prison at Heavitree Gap after convictions arising from cattle-killing offences near Hermannsburg. Police recaptured them, marched them more than a thousand kilometres south to Adelaide to face fresh charges, and watched the prosecution collapse because the court could not prove they had legally been prisoners at the time of the alleged assault. They should have walked free. Instead, officials continued holding them while organising the long journey back to Central Australia. Even when the law had finished speaking, distance still controlled what happened next.",
+        "The earlier gaol stood beside Heavitree Gap, where the Todd River squeezes through the MacDonnell Ranges. It occupied exactly the place a frontier government would choose: beside the police station, the telegraph line and the road through the ranges. It was also the place least suited to a permanent prison. Floods repeatedly isolated the site, the timber buildings deteriorated quickly, and the prison itself proved too easy to escape. In 1907 the government began replacing it with this stone building in the new township of Stuart. Stronger walls mattered, but permanence mattered even more. The Commonwealth was trying to convince people that government had arrived to stay.",
+        "Look again at its size. When construction began, Stuart's European population numbered only a few dozen people. Yet the government invested in a substantial stone gaol before it built many other civic institutions. The prison was never intended for the town alone. It served pastoral stations, mining fields, police patrols and settlements spread across one of the largest administrative districts in Australia. Like the courthouse you have just visited, it was built for a region rather than a neighbourhood.",
+        "Keeping that region under control required remarkably few people. Sergeant Robert Stott served simultaneously as policeman, gaoler, clerk of the court, bailiff, mining warden, stock inspector and Sub-Protector of Aboriginal people. His wife Agnes prepared meals for prisoners in the adjoining residence using goat meat, vegetables from the family garden and help from Aboriginal domestic workers. One household arrested people, locked them up, cooked their meals and represented much of the Commonwealth's authority across Central Australia. Government here was astonishingly small.",
+        "If the gaol is open today, this is the moment to step inside. Entry is currently five Australian dollars, and the proceeds support the National Trust's conservation work. Collect the key from Hartley Street School Museum during its opening hours. The story you have just heard explains why the gaol was built. Inside, the cells themselves reveal how imprisonment actually worked."
+      ],
+      "references": [
+        {
+          "title": "National Trust: Stuart Town Gaol",
+          "url": "https://www.nationaltrust.org.au/places/stuart-town-gaol/"
+        },
+        {
+          "title": "Find & Connect: Heavitree Gap Gaol",
+          "url": "https://www.findandconnect.gov.au/entity/heavitree-gap-gaol/"
+        },
+        {
+          "title": "Find & Connect: Stuart Town Gaol",
+          "url": "https://www.findandconnect.gov.au/entity/stuart-town-gaol-3/"
+        }
+      ]
+    },
+    {
+      "id": "stuart-town-gaol-interior",
+      "title": "Stuart Town Gaol: Inside the Cells",
+      "location": "Inside Stuart Town Gaol, 8 Parsons Street",
+      "durationMinutes": 5,
+      "mode": "explore",
+      "map": {
+        "x": 45,
+        "y": 45
+      },
+      "navigation": {
+        "lat": -23.6989,
+        "lon": 133.8816,
+        "label": "Stuart Town Gaol interior"
+      },
+      "script": [
+        "If you have entered the gaol, walk into the larger rear cell before we begin. If the building is closed today, open the interior photographs in the guide. They show the same details we will be discussing.",
+        "Before I explain anything, spend a few moments simply looking. Notice the thickness of the stone walls. The small windows. The heavy timber door. The temperature. Even on a warm day, the stone changes the feel of the room.",
+        "Now look down. The iron rings fixed into the floor are original. Prisoners confined in this room could be secured to them in leg irons. They survive because the building has changed remarkably little since the early twentieth century. They are not symbolic reminders added by a museum. They are part of the prison itself.",
+        "Now compare this room with the smaller front cell. European prisoners generally occupied the smaller room with timber sleeping benches. Aboriginal prisoners were usually confined together in the larger communal cell where you are now standing. The difference is immediately visible. You do not need an historian to point it out. The building itself records how the frontier legal system organised imprisonment according to race.",
+        "Most of the people held here were not notorious criminals. Many Aboriginal prisoners entered the gaol after conflicts arising from the rapid expansion of pastoral stations across Arrernte Country. Cattle, food and property were now protected by colonial law and enforced by mounted police. For some prisoners, this building marked one of their earliest sustained encounters with the institutions of the Australian state.",
+        "Step out into the exercise yard if it is open. It is much smaller than many visitors expect. Walk slowly from one end to the other. This confined space was the only opportunity for fresh air during imprisonment. The walls around you are simple and practical. They were never intended to impress. Their purpose was to restrict movement with the least possible expense.",
+        "After the prison closed in 1938, the building acquired an unexpected second life. During the hottest weather, school classes sometimes moved into these old cells because the thick stone walls kept them cooler than many other public buildings in Alice Springs. The architecture that had once confined prisoners became a refuge from the desert heat. The building remained the same. Its purpose changed completely.",
+        "Before you leave, look once more at the restraint rings, the stone walls and the heavy doors. Heritage buildings often soften with age, becoming picturesque reminders of the past. This one still argues with you. Every fitting around you was designed for a practical purpose. Together they preserve a rare physical record of how a tiny frontier government attempted to administer punishment across an immense landscape.",
+        "When you are ready, leave the gaol and walk the short distance to Hartley Street School Museum. The gaol shows how one small government building confined people drawn from a vast region. The school shows another institution trying to reach across the same distances."
+      ],
+      "references": [
+        {
+          "title": "National Trust: Stuart Town Gaol",
+          "url": "https://www.nationaltrust.org.au/places/stuart-town-gaol/"
+        },
+        {
+          "title": "Find & Connect: Stuart Town Gaol",
+          "url": "https://www.findandconnect.gov.au/entity/stuart-town-gaol-3/"
+        },
+        {
+          "title": "Find & Connect: Stuart Town Gaol Heritage Record",
+          "url": "https://www.findandconnect.gov.au/entity/stuart-town-gaol/"
+        }
+      ]
+    },
+    {
+      "id": "hartley-street-school",
+      "title": "Hartley Street School: A Classroom Without Walls",
+      "location": "Hartley Street School Museum, 39 Hartley Street",
+      "durationMinutes": 8,
+      "mode": "explore",
+      "map": {
+        "x": 43,
+        "y": 43
+      },
+      "navigation": {
+        "lat": -23.6996991,
+        "lon": 133.881443,
+        "label": "Hartley Street School Museum"
+      },
+      "script": [
+        "If Hartley Street School Museum is open today, I recommend stepping inside before we begin. Admission is currently five Australian dollars, with proceeds helping the National Trust preserve this school and the neighbouring Stuart Town Gaol. If the museum is closed, open the reference photographs in the guide. We will be looking closely at a handful of objects that tell an extraordinary story.",
+        "Walk into the School of the Air room and find the teacher's desk.",
+        "Take a moment before listening further. A timber desk. A microphone. A few pieces of radio equipment. Student desks facing the front of the room. Large windows admitting the Central Australian light. It feels like an ordinary classroom. That is precisely what makes it remarkable.",
+        "On 8 June 1951, headmaster Ken Rudd welcomed listeners with a simple announcement: 'Today we are doing something that hasn't been done before—pioneering a School of the Air for outback children.' Most of the class was nowhere near this room. They were sitting at kitchen tables, station offices and homesteads across Central Australia, listening through Flying Doctor radio sets hundreds of kilometres away. This classroom already existed in two places at once.",
+        "The school itself had been built to solve a much more familiar problem. After the railway reached Alice Springs, more families settled permanently in the town. The first classrooms here were completed in 1929, becoming Alice Springs' first purpose-built government school. As enrolments grew, architect B. C. G. Burnett designed the unusual octagonal classroom added in 1945. Walk through the buildings if you can. The early rooms are simple, with concrete floors and straightforward construction. The later addition belongs to a town beginning to think differently about how children should learn. Even the architecture records a community becoming more confident about its future.",
+        "Yet while Alice Springs struggled to build enough classrooms, most children across Central Australia remained impossibly far away. Adelaide Miethke, an educator who had helped establish the Flying Doctor service, recognised that geography was only part of the problem. Isolation itself was becoming an educational disadvantage. John Flynn and Alfred Traeger had already proved that radio could carry a doctor's voice across the inland. Miethke realised that perhaps it could also carry a teacher's.",
+        "Look again at the microphone on the desk. It was not connected directly to the outback. The teacher's voice first travelled by telephone line from this school to the Royal Flying Doctor base. Radio operators then transmitted the lesson across a medical network that already reached remote stations. The clever idea was not inventing another communications system. Flynn, Traeger and the Flying Doctor had already built one. Miethke recognised that the same network could carry another public service. Medicine had learned how to cross the interior; education followed the same path.",
+        "Now look at the photograph of the child sitting beside a radio set on a remote station. This is the other half of the classroom.",
+        "At first, the lessons were surprisingly modest: three half-hour broadcasts each week. Children mostly listened. The equipment connected the teacher and pupils, but it did not yet create a class. Teachers gradually added questions and scheduled opportunities for children to answer. The real invention was a feedback loop: teacher speaks, child responds, teacher adapts, and the other pupils hear the exchange. The network carried sound. The teachers had to work out how to make that sound behave like education.",
+        "One of those teachers was Molly Ferguson. In 1953 she sat at this desk and asked a Year Seven student roughly four hundred miles away to spell a single word: bitumen. The lesson itself was perfectly ordinary. Every school teaches spelling. The extraordinary achievement was that teacher and student were sharing the same moment despite the immense desert lying between them.",
+        "Even that remarkable system had limits. In 1955, thirty School of the Air students travelled into Alice Springs for their first annual gathering. One former student, Tanya Heaslip, later remembered how strange it felt to finally meet the people she already knew so well: 'We could hear their voices. We could paint pictures of their faces around their voices, but we didn't know them.' Radio carried lessons and conversation. It could not replace the simple experience of growing up together.",
+        "Hartley Street also reminds us that children arrived here by very different paths. Railway families walked through the front gate each morning. Remote station children entered by radio. Aboriginal children from St Mary's Hostel came into these classrooms through a mixture of family decisions, church administration and government policy—histories now recognised as part of the broader story of the Stolen Generations. One of those students, Rona Glynn, returned to this school as a junior teacher at just sixteen years old, becoming one of Australia's earliest Aboriginal teachers before later serving Central Australia for decades as a nurse and midwife. The same classrooms represented opportunity for some children and profound disruption for others.",
+        "Before you leave, return to the teacher's desk one last time. It is an unexpectedly ordinary piece of furniture. Yet from this small desk, teachers gradually discovered how to create a classroom that existed across one of the largest teaching districts on Earth. They reused a network built for medical emergencies, adapted it through trial and error, and learned that education required more than transmitting information. It required children separated by hundreds of kilometres to ask questions, hear one another, recognise familiar voices and begin to feel that they belonged to the same class.",
+        "When you are ready, continue toward the Todd River. So far you have seen medicine, government, justice, imprisonment and education each adapting to the vast distances of Central Australia. At the next experience, you will meet the landscape that quietly dictated the shape of them all."
+      ],
+      "references": [
+        {
+          "title": "National Trust: Hartley Street School Museum",
+          "url": "https://www.nationaltrust.org.au/places/hartley-street-school-museum/"
+        },
+        {
+          "title": "Alice Springs School of the Air: History",
+          "url": "https://www.schooloftheair.net.au/our-story/history/"
+        },
+        {
+          "title": "National Archives of Australia: Bridging the Distance—School of the Air",
+          "url": "https://www.naa.gov.au/blog/bridging-distance-school-air"
+        },
+        {
+          "title": "Australian Dictionary of Biography: Adelaide Laetitia Miethke",
+          "url": "https://adb.anu.edu.au/biography/miethke-adelaide-laetitia-7571"
+        },
+        {
+          "title": "ABC News: Alice Springs School of the Air turns 70",
+          "url": "https://www.abc.net.au/news/2021-06-08/alice-springs-school-of-the-air-turns-70/100196222"
+        },
+        {
+          "title": "Ross Park Primary School: History of Rona Glynn",
+          "url": "https://rossparkprimary.nt.edu.au/index.php/history-of-rona-glynn/"
+        },
+        {
+          "title": "Find & Connect: St Mary's Hostel",
+          "url": "https://www.findandconnect.gov.au/entity/st-marys-hostel/"
         }
       ]
     }
