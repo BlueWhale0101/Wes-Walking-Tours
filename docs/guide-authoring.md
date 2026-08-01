@@ -1,451 +1,298 @@
-# Walking Tour Guide Authoring Guide
+Walking Tour Authoring Guide (Version 2)
 
-Version: 2.0
+Purpose
 
-—
+This guide documents the authoring method used for the Alice Springs and
+Cairns walking tours. It is intended to produce field audio guides that
+read like museum interpretation rather than tourist commentary.
 
-# Purpose
+The goal is not to tell visitors what happened.
 
-This document describes the workflow for creating a complete walking tour.
+The goal is to help them see why the place looks the way it does.
 
-It is intended for both human authors and AI assistants.
+────────
 
-The objective is not simply to produce historically accurate scripts, but to produce a coherent field experience where each stop builds naturally on the previous one.
+Core Philosophy
 
-The writing style itself is defined in **content-style.md**.
-
-This document focuses on planning, research organisation and tour design.
-
-—
-
-# Design Philosophy
-
-A successful walking tour is not a collection of interesting places.
-
-It is a sequence of connected questions.
-
-Each stop should answer one important question while naturally leading to the next.
-
-By the end of the walk, the listener should understand not only individual locations, but the larger forces that shaped the town or landscape.
-
-—
-
-# Overall Workflow
-
-1. Define the overall theme.
-2. Identify candidate stops.
-3. Research each stop.
-4. Design the narrative sequence.
-5. Produce research packs.
-6. Write scripts.
-7. Perform historical review.
-8. Perform field review.
-9. Revise after walking the route.
-
-Do not begin writing scripts until the first six steps are complete.
-
-—
-
-# Step 1 – Define the Theme
-
-Every guide needs a single organising idea.
-
-Avoid broad themes such as:
-
-- History of the town
-- Interesting places
-- Local attractions
-
-Instead choose a lens.
+Every stop should answer a practical question.
 
 Examples:
 
-Cairns
+• How did medicine work here?
+• Why was this building designed this way?
+• Why was the town built here?
+• How did people overcome distance?
+• Why did this institution exist?
 
-> A tropical city continually rebuilt between rainforest, reef and tidal mud.
+History is the evidence. The question provides the narrative engine.
 
-Alice Springs
+────────
 
-> Human systems built to overcome distance in Australia’s arid interior.
+Experiences, not Stops
 
-The theme should influence every stop.
+Design experiences before writing scripts.
 
-—
+Observe
 
-# Step 2 – Choose Stops
+The listener remains mostly stationary.
 
-Choose stops because they answer important questions.
+Use architecture, landscapes or monuments.
 
-Do not choose locations simply because they are famous.
+Examples: - Adelaide House - John Flynn Memorial
 
-For every proposed stop ask:
+Walk
 
-What can the visitor actually observe?
+Narration accompanies movement.
 
-What larger system does this place represent?
+The route itself becomes evidence.
 
-Does it contribute something new?
+Examples: - Todd River - Telegraph route
 
-Would removing this stop make the guide weaker?
+Explore
 
-If the answer is “no”, omit it.
+The listener moves freely through a museum or heritage site.
 
-Aim for variety.
+Narration guides attention from object to object.
 
-Examples include:
+Examples: - Stuart Town Gaol - Hartley Street School
 
-- engineering
-- architecture
-- ecology
-- government
-- transport
-- communication
-- exploration
-- industry
-- medicine
-- public space
-- Indigenous history
+────────
 
-—
+Research Workflow
 
-# Step 3 – Research
+Never begin writing after collecting facts.
 
-Research should be organised by stop.
+Instead:
 
-Each stop receives its own research pack.
+1. Assemble chronology.
+2. Identify the practical pressure.
+3. Identify the institution or people responding.
+4. Find what failed.
+5. Find what changed.
+6. Identify visible evidence.
+7. Find a human voice (quote, diary, interview, newspaper).
+8. Search for surviving objects.
+9. Look for a hidden mechanism.
+10. Write only after the narrative unlocks.
 
-Every pack should include:
+If Steps 2–9 cannot be answered, continue researching.
 
-overview
+────────
 
-chronology
+Object-led Storytelling
 
-people
+Whenever original objects survive, they become the narrative spine.
 
-institutions
+Do not explain the history and then mention the object.
 
-physical observations
+Begin with the object.
 
-primary sources
+Ask:
 
-recommended quotations
-
-bibliography
-
-interesting dead ends
-
-Potential future stories
-
-Do not immediately decide what belongs in the script.
-
-Collect first.
-
-Select later.
-
-—
-
-# Research Priorities
-
-Search in roughly this order:
-
-1. Primary documents
-2. Government archives
-3. Heritage registers
-4. Museum collections
-5. Historical societies
-6. Academic publications
-7. Published biographies
-8. Contemporary newspapers
-9. Local histories
-
-Use tertiary summaries mainly to discover stronger sources.
-
-—
-
-# Research Historical Figures
-
-When a stop centres on a person, chronology is only the beginning.
-
-Actively search for:
-
-What problem did they believe they were solving?
-
-How did they describe it?
-
-What did contemporaries think of them?
-
-What decisions changed history?
-
-What almost failed?
-
-How did later generations remember them?
-
-Look particularly for:
-
-letters
-
-reports
-
-committee evidence
-
-books
-
-speeches
-
-diaries
-
-interviews
-
-memoirs
-
-The objective is to understand motivation, not merely events.
-
-—
-
-# Step 4 – Design the Narrative
-
-Before writing anything, answer four questions.
-
-## Question 1
-
-What question does the site naturally raise?
+• What is it?
+• Why does it exist?
+• What problem did it solve?
+• What does it reveal?
 
 Examples:
 
-Why here?
+Adelaide House - Roof vents - Verandahs - Engine room
 
-Why this building?
+Gaol - Floor restraint rings - Cell sizes - Stone walls
 
-Why this person?
+Hartley Street School - Teacher’s desk - Microphone - Student radio -
+Historic photographs
 
-Why this landscape?
+The object is the evidence.
 
-Why this material?
+The narration explains why the evidence exists.
 
-This becomes the narrative engine.
+────────
 
-—
+Visible Evidence First
 
-## Question 2
+Every paragraph should begin by directing the listener’s attention to
+something visible.
 
-What larger system does this place belong to?
+Only then explain it.
+
+The listener should repeatedly look up from the phone.
+
+────────
+
+Human Stories
+
+People matter because they reveal systems.
+
+Choose people who changed institutions.
+
+Good examples:
+
+• John Flynn
+• Alfred Traeger
+• Adelaide Miethke
+• Molly Ferguson
+• Rona Glynn
+
+Avoid anecdotes that do not illuminate a broader system.
+
+────────
+
+Hidden Mechanisms
+
+Some locations contain an underlying system invisible at first glance.
 
 Examples:
 
-medicine
+• Passive cooling
+• Radio communication
+• Hydrology
+• Legal administration
+• Supply chains
+• Ecology
 
-communications
+Only include a mechanism when:
 
-government
+• it genuinely belongs to the site;
+• understanding it changes how the listener sees the place;
+• it can be explained through visible evidence.
 
-trade
+Do not force engineering explanations.
 
-ecology
+────────
 
-transport
+First Nations Guidance
 
-water
+Begin with Country.
 
-law
+Colonial institutions were built within existing Country.
 
-tourism
+Use authoritative public sources.
 
-religion
+Avoid speculative ceremonial interpretation.
 
-—
+Avoid reducing Aboriginal history to a prelude.
 
-## Question 3
+Where institutions affected Aboriginal people differently, describe the
+evidence clearly and specifically.
 
-Which person best represents that system?
+────────
 
-Choose one principal figure.
+Writing Style
 
-Supporting figures appear only when necessary.
+Target voice:
 
-Avoid introducing unnecessary biographies.
+A museum curator or field historian speaking to intelligent adults.
 
-—
+Avoid:
 
-## Question 4
+• “This matters…”
+• “The point is…”
+• “The deeper meaning…”
+• “Not X but Y…”
+• school essay signposting.
 
-What problem was that person trying to solve?
+Prefer:
 
-Write the answer as a single sentence.
+Concrete facts.
 
-If this cannot be done clearly, continue researching.
+Named people.
 
-This sentence usually becomes the backbone of the script.
+Dates.
 
-—
+Materials.
 
-# Step 5 – Build the Tour
+Institutions.
 
-Think about the guide as a whole.
+Mechanisms.
 
-Alternate topics.
+Visible evidence.
 
-Avoid three architectural stops in succession.
+Trust the listener.
 
-Avoid multiple biography-heavy stops together unless they naturally build on one another.
+────────
 
-Vary pace.
+Script Structure
 
-Some stops should be:
+1. Orientation.
+2. Immediate observation.
+3. Practical problem.
+4. Human response.
+5. Failure or limitation.
+6. Adaptation.
+7. Return to visible evidence.
+8. Walking direction.
 
-technical
+────────
 
-personal
+Quality Rubric
 
-ecological
+5
 
-institutional
+Tourist summary.
 
-visual
+6
 
-reflective
+Competent history.
 
-The tour should feel like a conversation rather than a textbook.
+7
 
-—
+Strong field essay.
 
-# Connecting Stops
+8
 
-Transitions matter.
+Evidence-led museum interpretation.
 
-Every stop should prepare the next.
+Objects, systems and people reinforce one another.
 
-Good transitions often move from one system to another.
+9
 
-Example:
+Contains a genuine explanatory insight.
 
-medicine
+Explains a hidden mechanism that permanently changes how the listener
+sees the place.
 
-↓
+Rare.
 
-government
+Do not chase it.
 
-↓
+10
 
-transport
+Reserved for exceptional stops where evidence, mechanism, narrative and
+prose align almost perfectly.
 
-↓
+────────
 
-commerce
+Knowing When to Stop
 
-↓
+Most improvements come from better research, not rewriting.
 
-ecology
+When a script reaches approximately 8/10:
 
-The listener should feel that the route itself makes sense.
+Perform one final targeted research pass looking only for:
 
-—
+• one missing object;
+• one missing human voice;
+• one hidden mechanism.
 
-# Script Length
+If none exist naturally, stop.
 
-Typical stop:
+Earn a 9.
 
-650–900 words
+Never manufacture one.
 
-Longer only when the subject genuinely requires it.
+────────
 
-Never add material simply to reach a target length.
+Definition of Done
 
-Density matters more than duration.
+A stop is ready when:
 
-—
-
-# Walking Directions
-
-Directions should be:
-
-simple
-
-precise
-
-visible
-
-Avoid unnecessary street-by-street navigation.
-
-Orient the listener using landmarks whenever possible.
-
-—
-
-# Field Review
-
-Always walk the route.
-
-Check:
-
-visibility
-
-traffic noise
-
-shade
-
-listener safety
-
-walking time
-
-GPS accuracy
-
-construction
-
-temporary obstructions
-
-If important evidence cannot actually be seen from the stop, rewrite the script.
-
-—
-
-# Revision
-
-Revise after every field test.
-
-Pay particular attention to:
-
-places where listeners became confused
-
-places where attention drifted
-
-unnecessary repetition
-
-navigation problems
-
-missing visual cues
-
-historical inaccuracies
-
-The field test is part of the writing process.
-
-—
-
-# Quality Checklist
-
-Before approving a guide ask:
-
-Does every stop answer a clear question?
-
-Does every stop represent a different aspect of the town?
-
-Does each stop connect naturally to the next?
-
-Can listeners see the evidence discussed?
-
-Is there a balance between people, systems and places?
-
-Are primary sources represented where appropriate?
-
-Would removing any stop noticeably weaken the guide?
-
-If not, reconsider the stop.
-
-—
-
-# Final Goal
-
-A finished guide should feel inevitable.
-
-The listener should reach the final stop believing they now understand not simply the places they visited, but why the town, landscape or region developed the way it did.
-
-The best guides leave visitors looking at ordinary buildings, roads and landscapes differently.
-
-That transformation—not the delivery of facts—is the measure of success.
+• research is complete;
+• the narrative has a clear engine;
+• visible evidence anchors every section;
+• at least one human voice appears where appropriate;
+• transitions are natural;
+• references are complete;
+• optional interior experiences and images are identified;
+• the listener finishes seeing the place differently than when they
+arrived.
