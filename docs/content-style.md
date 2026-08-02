@@ -1,460 +1,333 @@
-# Walking Tour Script Style Guide
+# Content Style
 
-Version: 2.0
+## Purpose
 
-—
+This document defines the writing style for Walking Tour scripts.
 
-# Philosophy
+It assumes the guide has already been designed and researched.
 
-The goal is not to explain history.
+It does not explain how to choose stops or conduct research. Instead, it describes how to turn evidence into engaging field interpretation.
 
-The goal is to help the listener discover history by observing the place where they are standing.
-
-Every script should leave the listener feeling that they could not have understood the location without being there—and could not have fully understood the place without the history.
-
-These are field essays spoken on location.
-
-They are not tourist commentary, podcasts, museum labels, travel journalism, or school lectures.
-
-The narrator should sound like an experienced field historian or museum curator walking with an intelligent adult audience.
+The desired voice is that of a museum curator, field historian, or documentary presenter speaking to intelligent adults standing on site.
 
 —
 
-# Audience
+# The Primary Rule
 
-Assume listeners are:
+Always begin with what the listener can see.
 
-- curious adults
-- intelligent but not specialists
-- physically standing at the location
-- willing to concentrate for several minutes
-- interested in understanding rather than merely being entertained
+Every explanation should emerge from visible evidence.
 
-Never simplify ideas unnecessarily.
+Buildings, landscapes, objects and relationships are the primary sources.
 
-Never speak down to the audience.
+History explains the evidence.
 
-Instead, explain difficult ideas through concrete evidence.
+Never reverse that relationship.
 
 —
 
-# The Role of the Place
+# Evidence Before Interpretation
 
-The place itself is the primary source.
+Every paragraph should contain multiple concrete observations before drawing conclusions.
 
-Buildings, roads, rivers, vegetation, materials, views, distances and surviving infrastructure are evidence.
-
-Every script should repeatedly return the listener’s attention to visible details.
-
-Avoid allowing the narration to drift into abstract history that could have been recorded anywhere.
-
-A listener should regularly hear phrases such as:
-
-“Look at...”
-
-“Notice...”
-
-“Across the road...”
-
-“Behind the building...”
-
-“The stone beneath your feet...”
-
-“The line of the river...”
-
-“The roof...”
-
-The physical environment should participate in the argument.
-
-—
-
-# Narrative Philosophy
-
-Each stop should answer one central question.
-
-The question should arise naturally from standing at the site.
-
-Examples:
-
-- Why does this hospital look like a house?
-- Why is there a church dedicated to John Flynn here?
-- Why was this bridge built this way?
-- Why is the town located here?
-- Why did engineers choose this design?
-- Why did this ecosystem develop here?
-
-Everything in the script should help answer that question.
-
-Avoid chronological summaries that simply describe “what happened.”
-
-—
-
-# Narrative Structure
-
-Most successful stops follow a structure similar to:
-
-1. Orientation
-2. Immediate observation or paradox
-3. The underlying constraint
-4. Human decisions
-5. Consequences
-6. Return to visible evidence
-7. Direction to the next stop
-
-The order may vary.
-
-The important principle is that every section contributes toward answering the central question.
-
-—
-
-# Constraints Drive History
-
-The strongest historical narratives begin with a constraint.
-
-Examples include:
-
-- climate
-- water
-- disease
-- transport
-- communication
-- distance
-- labour
-- geology
-- economics
-- politics
-- engineering limitations
-- available technology
-
-People respond to constraints.
-
-Buildings embody those responses.
-
-Visible evidence preserves the result.
-
-History therefore emerges naturally from the physical landscape.
-
-—
-
-# People as Gateways to Systems
-
-Historical figures should never appear simply because they are famous.
-
-Instead, they represent larger systems.
-
-Example:
-
-John Flynn
-
-↓
-
-Australian Inland Mission
-
-↓
-
-Remote medicine
-
-↓
-
-Adelaide House
-
-Charles Todd
-
-↓
-
-Overland Telegraph
-
-↓
-
-Continental communications
-
-↓
-
-Telegraph Station
-
-John McDouall Stuart
-
-↓
-
-Exploration
-
-↓
-
-Mapping
-
-↓
-
-Settlement
-
-↓
-
-Alice Springs
-
-The listener should finish the stop understanding both the person and the larger system they represent.
-
-—
-
-# Biography
-
-Biography is evidence.
-
-It is not chronology.
-
-Avoid beginning with:
-
-- birth
-- education
-- marriage
-- career progression
-
-Instead:
-
-Introduce the problem.
-
-Explain why this particular person became capable of solving it.
-
-Describe the decisions they made.
-
-Return to the visible place.
-
-Chronology should support the narrative rather than becoming the narrative.
-
-—
-
-# Causality
-
-Prefer causal chains.
-
-Strong:
-
-Problem
-
-↓
-
-Decision
-
-↓
-
-Consequence
-
-↓
-
-Visible evidence
-
-Weak:
-
-Fact
-
-Fact
-
-Fact
-
-Interpretation
-
-Each paragraph should feel like the inevitable consequence of the previous one.
-
-—
-
-# Paragraph Construction
-
-Every paragraph should contain concrete evidence.
-
-Aim for two to four specific details.
-
-Examples include:
+Prefer:
 
 - dates
-- names
-- organisations
+- named people
+- institutions
 - materials
-- dimensions
+- measurements
 - costs
-- distances
+- technologies
 - environmental conditions
-- legislation
-- engineering decisions
-- documented conflicts
-- contemporary reactions
 
-Interpretation should emerge naturally from those facts.
+Interpretation should emerge naturally.
+
+Avoid announcing the conclusion before presenting the evidence.
+
+—
+
+# Object-led Storytelling
+
+Whenever original objects survive, they become the narrative spine.
+
+Do not explain the history and then mention the object.
+
+Begin with the object.
+
+Ask:
+
+Why does this exist?
+
+What problem did it solve?
+
+What does it reveal?
+
+Examples include:
+
+- machinery
+- tools
+- furniture
+- radios
+- restraint rings
+- maps
+- engineering features
+
+Objects make history tangible.
+
+—
+
+# Hidden Mechanisms
+
+Some places contain systems that are invisible until explained.
+
+Examples include:
+
+- passive cooling
+- flood hydrology
+- radio communication
+- transport logistics
+- ecology
+- legal administration
+- engineering
+
+A hidden mechanism should only appear when:
+
+- it genuinely belongs to the place
+- it explains visible evidence
+- it changes how the listener sees the site
+
+Do not force engineering into every stop.
+
+Some places are powerful without one.
 
 —
 
 # Human Stories
 
-Human stories belong when they reveal systems.
+Use people to explain institutions.
 
-Good anecdotes explain:
+A biography should reveal how a system worked rather than simply celebrating an individual.
 
-- why something failed
-- why a redesign occurred
-- why an institution changed
-- why a decision mattered
-- practical limitations
-- unexpected consequences
+Strong examples include:
 
-Avoid anecdotes included only because they are amusing.
+- engineers
+- teachers
+- interpreters
+- doctors
+- administrators
+- workers
 
-Every story should advance the historical argument.
+Choose stories that expose difficult decisions, practical constraints or institutional change.
+
+Avoid anecdotes that exist only because they are entertaining.
 
 —
 
-# Primary Voices
+# Narrative Through Pressure
 
-Whenever possible, allow historical figures to speak for themselves.
+Most strong stops begin with a practical problem.
 
-Search for:
+Examples:
 
-- letters
-- reports
-- speeches
-- diaries
-- committee evidence
-- books
-- interviews
+Heat.
 
-Use short quotations that reveal how people understood the problems they faced.
+Distance.
 
-Do not include quotations merely because they are famous.
+Flooding.
 
-The quotation should deepen understanding.
+Isolation.
+
+Communication.
+
+Law.
+
+Transport.
+
+Scarcity.
+
+Then explain how people attempted to solve it.
+
+This creates a natural narrative without relying on artificial suspense.
+
+—
+
+# Paragraph Construction
+
+A useful paragraph often follows this pattern:
+
+1. Direct the listener’s attention.
+2. Present concrete evidence.
+3. Explain the underlying system.
+4. Return to the field.
+
+Not every paragraph should follow this exactly, but the listener should never spend long away from the place itself.
+
+—
+
+# Voice
+
+Write confidently.
+
+Assume an intelligent audience.
+
+Do not simplify unnecessarily.
+
+Avoid conversational filler.
+
+Avoid exaggerated enthusiasm.
+
+Avoid mystery-box writing.
+
+Instead, allow curiosity to emerge from evidence.
+
+—
+
+# What to Avoid
+
+Avoid phrases such as:
+
+- “This matters because…”
+- “The point is…”
+- “This tells a story…”
+- “Not X, but Y…”
+- “The deeper meaning…”
+- “You are about to discover…”
+
+Avoid explaining your interpretation.
+
+Present the evidence and trust the listener.
+
+—
+
+# Quotations
+
+Use direct quotations sparingly.
+
+Prefer quotations that:
+
+- reveal personality
+- expose institutional thinking
+- describe lived experience
+
+Keep quotations short.
+
+The quotation should illuminate the place rather than interrupt it.
 
 —
 
 # First Nations History
 
-Always establish chronology clearly.
+Begin with Country.
 
-Country came first.
+Treat Aboriginal history as continuous rather than introductory.
 
-Colonial towns, roads, churches, hospitals and governments were constructed within existing Aboriginal Countries already understood through law, kinship, water, ceremony and responsibility.
+Use authoritative public sources.
 
-Use only well-supported public sources.
+Avoid speculative cultural interpretation.
 
-Avoid speculative statements.
-
-Avoid presenting culturally restricted knowledge.
-
-Avoid reducing Aboriginal history to introductory background before “real history” begins.
-
-It remains part of every period discussed.
+When discussing colonial institutions, describe differing experiences clearly and specifically without reducing either history to background for the other.
 
 —
 
-# Tone
+# Interior Experiences
 
-Professional.
+Museums require a different style from streets.
 
-Observant.
+Guide the listener from object to object.
 
-Calm.
+Allow pauses.
 
-Confident.
+Encourage observation.
 
-Never theatrical.
-
-Never sentimental.
-
-Never sarcastic.
-
-Never self-consciously dramatic.
-
-Avoid trying to manufacture emotional responses.
-
-Allow the evidence to do the work.
+Avoid turning museum stops into lectures.
 
 —
 
-# Interpretation
+# Exterior Experiences
 
-Do not repeatedly explain your own interpretation.
+Keep returning the listener’s attention to:
 
-Avoid phrases such as:
+- buildings
+- materials
+- relationships
+- landscape
+- orientation
+- weather
+- environmental conditions
 
-“This matters.”
-
-“The point is...”
-
-“This tells a story.”
-
-“This reflects...”
-
-“This symbolises...”
-
-“The important thing...”
-
-“The deeper meaning...”
-
-Instead:
-
-Present evidence.
-
-Allow listeners to draw conclusions alongside the narrator.
-
-One concise interpretive sentence near the conclusion is usually enough.
+The place itself should remain the primary visual reference.
 
 —
 
-# Language
+# Quality Rubric
 
-Prefer:
+## 5/10
 
-specific nouns
-
-strong verbs
-
-short declarative sentences
-
-active voice
-
-measured rhythm
-
-Avoid:
-
-generic adjectives
-
-empty intensifiers
-
-repetition
-
-thesis statements
-
-academic jargon
-
-travel writing clichés
+Accurate tourist summary.
 
 —
 
-# Ending
+## 6/10
 
-A successful ending should:
-
-return attention to visible evidence
-
-briefly resolve the central question
-
-leave one memorable thought
-
-transition naturally toward the next stop
-
-The emotional weight of the stop usually belongs here.
-
-Do not attempt emotional conclusions throughout the script.
+Competent historical explanation.
 
 —
 
-# What Success Looks Like
+## 7/10
 
-The listener should finish the stop feeling:
+Strong field essay.
 
-“I understand why this place exists.”
+Visible evidence drives the narrative.
 
-“I can see the evidence myself.”
+—
 
-“I understand the people who built it.”
+## 8/10
 
-“I understand the larger system it belonged to.”
+Museum-quality interpretation.
 
-“I would not have noticed these things without standing here.”
+People, systems and evidence reinforce one another.
 
-That is the goal of every script.
+The listener finishes seeing the place differently.
+
+—
+
+## 9/10
+
+Contains a genuine explanatory insight.
+
+Reveals a hidden mechanism or perspective that permanently changes how the place is understood.
+
+Very rare.
+
+Do not chase this level artificially.
+
+—
+
+## 10/10
+
+Exceptional.
+
+Evidence, narrative, place, human story and prose align almost perfectly.
+
+Expect very few scripts to reach this standard.
+
+—
+
+# Knowing When to Stop
+
+Most improvements do not come from rewriting.
+
+They come from better research.
+
+When a script reaches approximately 8/10, perform one final search for:
+
+- one missing object
+- one missing human voice
+- one hidden mechanism
+
+If nothing significant emerges, stop.
+
+Publish the script.
+
+Move on to the next guide.

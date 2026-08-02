@@ -1,499 +1,284 @@
-# Script Production Guide
+# Script Production
 
-Version: 2.0
+## Purpose
 
-—
+This document describes the production workflow for an individual script.
 
-# Purpose
+It assumes the guide has already been designed.
 
-This document describes the workflow for producing a single walking tour script.
+It does not discuss writing style in detail. Instead, it describes the sequence of work that consistently produces high-quality field interpretation.
 
-It assumes that:
+The objective is not to write quickly.
 
-- the stop has already been selected,
-- research has already been completed,
-- a research pack exists,
-- the overall guide structure has already been designed.
-
-The objective is to produce a script that is historically accurate, engaging, physically grounded and suitable for spoken narration.
-
-Writing style is defined in **content-style.md**.
-
-Guide planning is defined in **guide-authoring.md**.
-
-This document focuses on turning research into a finished script.
+The objective is to research efficiently and avoid polishing the wrong draft.
 
 —
 
-# Production Workflow
+# Overview
 
-1. Read the research pack.
-2. Identify the narrative engine.
-3. Build the story structure.
-4. Draft without polishing.
-5. Review for evidence.
-6. Improve prose.
-7. Field review.
-8. Final historical verification.
+Every script follows the same production cycle:
 
-Do not begin writing until the first three steps are complete.
+Research
+
+↓
+
+Narrative Engine
+
+↓
+
+Research Review
+
+↓
+
+Outline
+
+↓
+
+First Draft
+
+↓
+
+Targeted Research Pass
+
+↓
+
+Revision
+
+↓
+
+Field Validation
+
+↓
+
+Final Script
+
+The largest improvements almost always come from better research rather than better prose.
 
 —
 
-# Step 1 – Read the Research
+# Stage 1 – Research
 
-The first reading is not about collecting facts.
+Begin by assembling a research pack.
 
-It is about understanding the stop.
+The objective is not to collect every available fact.
 
-Ask:
+Instead, identify:
 
-What surprised me?
+- chronology
+- institutions
+- people
+- buildings
+- technology
+- environmental pressures
+- surviving objects
+- primary sources
+
+Research should continue until patterns begin to emerge.
+
+Do not begin writing simply because enough facts have been collected.
+
+—
+
+# Stage 2 – Find the Narrative Engine
+
+Every stop should answer one interesting question.
+
+Examples:
+
+How do you build a hospital where heat itself is dangerous?
+
+How do you educate children scattered across a continent?
+
+How does a remote town exercise the authority of government?
+
+The narrative engine determines which research belongs in the script.
+
+If the stop has no clear question, continue researching.
+
+—
+
+# Stage 3 – Research Review
+
+Before writing, confirm that you can answer:
+
+Why here?
+
+Why this design?
+
+What practical pressure existed?
+
+Who responded?
+
+What failed?
 
 What changed?
 
-What problem existed?
+What survives today?
 
-Who solved it?
+What can the listener actually see?
 
-What physical evidence survives?
-
-Avoid immediately selecting interesting anecdotes.
-
-Instead, understand the larger historical system.
+If several answers are missing, the research is incomplete.
 
 —
 
-# Step 2 – Identify the Narrative Engine
+# Stage 4 – Outline
 
-Every script should answer one question.
-
-Examples:
-
-Why is this building here?
-
-Why was this engineering solution necessary?
-
-Why did this town develop?
-
-Why is this landscape unusual?
-
-Why is this person remembered?
-
-Write the question at the top of your notes.
-
-If the script begins wandering, return to this question.
-
-—
-
-# Step 3 – Identify the Core Problem
-
-Most successful historical stories begin with a constraint.
-
-Examples:
-
-distance
-
-heat
-
-water
-
-disease
-
-trade
-
-transport
-
-politics
-
-economics
-
-engineering
-
-ecology
-
-law
-
-Ask:
-
-What problem were people trying to solve?
-
-Everything else in the script should grow from that answer.
-
-—
-
-# Step 4 – Find the Human Story
-
-Choose the principal figure.
-
-Avoid introducing multiple major biographies.
-
-The chosen figure should explain the larger system.
-
-Research beyond chronology.
-
-Discover:
-
-their motivation
-
-their decisions
-
-their failures
-
-their partnerships
-
-their compromises
-
-their influence
-
-Good biographies explain why someone became capable of solving a problem.
-
-They do not simply recount a life.
-
-—
-
-# Step 5 – Search for Primary Voices
-
-Before drafting, deliberately search for first-hand material.
-
-Examples:
-
-letters
-
-reports
-
-committee evidence
-
-diaries
-
-books
-
-speeches
-
-newspaper interviews
-
-official correspondence
-
-The goal is not simply to quote history.
-
-The goal is to hear the historical figure think.
-
-The strongest quotations explain:
-
-how they understood the problem
-
-why they made a decision
-
-what they hoped to achieve
-
-Prefer one meaningful quotation over several decorative ones.
-
-—
-
-# Step 6 – Build the Outline
+Produce a short outline before drafting.
 
 A useful structure is:
 
-Orientation
+1. Orientation
+2. Immediate observation
+3. Practical problem
+4. Human response
+5. Failure or limitation
+6. Adaptation
+7. Return to visible evidence
+8. Walking direction
 
-↓
-
-Observation
-
-↓
-
-Constraint
-
-↓
-
-Decision
-
-↓
-
-Consequence
-
-↓
-
-Visible evidence
-
-↓
-
-Conclusion
-
-↓
-
-Walking direction
-
-This structure should feel natural rather than mechanical.
+The outline should describe the flow of ideas rather than individual paragraphs.
 
 —
 
-# Step 7 – Write the First Draft
+# Stage 5 – First Draft
 
-Write quickly.
+The first draft exists to reveal weaknesses in the research.
 
-Do not edit every sentence.
+It is not expected to be publication quality.
 
-Concentrate on:
+A successful first draft usually scores around 6–7/10.
 
-clarity
+Common issues include:
 
-flow
+- missing context
+- weak transitions
+- chronology replacing explanation
+- unsupported interpretation
+- repetitive facts
 
-causality
-
-evidence
-
-Leave polishing until later.
+These are expected.
 
 —
 
-# Evidence Density
+# Stage 6 – Targeted Research Pass
 
-Every paragraph should contain multiple concrete details.
+Do not immediately rewrite the script.
+
+Instead, perform one focused research pass looking only for:
+
+## One Human Voice
+
+Find:
+
+- interview
+- diary
+- newspaper quotation
+- letter
+- memoir
+
+The purpose is not colour.
+
+The purpose is to reveal how people experienced the system.
+
+—
+
+## One Surviving Object
+
+Find one physical object that still exists.
+
+Examples:
+
+- radio
+- restraint ring
+- engine
+- desk
+- ventilation duct
+
+Objects create stronger field interpretation than abstract history.
+
+—
+
+## One Hidden Mechanism
+
+Ask:
+
+Is there a scientific, engineering, administrative or ecological mechanism that explains this place?
 
 Examples include:
 
-dates
+- passive cooling
+- radio communication
+- flood hydrology
+- legal administration
+- transport logistics
 
-people
+Do not force a mechanism into every stop.
 
-institutions
-
-costs
-
-materials
-
-measurements
-
-environmental conditions
-
-technology
-
-conflicts
-
-engineering decisions
-
-government decisions
-
-named organisations
-
-Avoid long passages containing only interpretation.
+Some places simply do not have one.
 
 —
 
-# Causality
+# Stage 7 – Revision
 
-Prefer writing in chains.
+Revise the script using the new evidence.
 
-Instead of:
+At this stage the improvements should come from better ideas rather than prettier sentences.
 
-This happened.
-
-Later this happened.
-
-Then this happened.
-
-Write:
-
-This problem existed.
-
-Someone made this decision.
-
-That produced this consequence.
-
-The result can still be seen today.
-
-Readers naturally remember cause-and-effect better than chronology.
+Avoid endless prose polishing.
 
 —
 
-# Returning to the Place
+# Stage 8 – Field Validation
 
-After every major historical section ask:
+Walk the stop.
 
-“What can the listener see right now?”
+Confirm:
 
-Return attention to:
+- orientation works
+- evidence is visible
+- photographs help
+- timing feels natural
+- transitions work while moving
+- navigation is obvious
 
-stone
-
-brick
-
-steel
-
-timber
-
-roads
-
-views
-
-vegetation
-
-riverbeds
-
-rooflines
-
-street layout
-
-machinery
-
-landforms
-
-The physical stop should never disappear for long.
+Field observations always override desk assumptions.
 
 —
 
-# Anecdotes
+# Interior Experiences
 
-Use anecdotes sparingly.
+Museums and historic buildings require a different workflow.
 
-Every anecdote should explain something larger.
+Instead of organising around chronology, organise around objects.
 
-Good anecdotes reveal:
+Guide the listener from one object to another.
 
-institutional change
-
-engineering redesign
-
-human decision-making
-
-unexpected failure
-
-practical limitations
-
-Avoid stories included only because they are amusing.
+Allow the collection itself to become the evidence.
 
 —
 
-# Common Problems
+# Exterior Experiences
 
-Avoid:
+Architecture, landscapes and streets should remain anchored to what is visible.
 
-chronological biographies
+Repeatedly return the listener’s attention to:
 
-lists of facts
+- materials
+- relationships
+- scale
+- orientation
+- environmental conditions
 
-tourist commentary
-
-essay conclusions
-
-repeated interpretation
-
-overly dramatic narration
-
-historical trivia without purpose
-
-generic transitions
-
-Every paragraph should move the historical argument forward.
+Never allow the narration to drift too far from the field evidence.
 
 —
 
-# Revision Pass 1 – Structure
+# Knowing When to Stop
 
-Ask:
+A script is not finished when no better sentence can be written.
 
-Does every paragraph answer the central question?
+It is finished when there are no obvious unanswered research questions.
 
-Can any paragraph be removed?
+If the final targeted research pass produces no significant new evidence, publish the script.
 
-Does each paragraph naturally lead to the next?
-
-Does the ending resolve the narrative?
-
-—
-
-# Revision Pass 2 – Evidence
-
-Ask:
-
-Are there enough names?
-
-Enough dates?
-
-Enough institutions?
-
-Enough visible observations?
-
-Could any interpretation be replaced with stronger evidence?
-
-—
-
-# Revision Pass 3 – Prose
-
-Read aloud.
-
-Walking tour scripts are spoken.
-
-Look for:
-
-awkward rhythm
-
-long sentences
-
-repeated words
-
-excessive passive voice
-
-tongue twisters
-
-overwritten descriptions
-
-The script should sound natural when spoken outdoors.
-
-—
-
-# Revision Pass 4 – Historical Quality
-
-Ask:
-
-Did I discover the person’s motivation?
-
-Did I use primary sources?
-
-Does the biography explain the system?
-
-Did I identify the real historical problem?
-
-Does the listener hear the historical figure’s own voice?
-
-If not, continue researching.
-
-Research usually improves scripts more than rewriting.
-
-—
-
-# Final Checklist
-
-Before approving a script:
-
-□ The stop revolves around one clear question.
-
-□ The listener is regularly directed back to visible evidence.
-
-□ Every paragraph contains concrete historical evidence.
-
-□ Facts lead naturally to interpretation.
-
-□ Biography explains a larger system.
-
-□ Primary sources shaped the narrative.
-
-□ Emotional interpretation is restrained.
-
-□ The ending returns to the physical location.
-
-□ Walking directions are clear.
-
-□ The script sounds natural when read aloud.
-
-—
-
-# Guiding Principle
-
-The purpose of the script is not to impress listeners with historical knowledge.
-
-It is to change the way they see the place where they are standing.
-
-If the listener looks up at the building, landscape or street and notices something they would otherwise have missed, the script has succeeded.
+Save the next improvement for the next guide.
